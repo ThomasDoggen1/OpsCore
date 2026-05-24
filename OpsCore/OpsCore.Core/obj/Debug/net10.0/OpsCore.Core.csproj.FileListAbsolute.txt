@@ -1,0 +1,12 @@
+C:\Users\Taroz\Documents\GitHub\OpsCore\OpsCore\OpsCore.Core\bin\Debug\net10.0\OpsCore.Core.deps.json
+C:\Users\Taroz\Documents\GitHub\OpsCore\OpsCore\OpsCore.Core\bin\Debug\net10.0\OpsCore.Core.dll
+C:\Users\Taroz\Documents\GitHub\OpsCore\OpsCore\OpsCore.Core\bin\Debug\net10.0\OpsCore.Core.pdb
+C:\Users\Taroz\Documents\GitHub\OpsCore\OpsCore\OpsCore.Core\obj\Debug\net10.0\OpsCore.Core.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Taroz\Documents\GitHub\OpsCore\OpsCore\OpsCore.Core\obj\Debug\net10.0\OpsCore.Core.AssemblyInfoInputs.cache
+C:\Users\Taroz\Documents\GitHub\OpsCore\OpsCore\OpsCore.Core\obj\Debug\net10.0\OpsCore.Core.AssemblyInfo.cs
+C:\Users\Taroz\Documents\GitHub\OpsCore\OpsCore\OpsCore.Core\obj\Debug\net10.0\OpsCore.Core.csproj.CoreCompileInputs.cache
+C:\Users\Taroz\Documents\GitHub\OpsCore\OpsCore\OpsCore.Core\obj\Debug\net10.0\OpsCore.Core.sourcelink.json
+C:\Users\Taroz\Documents\GitHub\OpsCore\OpsCore\OpsCore.Core\obj\Debug\net10.0\OpsCore.Core.dll
+C:\Users\Taroz\Documents\GitHub\OpsCore\OpsCore\OpsCore.Core\obj\Debug\net10.0\refint\OpsCore.Core.dll
+C:\Users\Taroz\Documents\GitHub\OpsCore\OpsCore\OpsCore.Core\obj\Debug\net10.0\OpsCore.Core.pdb
+C:\Users\Taroz\Documents\GitHub\OpsCore\OpsCore\OpsCore.Core\obj\Debug\net10.0\ref\OpsCore.Core.dll

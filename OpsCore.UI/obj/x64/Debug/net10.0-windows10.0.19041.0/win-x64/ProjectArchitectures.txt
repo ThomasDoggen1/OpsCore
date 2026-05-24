@@ -1,0 +1,1 @@
+C:\Users\Taroz\Documents\GitHub\OpsCore\OpsCore.UI\OpsCore.UI.csproj;x64

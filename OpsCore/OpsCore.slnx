@@ -1,0 +1,8 @@
+<Solution>
+  <Project Path="../OpsCore.UI/OpsCore.UI.csproj">
+    <Platform Project="x64" />
+    <Deploy />
+  </Project>
+  <Project Path="OpsCore.Core/OpsCore.Core.csproj" />
+  <Project Path="OpsCore.Data/OpsCore.Data.csproj" />
+</Solution>

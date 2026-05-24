@@ -1,0 +1,16 @@
+C:\Users\Taroz\Documents\GitHub\OpsCore\OpsCore\OpsCore.Data\bin\Debug\net10.0\OpsCore.Data.deps.json
+C:\Users\Taroz\Documents\GitHub\OpsCore\OpsCore\OpsCore.Data\bin\Debug\net10.0\OpsCore.Data.dll
+C:\Users\Taroz\Documents\GitHub\OpsCore\OpsCore\OpsCore.Data\bin\Debug\net10.0\OpsCore.Data.pdb
+C:\Users\Taroz\Documents\GitHub\OpsCore\OpsCore\OpsCore.Data\bin\Debug\net10.0\OpsCore.Core.dll
+C:\Users\Taroz\Documents\GitHub\OpsCore\OpsCore\OpsCore.Data\bin\Debug\net10.0\OpsCore.Core.pdb
+C:\Users\Taroz\Documents\GitHub\OpsCore\OpsCore\OpsCore.Data\obj\Debug\net10.0\OpsCore.Data.csproj.AssemblyReference.cache
+C:\Users\Taroz\Documents\GitHub\OpsCore\OpsCore\OpsCore.Data\obj\Debug\net10.0\OpsCore.Data.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Taroz\Documents\GitHub\OpsCore\OpsCore\OpsCore.Data\obj\Debug\net10.0\OpsCore.Data.AssemblyInfoInputs.cache
+C:\Users\Taroz\Documents\GitHub\OpsCore\OpsCore\OpsCore.Data\obj\Debug\net10.0\OpsCore.Data.AssemblyInfo.cs
+C:\Users\Taroz\Documents\GitHub\OpsCore\OpsCore\OpsCore.Data\obj\Debug\net10.0\OpsCore.Data.csproj.CoreCompileInputs.cache
+C:\Users\Taroz\Documents\GitHub\OpsCore\OpsCore\OpsCore.Data\obj\Debug\net10.0\OpsCore.Data.sourcelink.json
+C:\Users\Taroz\Documents\GitHub\OpsCore\OpsCore\OpsCore.Data\obj\Debug\net10.0\OpsCore..69B14F73.Up2Date
+C:\Users\Taroz\Documents\GitHub\OpsCore\OpsCore\OpsCore.Data\obj\Debug\net10.0\OpsCore.Data.dll
+C:\Users\Taroz\Documents\GitHub\OpsCore\OpsCore\OpsCore.Data\obj\Debug\net10.0\refint\OpsCore.Data.dll
+C:\Users\Taroz\Documents\GitHub\OpsCore\OpsCore\OpsCore.Data\obj\Debug\net10.0\OpsCore.Data.pdb
+C:\Users\Taroz\Documents\GitHub\OpsCore\OpsCore\OpsCore.Data\obj\Debug\net10.0\ref\OpsCore.Data.dll

@@ -1,0 +1,39 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v10.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v10.0": {
+      "OpsCore.Data/1.0.0": {
+        "dependencies": {
+          "OpsCore.Core": "1.0.0"
+        },
+        "runtime": {
+          "OpsCore.Data.dll": {}
+        }
+      },
+      "OpsCore.Core/1.0.0": {
+        "runtime": {
+          "OpsCore.Core.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "OpsCore.Data/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "OpsCore.Core/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

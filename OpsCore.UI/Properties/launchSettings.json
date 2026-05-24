@@ -1,0 +1,10 @@
+{
+  "profiles": {
+    "OpsCore.UI (Package)": {
+      "commandName": "MsixPackage"
+    },
+    "OpsCore.UI (Unpackaged)": {
+      "commandName": "Project"
+    }
+  }
+}
