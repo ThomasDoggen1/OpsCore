@@ -16,7 +16,7 @@ namespace OpsCore.Core.Models
         public string Location { get; set; } = string.Empty;
         public int? EmployeeId { get; set; }
         public Employee? Employee { get; set; }
-        public DateTime LastMaintenanceData { get; set; }
+        public DateTime LastMaintenanceDate { get; set; }
         public int MaintenanceIntervalDays { get; set; }
     }
 }
