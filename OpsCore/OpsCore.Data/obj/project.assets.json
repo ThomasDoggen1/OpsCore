@@ -1,5 +1,5 @@
 {
-  "version": 4,
+  "version": 3,
   "targets": {
     "net10.0": {
       "Humanizer.Core/2.14.1": {
@@ -2137,11 +2137,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Taroz\\Documents\\GitHub\\OpsCore\\OpsCore\\OpsCore.Data\\OpsCore.Data.csproj",
+      "projectUniqueName": "C:\\School\\projecten\\OpsCore\\OpsCore\\OpsCore.Data\\OpsCore.Data.csproj",
       "projectName": "OpsCore.Data",
-      "projectPath": "C:\\Users\\Taroz\\Documents\\GitHub\\OpsCore\\OpsCore\\OpsCore.Data\\OpsCore.Data.csproj",
+      "projectPath": "C:\\School\\projecten\\OpsCore\\OpsCore\\OpsCore.Data\\OpsCore.Data.csproj",
       "packagesPath": "C:\\Users\\Taroz\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Taroz\\Documents\\GitHub\\OpsCore\\OpsCore\\OpsCore.Data\\obj\\",
+      "outputPath": "C:\\School\\projecten\\OpsCore\\OpsCore\\OpsCore.Data\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -2164,8 +2164,8 @@
           "framework": "net10.0",
           "targetAlias": "net10.0",
           "projectReferences": {
-            "C:\\Users\\Taroz\\Documents\\GitHub\\OpsCore\\OpsCore\\OpsCore.Core\\OpsCore.Core.csproj": {
-              "projectPath": "C:\\Users\\Taroz\\Documents\\GitHub\\OpsCore\\OpsCore\\OpsCore.Core\\OpsCore.Core.csproj"
+            "C:\\School\\projecten\\OpsCore\\OpsCore\\OpsCore.Core\\OpsCore.Core.csproj": {
+              "projectPath": "C:\\School\\projecten\\OpsCore\\OpsCore\\OpsCore.Core\\OpsCore.Core.csproj"
             }
           }
         }
@@ -2180,7 +2180,7 @@
         "auditLevel": "low",
         "auditMode": "all"
       },
-      "SdkAnalysisLevel": "10.0.300"
+      "SdkAnalysisLevel": "10.0.200"
     },
     "frameworks": {
       "net10.0": {
@@ -2214,7 +2214,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.300/PortableRuntimeIdentifierGraph.json",
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.204/PortableRuntimeIdentifierGraph.json",
         "packagesToPrune": {
           "Microsoft.CSharp": "(,4.7.32767]",
           "Microsoft.VisualBasic": "(,10.4.32767]",
