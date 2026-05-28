@@ -1,7 +1,7 @@
 {
-  "version": 3,
+  "version": 4,
   "targets": {
-    "net10.0-windows10.0.19041": {
+    "net10.0-windows10.0.19041.0": {
       "CommunityToolkit.Mvvm/8.4.2": {
         "type": "package",
         "compile": {
@@ -893,7 +893,7 @@
         }
       }
     },
-    "net10.0-windows10.0.19041/win-arm64": {
+    "net10.0-windows10.0.19041.0/win-arm64": {
       "CommunityToolkit.Mvvm/8.4.2": {
         "type": "package",
         "compile": {
@@ -1624,7 +1624,7 @@
         }
       }
     },
-    "net10.0-windows10.0.19041/win-x64": {
+    "net10.0-windows10.0.19041.0/win-x64": {
       "CommunityToolkit.Mvvm/8.4.2": {
         "type": "package",
         "compile": {
@@ -2355,7 +2355,7 @@
         }
       }
     },
-    "net10.0-windows10.0.19041/win-x86": {
+    "net10.0-windows10.0.19041.0/win-x86": {
       "CommunityToolkit.Mvvm/8.4.2": {
         "type": "package",
         "compile": {
@@ -5686,7 +5686,7 @@
     }
   },
   "projectFileDependencyGroups": {
-    "net10.0-windows10.0.19041": [
+    "net10.0-windows10.0.19041.0": [
       "CommunityToolkit.Mvvm >= 8.4.2",
       "Microsoft.Windows.SDK.BuildTools >= 10.0.28000.1839",
       "Microsoft.WindowsAppSDK >= 2.1.4-experimental8",
@@ -5724,7 +5724,7 @@
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
-        "net10.0-windows10.0.19041": {
+        "net10.0-windows10.0.19041.0": {
           "framework": "net10.0-windows10.0.19041",
           "targetAlias": "net10.0-windows10.0.19041.0",
           "projectReferences": {
@@ -5747,10 +5747,10 @@
         "auditLevel": "low",
         "auditMode": "all"
       },
-      "SdkAnalysisLevel": "10.0.200"
+      "SdkAnalysisLevel": "10.0.300"
     },
     "frameworks": {
-      "net10.0-windows10.0.19041": {
+      "net10.0-windows10.0.19041.0": {
         "framework": "net10.0-windows10.0.19041",
         "targetAlias": "net10.0-windows10.0.19041.0",
         "dependencies": {
@@ -5828,7 +5828,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.204/PortableRuntimeIdentifierGraph.json",
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.300/PortableRuntimeIdentifierGraph.json",
         "packagesToPrune": {
           "Microsoft.CSharp": "(,4.7.32767]",
           "Microsoft.VisualBasic": "(,10.4.32767]",
