@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v10.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v10.0": {
+      "OpsCore.UI/1.0.0": {
+        "runtime": {
+          "OpsCore.UI.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "OpsCore.UI/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

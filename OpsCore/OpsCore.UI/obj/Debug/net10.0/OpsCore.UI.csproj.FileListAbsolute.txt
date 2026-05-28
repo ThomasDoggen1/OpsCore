@@ -1,0 +1,12 @@
+C:\School\projecten\OpsCore\OpsCore\OpsCore.UI\bin\Debug\net10.0\OpsCore.UI.deps.json
+C:\School\projecten\OpsCore\OpsCore\OpsCore.UI\bin\Debug\net10.0\OpsCore.UI.dll
+C:\School\projecten\OpsCore\OpsCore\OpsCore.UI\bin\Debug\net10.0\OpsCore.UI.pdb
+C:\School\projecten\OpsCore\OpsCore\OpsCore.UI\obj\Debug\net10.0\OpsCore.UI.GeneratedMSBuildEditorConfig.editorconfig
+C:\School\projecten\OpsCore\OpsCore\OpsCore.UI\obj\Debug\net10.0\OpsCore.UI.AssemblyInfoInputs.cache
+C:\School\projecten\OpsCore\OpsCore\OpsCore.UI\obj\Debug\net10.0\OpsCore.UI.AssemblyInfo.cs
+C:\School\projecten\OpsCore\OpsCore\OpsCore.UI\obj\Debug\net10.0\OpsCore.UI.csproj.CoreCompileInputs.cache
+C:\School\projecten\OpsCore\OpsCore\OpsCore.UI\obj\Debug\net10.0\OpsCore.UI.sourcelink.json
+C:\School\projecten\OpsCore\OpsCore\OpsCore.UI\obj\Debug\net10.0\OpsCore.UI.dll
+C:\School\projecten\OpsCore\OpsCore\OpsCore.UI\obj\Debug\net10.0\refint\OpsCore.UI.dll
+C:\School\projecten\OpsCore\OpsCore\OpsCore.UI\obj\Debug\net10.0\OpsCore.UI.pdb
+C:\School\projecten\OpsCore\OpsCore\OpsCore.UI\obj\Debug\net10.0\ref\OpsCore.UI.dll

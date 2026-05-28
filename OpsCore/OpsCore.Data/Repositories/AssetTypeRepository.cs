@@ -8,7 +8,7 @@ using OpsCore.Data.Context;
 
 namespace OpsCore.Data.Repositories
 {
-    public class AssetTypeRepository
+    public class AssetTypeRepository : IAssetTypeRepository
     {
         private readonly AppDbContext _db;
 

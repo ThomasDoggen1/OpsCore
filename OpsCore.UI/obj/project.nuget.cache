@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "IuXUjU9j9hA=",
+  "dgSpecHash": "pyLw8ZpS8Hw=",
   "success": true,
   "projectFilePath": "C:\\School\\projecten\\OpsCore\\OpsCore.UI\\OpsCore.UI.csproj",
   "expectedPackageFiles": [
@@ -15,8 +15,8 @@
     "C:\\Users\\Taroz\\.nuget\\packages\\microsoft.extensions.caching.abstractions\\10.0.8\\microsoft.extensions.caching.abstractions.10.0.8.nupkg.sha512",
     "C:\\Users\\Taroz\\.nuget\\packages\\microsoft.extensions.caching.memory\\10.0.8\\microsoft.extensions.caching.memory.10.0.8.nupkg.sha512",
     "C:\\Users\\Taroz\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\10.0.8\\microsoft.extensions.configuration.abstractions.10.0.8.nupkg.sha512",
-    "C:\\Users\\Taroz\\.nuget\\packages\\microsoft.extensions.dependencyinjection\\10.0.8\\microsoft.extensions.dependencyinjection.10.0.8.nupkg.sha512",
-    "C:\\Users\\Taroz\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\10.0.8\\microsoft.extensions.dependencyinjection.abstractions.10.0.8.nupkg.sha512",
+    "C:\\Users\\Taroz\\.nuget\\packages\\microsoft.extensions.dependencyinjection\\11.0.0-preview.4.26230.115\\microsoft.extensions.dependencyinjection.11.0.0-preview.4.26230.115.nupkg.sha512",
+    "C:\\Users\\Taroz\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\11.0.0-preview.4.26230.115\\microsoft.extensions.dependencyinjection.abstractions.11.0.0-preview.4.26230.115.nupkg.sha512",
     "C:\\Users\\Taroz\\.nuget\\packages\\microsoft.extensions.dependencymodel\\10.0.8\\microsoft.extensions.dependencymodel.10.0.8.nupkg.sha512",
     "C:\\Users\\Taroz\\.nuget\\packages\\microsoft.extensions.logging\\10.0.8\\microsoft.extensions.logging.10.0.8.nupkg.sha512",
     "C:\\Users\\Taroz\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\10.0.8\\microsoft.extensions.logging.abstractions.10.0.8.nupkg.sha512",
