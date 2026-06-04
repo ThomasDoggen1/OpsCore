@@ -226,7 +226,7 @@ namespace OpsCore.UI.OpsCore_UI_XamlTypeInfo
         
         private void InitTypeTables()
         {
-            _typeNameTable = new string[41];
+            _typeNameTable = new string[44];
             _typeNameTable[0] = "Microsoft.UI.Xaml.Controls.XamlControlsResources";
             _typeNameTable[1] = "Microsoft.UI.Xaml.ResourceDictionary";
             _typeNameTable[2] = "Object";
@@ -262,14 +262,17 @@ namespace OpsCore.UI.OpsCore_UI_XamlTypeInfo
             _typeNameTable[32] = "OpsCore.UI.Views.AssetsPage";
             _typeNameTable[33] = "Microsoft.UI.Xaml.Controls.Page";
             _typeNameTable[34] = "Microsoft.UI.Xaml.Controls.UserControl";
-            _typeNameTable[35] = "OpsCore.UI.Views.DashboardPage";
-            _typeNameTable[36] = "OpsCore.UI.Views.EmployeesPage";
-            _typeNameTable[37] = "OpsCore.UI.Views.MaintenancePage";
-            _typeNameTable[38] = "Microsoft.UI.Xaml.Controls.TreeViewNode";
-            _typeNameTable[39] = "System.Collections.Generic.IList`1<Microsoft.UI.Xaml.Controls.TreeViewNode>";
-            _typeNameTable[40] = "Int32";
+            _typeNameTable[35] = "OpsCore.UI.ViewModels.AssetsViewModel";
+            _typeNameTable[36] = "CommunityToolkit.Mvvm.ComponentModel.ObservableObject";
+            _typeNameTable[37] = "OpsCore.UI.Views.DashboardPage";
+            _typeNameTable[38] = "OpsCore.UI.Views.EmployeesPage";
+            _typeNameTable[39] = "OpsCore.UI.ViewModels.EmployeesViewModel";
+            _typeNameTable[40] = "OpsCore.UI.Views.MaintenancePage";
+            _typeNameTable[41] = "Microsoft.UI.Xaml.Controls.TreeViewNode";
+            _typeNameTable[42] = "System.Collections.Generic.IList`1<Microsoft.UI.Xaml.Controls.TreeViewNode>";
+            _typeNameTable[43] = "Int32";
 
-            _typeTable = new global::System.Type[41];
+            _typeTable = new global::System.Type[44];
             _typeTable[0] = typeof(global::Microsoft.UI.Xaml.Controls.XamlControlsResources);
             _typeTable[1] = typeof(global::Microsoft.UI.Xaml.ResourceDictionary);
             _typeTable[2] = typeof(global::System.Object);
@@ -305,12 +308,15 @@ namespace OpsCore.UI.OpsCore_UI_XamlTypeInfo
             _typeTable[32] = typeof(global::OpsCore.UI.Views.AssetsPage);
             _typeTable[33] = typeof(global::Microsoft.UI.Xaml.Controls.Page);
             _typeTable[34] = typeof(global::Microsoft.UI.Xaml.Controls.UserControl);
-            _typeTable[35] = typeof(global::OpsCore.UI.Views.DashboardPage);
-            _typeTable[36] = typeof(global::OpsCore.UI.Views.EmployeesPage);
-            _typeTable[37] = typeof(global::OpsCore.UI.Views.MaintenancePage);
-            _typeTable[38] = typeof(global::Microsoft.UI.Xaml.Controls.TreeViewNode);
-            _typeTable[39] = typeof(global::System.Collections.Generic.IList<global::Microsoft.UI.Xaml.Controls.TreeViewNode>);
-            _typeTable[40] = typeof(global::System.Int32);
+            _typeTable[35] = typeof(global::OpsCore.UI.ViewModels.AssetsViewModel);
+            _typeTable[36] = typeof(global::CommunityToolkit.Mvvm.ComponentModel.ObservableObject);
+            _typeTable[37] = typeof(global::OpsCore.UI.Views.DashboardPage);
+            _typeTable[38] = typeof(global::OpsCore.UI.Views.EmployeesPage);
+            _typeTable[39] = typeof(global::OpsCore.UI.ViewModels.EmployeesViewModel);
+            _typeTable[40] = typeof(global::OpsCore.UI.Views.MaintenancePage);
+            _typeTable[41] = typeof(global::Microsoft.UI.Xaml.Controls.TreeViewNode);
+            _typeTable[42] = typeof(global::System.Collections.Generic.IList<global::Microsoft.UI.Xaml.Controls.TreeViewNode>);
+            _typeTable[43] = typeof(global::System.Int32);
         }
 
         private int LookupTypeIndexByName(string typeName)
@@ -352,10 +358,10 @@ namespace OpsCore.UI.OpsCore_UI_XamlTypeInfo
         private object Activate_28_InfoBadge() { return new global::Microsoft.UI.Xaml.Controls.InfoBadge(); }
         private object Activate_30_MainWindow() { return new global::OpsCore.UI.MainWindow(); }
         private object Activate_32_AssetsPage() { return new global::OpsCore.UI.Views.AssetsPage(); }
-        private object Activate_35_DashboardPage() { return new global::OpsCore.UI.Views.DashboardPage(); }
-        private object Activate_36_EmployeesPage() { return new global::OpsCore.UI.Views.EmployeesPage(); }
-        private object Activate_37_MaintenancePage() { return new global::OpsCore.UI.Views.MaintenancePage(); }
-        private object Activate_38_TreeViewNode() { return new global::Microsoft.UI.Xaml.Controls.TreeViewNode(); }
+        private object Activate_37_DashboardPage() { return new global::OpsCore.UI.Views.DashboardPage(); }
+        private object Activate_38_EmployeesPage() { return new global::OpsCore.UI.Views.EmployeesPage(); }
+        private object Activate_40_MaintenancePage() { return new global::OpsCore.UI.Views.MaintenancePage(); }
+        private object Activate_41_TreeViewNode() { return new global::Microsoft.UI.Xaml.Controls.TreeViewNode(); }
         private void StaticInitializer_0_XamlControlsResources() => global::System.Runtime.CompilerServices.RuntimeHelpers.RunClassConstructor(typeof(global::Microsoft.UI.Xaml.Controls.XamlControlsResources).TypeHandle);
         private void StaticInitializer_4_NavigationView() => global::System.Runtime.CompilerServices.RuntimeHelpers.RunClassConstructor(typeof(global::Microsoft.UI.Xaml.Controls.NavigationView).TypeHandle);
         private void StaticInitializer_7_IList() => global::System.Runtime.CompilerServices.RuntimeHelpers.RunClassConstructor(typeof(global::System.Collections.Generic.IList<global::System.Object>).TypeHandle);
@@ -373,11 +379,14 @@ namespace OpsCore.UI.OpsCore_UI_XamlTypeInfo
         private void StaticInitializer_28_InfoBadge() => global::System.Runtime.CompilerServices.RuntimeHelpers.RunClassConstructor(typeof(global::Microsoft.UI.Xaml.Controls.InfoBadge).TypeHandle);
         private void StaticInitializer_30_MainWindow() => global::System.Runtime.CompilerServices.RuntimeHelpers.RunClassConstructor(typeof(global::OpsCore.UI.MainWindow).TypeHandle);
         private void StaticInitializer_32_AssetsPage() => global::System.Runtime.CompilerServices.RuntimeHelpers.RunClassConstructor(typeof(global::OpsCore.UI.Views.AssetsPage).TypeHandle);
-        private void StaticInitializer_35_DashboardPage() => global::System.Runtime.CompilerServices.RuntimeHelpers.RunClassConstructor(typeof(global::OpsCore.UI.Views.DashboardPage).TypeHandle);
-        private void StaticInitializer_36_EmployeesPage() => global::System.Runtime.CompilerServices.RuntimeHelpers.RunClassConstructor(typeof(global::OpsCore.UI.Views.EmployeesPage).TypeHandle);
-        private void StaticInitializer_37_MaintenancePage() => global::System.Runtime.CompilerServices.RuntimeHelpers.RunClassConstructor(typeof(global::OpsCore.UI.Views.MaintenancePage).TypeHandle);
-        private void StaticInitializer_38_TreeViewNode() => global::System.Runtime.CompilerServices.RuntimeHelpers.RunClassConstructor(typeof(global::Microsoft.UI.Xaml.Controls.TreeViewNode).TypeHandle);
-        private void StaticInitializer_39_IList() => global::System.Runtime.CompilerServices.RuntimeHelpers.RunClassConstructor(typeof(global::System.Collections.Generic.IList<global::Microsoft.UI.Xaml.Controls.TreeViewNode>).TypeHandle);
+        private void StaticInitializer_35_AssetsViewModel() => global::System.Runtime.CompilerServices.RuntimeHelpers.RunClassConstructor(typeof(global::OpsCore.UI.ViewModels.AssetsViewModel).TypeHandle);
+        private void StaticInitializer_36_ObservableObject() => global::System.Runtime.CompilerServices.RuntimeHelpers.RunClassConstructor(typeof(global::CommunityToolkit.Mvvm.ComponentModel.ObservableObject).TypeHandle);
+        private void StaticInitializer_37_DashboardPage() => global::System.Runtime.CompilerServices.RuntimeHelpers.RunClassConstructor(typeof(global::OpsCore.UI.Views.DashboardPage).TypeHandle);
+        private void StaticInitializer_38_EmployeesPage() => global::System.Runtime.CompilerServices.RuntimeHelpers.RunClassConstructor(typeof(global::OpsCore.UI.Views.EmployeesPage).TypeHandle);
+        private void StaticInitializer_39_EmployeesViewModel() => global::System.Runtime.CompilerServices.RuntimeHelpers.RunClassConstructor(typeof(global::OpsCore.UI.ViewModels.EmployeesViewModel).TypeHandle);
+        private void StaticInitializer_40_MaintenancePage() => global::System.Runtime.CompilerServices.RuntimeHelpers.RunClassConstructor(typeof(global::OpsCore.UI.Views.MaintenancePage).TypeHandle);
+        private void StaticInitializer_41_TreeViewNode() => global::System.Runtime.CompilerServices.RuntimeHelpers.RunClassConstructor(typeof(global::Microsoft.UI.Xaml.Controls.TreeViewNode).TypeHandle);
+        private void StaticInitializer_42_IList() => global::System.Runtime.CompilerServices.RuntimeHelpers.RunClassConstructor(typeof(global::System.Collections.Generic.IList<global::Microsoft.UI.Xaml.Controls.TreeViewNode>).TypeHandle);
         private void MapAdd_0_XamlControlsResources(object instance, object key, object item)
         {
             var collection = (global::System.Collections.Generic.IDictionary<global::System.Object, global::System.Object>)instance;
@@ -391,7 +400,7 @@ namespace OpsCore.UI.OpsCore_UI_XamlTypeInfo
             var newItem = (global::System.Object)item;
             collection.Add(newItem);
         }
-        private void VectorAdd_39_IList(object instance, object item)
+        private void VectorAdd_42_IList(object instance, object item)
         {
             var collection = (global::System.Collections.Generic.ICollection<global::Microsoft.UI.Xaml.Controls.TreeViewNode>)instance;
             var newItem = (global::Microsoft.UI.Xaml.Controls.TreeViewNode)item;
@@ -648,6 +657,7 @@ namespace OpsCore.UI.OpsCore_UI_XamlTypeInfo
                 userType = new global::OpsCore.UI.OpsCore_UI_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Microsoft.UI.Xaml.Controls.Page"));
                 userType.Activator = Activate_32_AssetsPage;
                 userType.StaticInitializer = StaticInitializer_32_AssetsPage;
+                userType.AddMemberName("ViewModel");
                 userType.SetIsLocalType();
                 xamlType = userType;
                 break;
@@ -660,34 +670,57 @@ namespace OpsCore.UI.OpsCore_UI_XamlTypeInfo
                 xamlType = new global::OpsCore.UI.OpsCore_UI_XamlTypeInfo.XamlSystemBaseType(typeName, type);
                 break;
 
-            case 35:   //  OpsCore.UI.Views.DashboardPage
-                userType = new global::OpsCore.UI.OpsCore_UI_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Microsoft.UI.Xaml.Controls.Page"));
-                userType.Activator = Activate_35_DashboardPage;
-                userType.StaticInitializer = StaticInitializer_35_DashboardPage;
+            case 35:   //  OpsCore.UI.ViewModels.AssetsViewModel
+                userType = new global::OpsCore.UI.OpsCore_UI_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("CommunityToolkit.Mvvm.ComponentModel.ObservableObject"));
+                userType.StaticInitializer = StaticInitializer_35_AssetsViewModel;
+                userType.SetIsReturnTypeStub();
                 userType.SetIsLocalType();
                 xamlType = userType;
                 break;
 
-            case 36:   //  OpsCore.UI.Views.EmployeesPage
+            case 36:   //  CommunityToolkit.Mvvm.ComponentModel.ObservableObject
+                userType = new global::OpsCore.UI.OpsCore_UI_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Object"));
+                userType.StaticInitializer = StaticInitializer_36_ObservableObject;
+                xamlType = userType;
+                break;
+
+            case 37:   //  OpsCore.UI.Views.DashboardPage
                 userType = new global::OpsCore.UI.OpsCore_UI_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Microsoft.UI.Xaml.Controls.Page"));
-                userType.Activator = Activate_36_EmployeesPage;
-                userType.StaticInitializer = StaticInitializer_36_EmployeesPage;
+                userType.Activator = Activate_37_DashboardPage;
+                userType.StaticInitializer = StaticInitializer_37_DashboardPage;
                 userType.SetIsLocalType();
                 xamlType = userType;
                 break;
 
-            case 37:   //  OpsCore.UI.Views.MaintenancePage
+            case 38:   //  OpsCore.UI.Views.EmployeesPage
                 userType = new global::OpsCore.UI.OpsCore_UI_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Microsoft.UI.Xaml.Controls.Page"));
-                userType.Activator = Activate_37_MaintenancePage;
-                userType.StaticInitializer = StaticInitializer_37_MaintenancePage;
+                userType.Activator = Activate_38_EmployeesPage;
+                userType.StaticInitializer = StaticInitializer_38_EmployeesPage;
+                userType.AddMemberName("ViewModel");
                 userType.SetIsLocalType();
                 xamlType = userType;
                 break;
 
-            case 38:   //  Microsoft.UI.Xaml.Controls.TreeViewNode
+            case 39:   //  OpsCore.UI.ViewModels.EmployeesViewModel
+                userType = new global::OpsCore.UI.OpsCore_UI_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("CommunityToolkit.Mvvm.ComponentModel.ObservableObject"));
+                userType.StaticInitializer = StaticInitializer_39_EmployeesViewModel;
+                userType.SetIsReturnTypeStub();
+                userType.SetIsLocalType();
+                xamlType = userType;
+                break;
+
+            case 40:   //  OpsCore.UI.Views.MaintenancePage
+                userType = new global::OpsCore.UI.OpsCore_UI_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Microsoft.UI.Xaml.Controls.Page"));
+                userType.Activator = Activate_40_MaintenancePage;
+                userType.StaticInitializer = StaticInitializer_40_MaintenancePage;
+                userType.SetIsLocalType();
+                xamlType = userType;
+                break;
+
+            case 41:   //  Microsoft.UI.Xaml.Controls.TreeViewNode
                 userType = new global::OpsCore.UI.OpsCore_UI_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Microsoft.UI.Xaml.DependencyObject"));
-                userType.Activator = Activate_38_TreeViewNode;
-                userType.StaticInitializer = StaticInitializer_38_TreeViewNode;
+                userType.Activator = Activate_41_TreeViewNode;
+                userType.StaticInitializer = StaticInitializer_41_TreeViewNode;
                 userType.AddMemberName("Children");
                 userType.AddMemberName("Content");
                 userType.AddMemberName("Depth");
@@ -699,15 +732,15 @@ namespace OpsCore.UI.OpsCore_UI_XamlTypeInfo
                 xamlType = userType;
                 break;
 
-            case 39:   //  System.Collections.Generic.IList`1<Microsoft.UI.Xaml.Controls.TreeViewNode>
+            case 42:   //  System.Collections.Generic.IList`1<Microsoft.UI.Xaml.Controls.TreeViewNode>
                 userType = new global::OpsCore.UI.OpsCore_UI_XamlTypeInfo.XamlUserType(this, typeName, type, null);
-                userType.StaticInitializer = StaticInitializer_39_IList;
-                userType.CollectionAdd = VectorAdd_39_IList;
+                userType.StaticInitializer = StaticInitializer_42_IList;
+                userType.CollectionAdd = VectorAdd_42_IList;
                 userType.SetIsReturnTypeStub();
                 xamlType = userType;
                 break;
 
-            case 40:   //  Int32
+            case 43:   //  Int32
                 xamlType = new global::OpsCore.UI.OpsCore_UI_XamlTypeInfo.XamlSystemBaseType(typeName, type);
                 break;
             }
@@ -1214,52 +1247,62 @@ namespace OpsCore.UI.OpsCore_UI_XamlTypeInfo
             var that = (global::Microsoft.UI.Xaml.Controls.NavigationViewItemBase)instance;
             that.IsSelected = (global::System.Boolean)Value;
         }
-        private object get_48_TreeViewNode_Children(object instance)
+        private object get_48_AssetsPage_ViewModel(object instance)
+        {
+            var that = (global::OpsCore.UI.Views.AssetsPage)instance;
+            return that.ViewModel;
+        }
+        private object get_49_EmployeesPage_ViewModel(object instance)
+        {
+            var that = (global::OpsCore.UI.Views.EmployeesPage)instance;
+            return that.ViewModel;
+        }
+        private object get_50_TreeViewNode_Children(object instance)
         {
             var that = (global::Microsoft.UI.Xaml.Controls.TreeViewNode)instance;
             return that.Children;
         }
-        private object get_49_TreeViewNode_Content(object instance)
+        private object get_51_TreeViewNode_Content(object instance)
         {
             var that = (global::Microsoft.UI.Xaml.Controls.TreeViewNode)instance;
             return that.Content;
         }
-        private void set_49_TreeViewNode_Content(object instance, object Value)
+        private void set_51_TreeViewNode_Content(object instance, object Value)
         {
             var that = (global::Microsoft.UI.Xaml.Controls.TreeViewNode)instance;
             that.Content = (global::System.Object)Value;
         }
-        private object get_50_TreeViewNode_Depth(object instance)
+        private object get_52_TreeViewNode_Depth(object instance)
         {
             var that = (global::Microsoft.UI.Xaml.Controls.TreeViewNode)instance;
             return that.Depth;
         }
-        private object get_51_TreeViewNode_HasChildren(object instance)
+        private object get_53_TreeViewNode_HasChildren(object instance)
         {
             var that = (global::Microsoft.UI.Xaml.Controls.TreeViewNode)instance;
             return that.HasChildren;
         }
-        private object get_52_TreeViewNode_HasUnrealizedChildren(object instance)
+        private object get_54_TreeViewNode_HasUnrealizedChildren(object instance)
         {
             var that = (global::Microsoft.UI.Xaml.Controls.TreeViewNode)instance;
             return that.HasUnrealizedChildren;
         }
-        private void set_52_TreeViewNode_HasUnrealizedChildren(object instance, object Value)
+        private void set_54_TreeViewNode_HasUnrealizedChildren(object instance, object Value)
         {
             var that = (global::Microsoft.UI.Xaml.Controls.TreeViewNode)instance;
             that.HasUnrealizedChildren = (global::System.Boolean)Value;
         }
-        private object get_53_TreeViewNode_IsExpanded(object instance)
+        private object get_55_TreeViewNode_IsExpanded(object instance)
         {
             var that = (global::Microsoft.UI.Xaml.Controls.TreeViewNode)instance;
             return that.IsExpanded;
         }
-        private void set_53_TreeViewNode_IsExpanded(object instance, object Value)
+        private void set_55_TreeViewNode_IsExpanded(object instance, object Value)
         {
             var that = (global::Microsoft.UI.Xaml.Controls.TreeViewNode)instance;
             that.IsExpanded = (global::System.Boolean)Value;
         }
-        private object get_54_TreeViewNode_Parent(object instance)
+        private object get_56_TreeViewNode_Parent(object instance)
         {
             var that = (global::Microsoft.UI.Xaml.Controls.TreeViewNode)instance;
             return that.Parent;
@@ -1608,50 +1651,62 @@ namespace OpsCore.UI.OpsCore_UI_XamlTypeInfo
                 xamlMember.Getter = get_47_NavigationViewItemBase_IsSelected;
                 xamlMember.Setter = set_47_NavigationViewItemBase_IsSelected;
                 break;
+            case "OpsCore.UI.Views.AssetsPage.ViewModel":
+                userType = (global::OpsCore.UI.OpsCore_UI_XamlTypeInfo.XamlUserType)GetXamlTypeByName("OpsCore.UI.Views.AssetsPage");
+                xamlMember = new global::OpsCore.UI.OpsCore_UI_XamlTypeInfo.XamlMember(this, "ViewModel", "OpsCore.UI.ViewModels.AssetsViewModel");
+                xamlMember.Getter = get_48_AssetsPage_ViewModel;
+                xamlMember.SetIsReadOnly();
+                break;
+            case "OpsCore.UI.Views.EmployeesPage.ViewModel":
+                userType = (global::OpsCore.UI.OpsCore_UI_XamlTypeInfo.XamlUserType)GetXamlTypeByName("OpsCore.UI.Views.EmployeesPage");
+                xamlMember = new global::OpsCore.UI.OpsCore_UI_XamlTypeInfo.XamlMember(this, "ViewModel", "OpsCore.UI.ViewModels.EmployeesViewModel");
+                xamlMember.Getter = get_49_EmployeesPage_ViewModel;
+                xamlMember.SetIsReadOnly();
+                break;
             case "Microsoft.UI.Xaml.Controls.TreeViewNode.Children":
                 userType = (global::OpsCore.UI.OpsCore_UI_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.TreeViewNode");
                 xamlMember = new global::OpsCore.UI.OpsCore_UI_XamlTypeInfo.XamlMember(this, "Children", "System.Collections.Generic.IList`1<Microsoft.UI.Xaml.Controls.TreeViewNode>");
-                xamlMember.Getter = get_48_TreeViewNode_Children;
+                xamlMember.Getter = get_50_TreeViewNode_Children;
                 xamlMember.SetIsReadOnly();
                 break;
             case "Microsoft.UI.Xaml.Controls.TreeViewNode.Content":
                 userType = (global::OpsCore.UI.OpsCore_UI_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.TreeViewNode");
                 xamlMember = new global::OpsCore.UI.OpsCore_UI_XamlTypeInfo.XamlMember(this, "Content", "Object");
                 xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_49_TreeViewNode_Content;
-                xamlMember.Setter = set_49_TreeViewNode_Content;
+                xamlMember.Getter = get_51_TreeViewNode_Content;
+                xamlMember.Setter = set_51_TreeViewNode_Content;
                 break;
             case "Microsoft.UI.Xaml.Controls.TreeViewNode.Depth":
                 userType = (global::OpsCore.UI.OpsCore_UI_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.TreeViewNode");
                 xamlMember = new global::OpsCore.UI.OpsCore_UI_XamlTypeInfo.XamlMember(this, "Depth", "Int32");
                 xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_50_TreeViewNode_Depth;
+                xamlMember.Getter = get_52_TreeViewNode_Depth;
                 xamlMember.SetIsReadOnly();
                 break;
             case "Microsoft.UI.Xaml.Controls.TreeViewNode.HasChildren":
                 userType = (global::OpsCore.UI.OpsCore_UI_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.TreeViewNode");
                 xamlMember = new global::OpsCore.UI.OpsCore_UI_XamlTypeInfo.XamlMember(this, "HasChildren", "Boolean");
                 xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_51_TreeViewNode_HasChildren;
+                xamlMember.Getter = get_53_TreeViewNode_HasChildren;
                 xamlMember.SetIsReadOnly();
                 break;
             case "Microsoft.UI.Xaml.Controls.TreeViewNode.HasUnrealizedChildren":
                 userType = (global::OpsCore.UI.OpsCore_UI_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.TreeViewNode");
                 xamlMember = new global::OpsCore.UI.OpsCore_UI_XamlTypeInfo.XamlMember(this, "HasUnrealizedChildren", "Boolean");
-                xamlMember.Getter = get_52_TreeViewNode_HasUnrealizedChildren;
-                xamlMember.Setter = set_52_TreeViewNode_HasUnrealizedChildren;
+                xamlMember.Getter = get_54_TreeViewNode_HasUnrealizedChildren;
+                xamlMember.Setter = set_54_TreeViewNode_HasUnrealizedChildren;
                 break;
             case "Microsoft.UI.Xaml.Controls.TreeViewNode.IsExpanded":
                 userType = (global::OpsCore.UI.OpsCore_UI_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.TreeViewNode");
                 xamlMember = new global::OpsCore.UI.OpsCore_UI_XamlTypeInfo.XamlMember(this, "IsExpanded", "Boolean");
                 xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_53_TreeViewNode_IsExpanded;
-                xamlMember.Setter = set_53_TreeViewNode_IsExpanded;
+                xamlMember.Getter = get_55_TreeViewNode_IsExpanded;
+                xamlMember.Setter = set_55_TreeViewNode_IsExpanded;
                 break;
             case "Microsoft.UI.Xaml.Controls.TreeViewNode.Parent":
                 userType = (global::OpsCore.UI.OpsCore_UI_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.TreeViewNode");
                 xamlMember = new global::OpsCore.UI.OpsCore_UI_XamlTypeInfo.XamlMember(this, "Parent", "Microsoft.UI.Xaml.Controls.TreeViewNode");
-                xamlMember.Getter = get_54_TreeViewNode_Parent;
+                xamlMember.Getter = get_56_TreeViewNode_Parent;
                 xamlMember.SetIsReadOnly();
                 break;
             }

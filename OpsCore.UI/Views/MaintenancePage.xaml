@@ -6,9 +6,29 @@
     xmlns:local="using:OpsCore.UI.Views"
     xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    xmlns:models="using:OpsCore.Core.Models"
     mc:Ignorable="d">
 
-    <Grid>
+    <Grid Padding="24">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
 
+        <TextBlock Grid.Row="0" Text="Maintenance" FontSize="28" FontWeight="Bold" Margin="0,0,0,16"/>
+
+        <Grid Grid.Row="1" Margin="0,0,0,16">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="Auto"/>
+            </Grid.ColumnDefinitions>
+
+            <TabView Grid.Row="1" IsAddTabButtonVisible="False" Margin="0,0,0,16">
+                <TabViewItem Header="Overdue">
+                    
+                </TabViewItem>
+            </TabView>
+        </Grid>
     </Grid>
 </Page>
