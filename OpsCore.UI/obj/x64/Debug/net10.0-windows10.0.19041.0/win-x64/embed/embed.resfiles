@@ -1,2 +1,6 @@
 App.xbf
 MainWindow.xbf
+Views\AssetsPage.xbf
+Views\DashboardPage.xbf
+Views\EmployeesPage.xbf
+Views\MaintenancePage.xbf

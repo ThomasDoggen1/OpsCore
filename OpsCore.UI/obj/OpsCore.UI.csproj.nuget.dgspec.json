@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\School\\projecten\\OpsCore\\OpsCore.UI\\OpsCore.UI.csproj": {}
+    "C:\\Users\\Taroz\\Documents\\GitHub\\OpsCore\\OpsCore.UI\\OpsCore.UI.csproj": {}
   },
   "projects": {
-    "C:\\School\\projecten\\OpsCore\\OpsCore.UI\\OpsCore.UI.csproj": {
+    "C:\\Users\\Taroz\\Documents\\GitHub\\OpsCore\\OpsCore.UI\\OpsCore.UI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\School\\projecten\\OpsCore\\OpsCore.UI\\OpsCore.UI.csproj",
+        "projectUniqueName": "C:\\Users\\Taroz\\Documents\\GitHub\\OpsCore\\OpsCore.UI\\OpsCore.UI.csproj",
         "projectName": "OpsCore.UI",
-        "projectPath": "C:\\School\\projecten\\OpsCore\\OpsCore.UI\\OpsCore.UI.csproj",
+        "projectPath": "C:\\Users\\Taroz\\Documents\\GitHub\\OpsCore\\OpsCore.UI\\OpsCore.UI.csproj",
         "packagesPath": "C:\\Users\\Taroz\\.nuget\\packages\\",
-        "outputPath": "C:\\School\\projecten\\OpsCore\\OpsCore.UI\\obj\\",
+        "outputPath": "C:\\Users\\Taroz\\Documents\\GitHub\\OpsCore\\OpsCore.UI\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -34,11 +34,11 @@
             "framework": "net10.0-windows10.0.19041",
             "targetAlias": "net10.0-windows10.0.19041.0",
             "projectReferences": {
-              "C:\\School\\projecten\\OpsCore\\OpsCore\\OpsCore.Core\\OpsCore.Core.csproj": {
-                "projectPath": "C:\\School\\projecten\\OpsCore\\OpsCore\\OpsCore.Core\\OpsCore.Core.csproj"
+              "C:\\Users\\Taroz\\Documents\\GitHub\\OpsCore\\OpsCore\\OpsCore.Core\\OpsCore.Core.csproj": {
+                "projectPath": "C:\\Users\\Taroz\\Documents\\GitHub\\OpsCore\\OpsCore\\OpsCore.Core\\OpsCore.Core.csproj"
               },
-              "C:\\School\\projecten\\OpsCore\\OpsCore\\OpsCore.Data\\OpsCore.Data.csproj": {
-                "projectPath": "C:\\School\\projecten\\OpsCore\\OpsCore\\OpsCore.Data\\OpsCore.Data.csproj"
+              "C:\\Users\\Taroz\\Documents\\GitHub\\OpsCore\\OpsCore\\OpsCore.Data\\OpsCore.Data.csproj": {
+                "projectPath": "C:\\Users\\Taroz\\Documents\\GitHub\\OpsCore\\OpsCore\\OpsCore.Data\\OpsCore.Data.csproj"
               }
             }
           }
@@ -427,14 +427,14 @@
         }
       }
     },
-    "C:\\School\\projecten\\OpsCore\\OpsCore\\OpsCore.Core\\OpsCore.Core.csproj": {
+    "C:\\Users\\Taroz\\Documents\\GitHub\\OpsCore\\OpsCore\\OpsCore.Core\\OpsCore.Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\School\\projecten\\OpsCore\\OpsCore\\OpsCore.Core\\OpsCore.Core.csproj",
+        "projectUniqueName": "C:\\Users\\Taroz\\Documents\\GitHub\\OpsCore\\OpsCore\\OpsCore.Core\\OpsCore.Core.csproj",
         "projectName": "OpsCore.Core",
-        "projectPath": "C:\\School\\projecten\\OpsCore\\OpsCore\\OpsCore.Core\\OpsCore.Core.csproj",
+        "projectPath": "C:\\Users\\Taroz\\Documents\\GitHub\\OpsCore\\OpsCore\\OpsCore.Core\\OpsCore.Core.csproj",
         "packagesPath": "C:\\Users\\Taroz\\.nuget\\packages\\",
-        "outputPath": "C:\\School\\projecten\\OpsCore\\OpsCore\\OpsCore.Core\\obj\\",
+        "outputPath": "C:\\Users\\Taroz\\Documents\\GitHub\\OpsCore\\OpsCore\\OpsCore.Core\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -769,14 +769,14 @@
         }
       }
     },
-    "C:\\School\\projecten\\OpsCore\\OpsCore\\OpsCore.Data\\OpsCore.Data.csproj": {
+    "C:\\Users\\Taroz\\Documents\\GitHub\\OpsCore\\OpsCore\\OpsCore.Data\\OpsCore.Data.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\School\\projecten\\OpsCore\\OpsCore\\OpsCore.Data\\OpsCore.Data.csproj",
+        "projectUniqueName": "C:\\Users\\Taroz\\Documents\\GitHub\\OpsCore\\OpsCore\\OpsCore.Data\\OpsCore.Data.csproj",
         "projectName": "OpsCore.Data",
-        "projectPath": "C:\\School\\projecten\\OpsCore\\OpsCore\\OpsCore.Data\\OpsCore.Data.csproj",
+        "projectPath": "C:\\Users\\Taroz\\Documents\\GitHub\\OpsCore\\OpsCore\\OpsCore.Data\\OpsCore.Data.csproj",
         "packagesPath": "C:\\Users\\Taroz\\.nuget\\packages\\",
-        "outputPath": "C:\\School\\projecten\\OpsCore\\OpsCore\\OpsCore.Data\\obj\\",
+        "outputPath": "C:\\Users\\Taroz\\Documents\\GitHub\\OpsCore\\OpsCore\\OpsCore.Data\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -799,8 +799,8 @@
             "framework": "net10.0",
             "targetAlias": "net10.0",
             "projectReferences": {
-              "C:\\School\\projecten\\OpsCore\\OpsCore\\OpsCore.Core\\OpsCore.Core.csproj": {
-                "projectPath": "C:\\School\\projecten\\OpsCore\\OpsCore\\OpsCore.Core\\OpsCore.Core.csproj"
+              "C:\\Users\\Taroz\\Documents\\GitHub\\OpsCore\\OpsCore\\OpsCore.Core\\OpsCore.Core.csproj": {
+                "projectPath": "C:\\Users\\Taroz\\Documents\\GitHub\\OpsCore\\OpsCore\\OpsCore.Core\\OpsCore.Core.csproj"
               }
             }
           }
