@@ -1,56 +1,142 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\School\\projecten\\OpsCore\\OpsCore\\",
+  "WorkspaceRootPath": "C:\\Users\\Taroz\\Documents\\GitHub\\OpsCore\\OpsCore\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{B0A66493-C13C-9A28-F49C-DEA6C84DBF61}|..\\OpsCore.UI\\OpsCore.UI.csproj|c:\\school\\projecten\\opscore\\opscore.ui\\viewmodels\\assetsviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B0A66493-C13C-9A28-F49C-DEA6C84DBF61}|..\\OpsCore.UI\\OpsCore.UI.csproj|c:\\users\\taroz\\documents\\github\\opscore\\opscore.ui\\views\\maintenancepage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B0A66493-C13C-9A28-F49C-DEA6C84DBF61}|..\\OpsCore.UI\\OpsCore.UI.csproj|c:\\school\\projecten\\opscore\\opscore.ui\\views\\assetspage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B0A66493-C13C-9A28-F49C-DEA6C84DBF61}|..\\OpsCore.UI\\OpsCore.UI.csproj|c:\\users\\taroz\\documents\\github\\opscore\\opscore.ui\\viewmodels\\maintenanceviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B0A66493-C13C-9A28-F49C-DEA6C84DBF61}|..\\OpsCore.UI\\OpsCore.UI.csproj|c:\\school\\projecten\\opscore\\opscore.ui\\views\\assetspage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+      "AbsoluteMoniker": "D:0:0:{B0A66493-C13C-9A28-F49C-DEA6C84DBF61}|..\\OpsCore.UI\\OpsCore.UI.csproj|c:\\users\\taroz\\documents\\github\\opscore\\opscore.ui\\views\\employeespage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B0A66493-C13C-9A28-F49C-DEA6C84DBF61}|..\\OpsCore.UI\\OpsCore.UI.csproj|c:\\school\\projecten\\opscore\\opscore.ui\\views\\employeespage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+      "AbsoluteMoniker": "D:0:0:{B0A66493-C13C-9A28-F49C-DEA6C84DBF61}|..\\OpsCore.UI\\OpsCore.UI.csproj|c:\\users\\taroz\\documents\\github\\opscore\\opscore.ui\\views\\employeespage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B0A66493-C13C-9A28-F49C-DEA6C84DBF61}|..\\OpsCore.UI\\OpsCore.UI.csproj|c:\\school\\projecten\\opscore\\opscore.ui\\views\\employeespage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B0A66493-C13C-9A28-F49C-DEA6C84DBF61}|..\\OpsCore.UI\\OpsCore.UI.csproj|c:\\users\\taroz\\documents\\github\\opscore\\opscore.ui\\viewmodels\\employeesviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B0A66493-C13C-9A28-F49C-DEA6C84DBF61}|..\\OpsCore.UI\\OpsCore.UI.csproj|c:\\school\\projecten\\opscore\\opscore.ui\\viewmodels\\employeesviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B0A66493-C13C-9A28-F49C-DEA6C84DBF61}|..\\OpsCore.UI\\OpsCore.UI.csproj|c:\\users\\taroz\\documents\\github\\opscore\\opscore.ui\\views\\assetspage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B0A66493-C13C-9A28-F49C-DEA6C84DBF61}|..\\OpsCore.UI\\OpsCore.UI.csproj|c:\\school\\projecten\\opscore\\opscore.ui\\viewmodels\\dashboardviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B0A66493-C13C-9A28-F49C-DEA6C84DBF61}|..\\OpsCore.UI\\OpsCore.UI.csproj|c:\\users\\taroz\\documents\\github\\opscore\\opscore.ui\\viewmodels\\assetsviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B0A66493-C13C-9A28-F49C-DEA6C84DBF61}|..\\OpsCore.UI\\OpsCore.UI.csproj|c:\\school\\projecten\\opscore\\opscore.ui\\views\\dashboardpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B0A66493-C13C-9A28-F49C-DEA6C84DBF61}|..\\OpsCore.UI\\OpsCore.UI.csproj|c:\\users\\taroz\\documents\\github\\opscore\\opscore.ui\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B0A66493-C13C-9A28-F49C-DEA6C84DBF61}|..\\OpsCore.UI\\OpsCore.UI.csproj|c:\\school\\projecten\\opscore\\opscore.ui\\views\\dashboardpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+      "AbsoluteMoniker": "D:0:0:{B0A66493-C13C-9A28-F49C-DEA6C84DBF61}|..\\OpsCore.UI\\OpsCore.UI.csproj|c:\\users\\taroz\\.nuget\\packages\\microsoft.windowsappsdk.foundation\\2.0.22-experimental\\include\\deploymentmanagerautoinitializer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B0A66493-C13C-9A28-F49C-DEA6C84DBF61}|..\\OpsCore.UI\\OpsCore.UI.csproj|c:\\school\\projecten\\opscore\\opscore.ui\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B0A66493-C13C-9A28-F49C-DEA6C84DBF61}|..\\OpsCore.UI\\OpsCore.UI.csproj|c:\\users\\taroz\\documents\\github\\opscore\\opscore.ui\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{82611216-DA09-A82F-3A93-523AA9F46A2F}|OpsCore.Data\\OpsCore.Data.csproj|c:\\school\\projecten\\opscore\\opscore\\opscore.data\\appdbcontextfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{B0A66493-C13C-9A28-F49C-DEA6C84DBF61}|..\\OpsCore.UI\\OpsCore.UI.csproj|c:\\users\\taroz\\documents\\github\\opscore\\opscore.ui\\views\\maintenancepage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B0A66493-C13C-9A28-F49C-DEA6C84DBF61}|..\\OpsCore.UI\\OpsCore.UI.csproj|c:\\users\\taroz\\documents\\github\\opscore\\opscore.ui\\views\\dashboardpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B0A66493-C13C-9A28-F49C-DEA6C84DBF61}|..\\OpsCore.UI\\OpsCore.UI.csproj|c:\\users\\taroz\\documents\\github\\opscore\\opscore.ui\\views\\dashboardpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B0A66493-C13C-9A28-F49C-DEA6C84DBF61}|..\\OpsCore.UI\\OpsCore.UI.csproj|c:\\users\\taroz\\documents\\github\\opscore\\opscore.ui\\views\\assetspage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B0A66493-C13C-9A28-F49C-DEA6C84DBF61}|..\\OpsCore.UI\\OpsCore.UI.csproj|c:\\users\\taroz\\documents\\github\\opscore\\opscore.ui\\viewmodels\\dashboardviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B0A66493-C13C-9A28-F49C-DEA6C84DBF61}|..\\OpsCore.UI\\OpsCore.UI.csproj|c:\\users\\taroz\\documents\\github\\opscore\\opscore.ui\\converters\\maintenancestatuscolorconverter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{82611216-DA09-A82F-3A93-523AA9F46A2F}|OpsCore.Data\\OpsCore.Data.csproj|c:\\users\\taroz\\documents\\github\\opscore\\opscore\\opscore.data\\appdbcontextfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{82611216-DA09-A82F-3A93-523AA9F46A2F}|OpsCore.Data\\OpsCore.Data.csproj|solutionrelative:opscore.data\\appdbcontextfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B0A66493-C13C-9A28-F49C-DEA6C84DBF61}|..\\OpsCore.UI\\OpsCore.UI.csproj|c:\\school\\projecten\\opscore\\opscore.ui\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+      "AbsoluteMoniker": "D:0:0:{82611216-DA09-A82F-3A93-523AA9F46A2F}|OpsCore.Data\\OpsCore.Data.csproj|c:\\users\\taroz\\documents\\github\\opscore\\opscore\\opscore.data\\repositories\\maintenancerecordrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{82611216-DA09-A82F-3A93-523AA9F46A2F}|OpsCore.Data\\OpsCore.Data.csproj|solutionrelative:opscore.data\\repositories\\maintenancerecordrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{82611216-DA09-A82F-3A93-523AA9F46A2F}|OpsCore.Data\\OpsCore.Data.csproj|c:\\school\\projecten\\opscore\\opscore\\opscore.data\\context\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{82611216-DA09-A82F-3A93-523AA9F46A2F}|OpsCore.Data\\OpsCore.Data.csproj|c:\\users\\taroz\\documents\\github\\opscore\\opscore\\opscore.data\\repositories\\employeerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{82611216-DA09-A82F-3A93-523AA9F46A2F}|OpsCore.Data\\OpsCore.Data.csproj|solutionrelative:opscore.data\\repositories\\employeerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{82611216-DA09-A82F-3A93-523AA9F46A2F}|OpsCore.Data\\OpsCore.Data.csproj|c:\\users\\taroz\\documents\\github\\opscore\\opscore\\opscore.data\\repositories\\departmentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{82611216-DA09-A82F-3A93-523AA9F46A2F}|OpsCore.Data\\OpsCore.Data.csproj|solutionrelative:opscore.data\\repositories\\departmentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{82611216-DA09-A82F-3A93-523AA9F46A2F}|OpsCore.Data\\OpsCore.Data.csproj|c:\\users\\taroz\\documents\\github\\opscore\\opscore\\opscore.data\\repositories\\assettyperepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{82611216-DA09-A82F-3A93-523AA9F46A2F}|OpsCore.Data\\OpsCore.Data.csproj|solutionrelative:opscore.data\\repositories\\assettyperepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{82611216-DA09-A82F-3A93-523AA9F46A2F}|OpsCore.Data\\OpsCore.Data.csproj|c:\\users\\taroz\\documents\\github\\opscore\\opscore\\opscore.data\\repositories\\assetrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{82611216-DA09-A82F-3A93-523AA9F46A2F}|OpsCore.Data\\OpsCore.Data.csproj|solutionrelative:opscore.data\\repositories\\assetrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{82611216-DA09-A82F-3A93-523AA9F46A2F}|OpsCore.Data\\OpsCore.Data.csproj|c:\\users\\taroz\\documents\\github\\opscore\\opscore\\opscore.data\\repositories\\activitylogrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{82611216-DA09-A82F-3A93-523AA9F46A2F}|OpsCore.Data\\OpsCore.Data.csproj|solutionrelative:opscore.data\\repositories\\activitylogrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{82611216-DA09-A82F-3A93-523AA9F46A2F}|OpsCore.Data\\OpsCore.Data.csproj|c:\\users\\taroz\\documents\\github\\opscore\\opscore\\opscore.data\\context\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{82611216-DA09-A82F-3A93-523AA9F46A2F}|OpsCore.Data\\OpsCore.Data.csproj|solutionrelative:opscore.data\\context\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B0A66493-C13C-9A28-F49C-DEA6C84DBF61}|..\\OpsCore.UI\\OpsCore.UI.csproj|c:\\school\\projecten\\opscore\\opscore.ui\\viewmodels\\maintenanceviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{078BF756-DB39-7089-23C1-4954829E14D8}|OpsCore.Core\\OpsCore.Core.csproj|c:\\users\\taroz\\documents\\github\\opscore\\opscore\\opscore.core\\services\\maintenanceservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{078BF756-DB39-7089-23C1-4954829E14D8}|OpsCore.Core\\OpsCore.Core.csproj|solutionrelative:opscore.core\\services\\maintenanceservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B0A66493-C13C-9A28-F49C-DEA6C84DBF61}|..\\OpsCore.UI\\OpsCore.UI.csproj|c:\\school\\projecten\\opscore\\opscore.ui\\views\\maintenancepage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{078BF756-DB39-7089-23C1-4954829E14D8}|OpsCore.Core\\OpsCore.Core.csproj|c:\\users\\taroz\\documents\\github\\opscore\\opscore\\opscore.core\\models\\maintenancerecord.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{078BF756-DB39-7089-23C1-4954829E14D8}|OpsCore.Core\\OpsCore.Core.csproj|solutionrelative:opscore.core\\models\\maintenancerecord.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B0A66493-C13C-9A28-F49C-DEA6C84DBF61}|..\\OpsCore.UI\\OpsCore.UI.csproj|c:\\school\\projecten\\opscore\\opscore.ui\\views\\maintenancepage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+      "AbsoluteMoniker": "D:0:0:{078BF756-DB39-7089-23C1-4954829E14D8}|OpsCore.Core\\OpsCore.Core.csproj|c:\\users\\taroz\\documents\\github\\opscore\\opscore\\opscore.core\\models\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{078BF756-DB39-7089-23C1-4954829E14D8}|OpsCore.Core\\OpsCore.Core.csproj|solutionrelative:opscore.core\\models\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{078BF756-DB39-7089-23C1-4954829E14D8}|OpsCore.Core\\OpsCore.Core.csproj|c:\\users\\taroz\\documents\\github\\opscore\\opscore\\opscore.core\\models\\department.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{078BF756-DB39-7089-23C1-4954829E14D8}|OpsCore.Core\\OpsCore.Core.csproj|solutionrelative:opscore.core\\models\\department.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{078BF756-DB39-7089-23C1-4954829E14D8}|OpsCore.Core\\OpsCore.Core.csproj|c:\\users\\taroz\\documents\\github\\opscore\\opscore\\opscore.core\\models\\assettype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{078BF756-DB39-7089-23C1-4954829E14D8}|OpsCore.Core\\OpsCore.Core.csproj|solutionrelative:opscore.core\\models\\assettype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{078BF756-DB39-7089-23C1-4954829E14D8}|OpsCore.Core\\OpsCore.Core.csproj|c:\\users\\taroz\\documents\\github\\opscore\\opscore\\opscore.core\\models\\asset.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{078BF756-DB39-7089-23C1-4954829E14D8}|OpsCore.Core\\OpsCore.Core.csproj|solutionrelative:opscore.core\\models\\asset.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{078BF756-DB39-7089-23C1-4954829E14D8}|OpsCore.Core\\OpsCore.Core.csproj|c:\\users\\taroz\\documents\\github\\opscore\\opscore\\opscore.core\\models\\activitylog.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{078BF756-DB39-7089-23C1-4954829E14D8}|OpsCore.Core\\OpsCore.Core.csproj|solutionrelative:opscore.core\\models\\activitylog.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{078BF756-DB39-7089-23C1-4954829E14D8}|OpsCore.Core\\OpsCore.Core.csproj|c:\\users\\taroz\\documents\\github\\opscore\\opscore\\opscore.core\\interfaces\\imaintenancerecordrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{078BF756-DB39-7089-23C1-4954829E14D8}|OpsCore.Core\\OpsCore.Core.csproj|solutionrelative:opscore.core\\interfaces\\imaintenancerecordrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{078BF756-DB39-7089-23C1-4954829E14D8}|OpsCore.Core\\OpsCore.Core.csproj|c:\\users\\taroz\\documents\\github\\opscore\\opscore\\opscore.core\\interfaces\\iemployeerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{078BF756-DB39-7089-23C1-4954829E14D8}|OpsCore.Core\\OpsCore.Core.csproj|solutionrelative:opscore.core\\interfaces\\iemployeerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{078BF756-DB39-7089-23C1-4954829E14D8}|OpsCore.Core\\OpsCore.Core.csproj|c:\\users\\taroz\\documents\\github\\opscore\\opscore\\opscore.core\\interfaces\\iassettyperepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{078BF756-DB39-7089-23C1-4954829E14D8}|OpsCore.Core\\OpsCore.Core.csproj|solutionrelative:opscore.core\\interfaces\\iassettyperepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{078BF756-DB39-7089-23C1-4954829E14D8}|OpsCore.Core\\OpsCore.Core.csproj|c:\\users\\taroz\\documents\\github\\opscore\\opscore\\opscore.core\\interfaces\\iassetrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{078BF756-DB39-7089-23C1-4954829E14D8}|OpsCore.Core\\OpsCore.Core.csproj|solutionrelative:opscore.core\\interfaces\\iassetrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{078BF756-DB39-7089-23C1-4954829E14D8}|OpsCore.Core\\OpsCore.Core.csproj|c:\\users\\taroz\\documents\\github\\opscore\\opscore\\opscore.core\\interfaces\\iactivitylogrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{078BF756-DB39-7089-23C1-4954829E14D8}|OpsCore.Core\\OpsCore.Core.csproj|solutionrelative:opscore.core\\interfaces\\iactivitylogrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{078BF756-DB39-7089-23C1-4954829E14D8}|OpsCore.Core\\OpsCore.Core.csproj|c:\\users\\taroz\\documents\\github\\opscore\\opscore\\opscore.core\\enums\\maintenancetype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{078BF756-DB39-7089-23C1-4954829E14D8}|OpsCore.Core\\OpsCore.Core.csproj|solutionrelative:opscore.core\\enums\\maintenancetype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{078BF756-DB39-7089-23C1-4954829E14D8}|OpsCore.Core\\OpsCore.Core.csproj|c:\\users\\taroz\\documents\\github\\opscore\\opscore\\opscore.core\\enums\\assetstatus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{078BF756-DB39-7089-23C1-4954829E14D8}|OpsCore.Core\\OpsCore.Core.csproj|solutionrelative:opscore.core\\enums\\assetstatus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -60,214 +146,500 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 8,
+          "SelectedChildIndex": 7,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "AssetsPage.xaml.cs",
-              "DocumentMoniker": "C:\\School\\projecten\\OpsCore\\OpsCore.UI\\Views\\AssetsPage.xaml.cs",
-              "RelativeDocumentMoniker": "..\\OpsCore.UI\\Views\\AssetsPage.xaml.cs",
-              "ToolTip": "C:\\School\\projecten\\OpsCore\\OpsCore.UI\\Views\\AssetsPage.xaml.cs",
-              "RelativeToolTip": "..\\OpsCore.UI\\Views\\AssetsPage.xaml.cs",
-              "ViewState": "AgIAADoAAAAAAAAAAAAcwFQAAAA2AAAAAAAAAA==",
+              "DocumentIndex": 7,
+              "Title": "App.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Taroz\\Documents\\GitHub\\OpsCore\\OpsCore.UI\\App.xaml.cs",
+              "RelativeDocumentMoniker": "..\\OpsCore.UI\\App.xaml.cs",
+              "ToolTip": "C:\\Users\\Taroz\\Documents\\GitHub\\OpsCore\\OpsCore.UI\\App.xaml.cs",
+              "RelativeToolTip": "..\\OpsCore.UI\\App.xaml.cs",
+              "ViewState": "AgIAABgAAAAAAAAAAAAiwC0AAAAzAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-09T08:08:51.004Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "EmployeesPage.xaml.cs",
-              "DocumentMoniker": "C:\\School\\projecten\\OpsCore\\OpsCore.UI\\Views\\EmployeesPage.xaml.cs",
-              "RelativeDocumentMoniker": "..\\OpsCore.UI\\Views\\EmployeesPage.xaml.cs",
-              "ToolTip": "C:\\School\\projecten\\OpsCore\\OpsCore.UI\\Views\\EmployeesPage.xaml.cs",
-              "RelativeToolTip": "..\\OpsCore.UI\\Views\\EmployeesPage.xaml.cs",
-              "ViewState": "AgIAAD8AAAAAAAAAAAAqwFEAAAANAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-09T07:58:55.447Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "AssetsPage.xaml",
-              "DocumentMoniker": "C:\\School\\projecten\\OpsCore\\OpsCore.UI\\Views\\AssetsPage.xaml",
-              "RelativeDocumentMoniker": "..\\OpsCore.UI\\Views\\AssetsPage.xaml",
-              "ToolTip": "C:\\School\\projecten\\OpsCore\\OpsCore.UI\\Views\\AssetsPage.xaml",
-              "RelativeToolTip": "..\\OpsCore.UI\\Views\\AssetsPage.xaml",
-              "ViewState": "AgIAABoAAAAAAAAAAAAcwC4AAABSAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2026-06-09T07:57:28.571Z",
+              "WhenOpened": "2026-06-13T12:04:25.541Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "EmployeesPage.xaml",
-              "DocumentMoniker": "C:\\School\\projecten\\OpsCore\\OpsCore.UI\\Views\\EmployeesPage.xaml",
-              "RelativeDocumentMoniker": "..\\OpsCore.UI\\Views\\EmployeesPage.xaml",
-              "ToolTip": "C:\\School\\projecten\\OpsCore\\OpsCore.UI\\Views\\EmployeesPage.xaml",
-              "RelativeToolTip": "..\\OpsCore.UI\\Views\\EmployeesPage.xaml",
-              "ViewState": "AgIAABQAAAAAAAAAAAAowCcAAABGAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2026-06-09T07:54:27.906Z",
+              "Title": "EmployeesPage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Taroz\\Documents\\GitHub\\OpsCore\\OpsCore.UI\\Views\\EmployeesPage.xaml.cs",
+              "RelativeDocumentMoniker": "..\\OpsCore.UI\\Views\\EmployeesPage.xaml.cs",
+              "ToolTip": "C:\\Users\\Taroz\\Documents\\GitHub\\OpsCore\\OpsCore.UI\\Views\\EmployeesPage.xaml.cs",
+              "RelativeToolTip": "..\\OpsCore.UI\\Views\\EmployeesPage.xaml.cs",
+              "ViewState": "AgIAAFMAAAAAAAAAAAA1wGgAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-13T12:04:15.524Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 4,
               "Title": "EmployeesViewModel.cs",
-              "DocumentMoniker": "C:\\School\\projecten\\OpsCore\\OpsCore.UI\\ViewModels\\EmployeesViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\Taroz\\Documents\\GitHub\\OpsCore\\OpsCore.UI\\ViewModels\\EmployeesViewModel.cs",
               "RelativeDocumentMoniker": "..\\OpsCore.UI\\ViewModels\\EmployeesViewModel.cs",
-              "ToolTip": "C:\\School\\projecten\\OpsCore\\OpsCore.UI\\ViewModels\\EmployeesViewModel.cs",
+              "ToolTip": "C:\\Users\\Taroz\\Documents\\GitHub\\OpsCore\\OpsCore.UI\\ViewModels\\EmployeesViewModel.cs",
               "RelativeToolTip": "..\\OpsCore.UI\\ViewModels\\EmployeesViewModel.cs",
-              "ViewState": "AgIAACwAAAAAAAAAAAAuwD0AAAABAAAAAAAAAA==",
+              "ViewState": "AgIAADIAAAAAAAAAAAAAAFQAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-09T07:54:23.03Z",
+              "WhenOpened": "2026-06-13T12:03:57.771Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "App.xaml.cs",
-              "DocumentMoniker": "C:\\School\\projecten\\OpsCore\\OpsCore.UI\\App.xaml.cs",
-              "RelativeDocumentMoniker": "..\\OpsCore.UI\\App.xaml.cs",
-              "ToolTip": "C:\\School\\projecten\\OpsCore\\OpsCore.UI\\App.xaml.cs",
-              "RelativeToolTip": "..\\OpsCore.UI\\App.xaml.cs",
-              "ViewState": "AgIAABcAAAAAAAAAAAAcwDAAAABJAAAAAAAAAA==",
+              "DocumentIndex": 1,
+              "Title": "MaintenanceViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\Taroz\\Documents\\GitHub\\OpsCore\\OpsCore.UI\\ViewModels\\MaintenanceViewModel.cs",
+              "RelativeDocumentMoniker": "..\\OpsCore.UI\\ViewModels\\MaintenanceViewModel.cs",
+              "ToolTip": "C:\\Users\\Taroz\\Documents\\GitHub\\OpsCore\\OpsCore.UI\\ViewModels\\MaintenanceViewModel.cs",
+              "RelativeToolTip": "..\\OpsCore.UI\\ViewModels\\MaintenanceViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAdAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-09T07:30:55.362Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "App.xaml",
-              "DocumentMoniker": "C:\\School\\projecten\\OpsCore\\OpsCore.UI\\App.xaml",
-              "RelativeDocumentMoniker": "..\\OpsCore.UI\\App.xaml",
-              "ToolTip": "C:\\School\\projecten\\OpsCore\\OpsCore.UI\\App.xaml",
-              "RelativeToolTip": "..\\OpsCore.UI\\App.xaml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2026-06-09T07:30:53.741Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "AppDbContext.cs",
-              "DocumentMoniker": "C:\\School\\projecten\\OpsCore\\OpsCore\\OpsCore.Data\\Context\\AppDbContext.cs",
-              "RelativeDocumentMoniker": "OpsCore.Data\\Context\\AppDbContext.cs",
-              "ToolTip": "C:\\School\\projecten\\OpsCore\\OpsCore\\OpsCore.Data\\Context\\AppDbContext.cs",
-              "RelativeToolTip": "OpsCore.Data\\Context\\AppDbContext.cs",
-              "ViewState": "AgIAADUAAAAAAAAAAAAswDwAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-09T07:24:18.303Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "AssetsViewModel.cs",
-              "DocumentMoniker": "C:\\School\\projecten\\OpsCore\\OpsCore.UI\\ViewModels\\AssetsViewModel.cs",
-              "RelativeDocumentMoniker": "..\\OpsCore.UI\\ViewModels\\AssetsViewModel.cs",
-              "ToolTip": "C:\\School\\projecten\\OpsCore\\OpsCore.UI\\ViewModels\\AssetsViewModel.cs",
-              "RelativeToolTip": "..\\OpsCore.UI\\ViewModels\\AssetsViewModel.cs",
-              "ViewState": "AgIAACkAAAAAAAAAAAAuwD0AAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-09T07:21:15.648Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "DashboardPage.xaml.cs",
-              "DocumentMoniker": "C:\\School\\projecten\\OpsCore\\OpsCore.UI\\Views\\DashboardPage.xaml.cs",
-              "RelativeDocumentMoniker": "..\\OpsCore.UI\\Views\\DashboardPage.xaml.cs",
-              "ToolTip": "C:\\School\\projecten\\OpsCore\\OpsCore.UI\\Views\\DashboardPage.xaml.cs",
-              "RelativeToolTip": "..\\OpsCore.UI\\Views\\DashboardPage.xaml.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-09T07:19:59.922Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "DashboardPage.xaml",
-              "DocumentMoniker": "C:\\School\\projecten\\OpsCore\\OpsCore.UI\\Views\\DashboardPage.xaml",
-              "RelativeDocumentMoniker": "..\\OpsCore.UI\\Views\\DashboardPage.xaml",
-              "ToolTip": "C:\\School\\projecten\\OpsCore\\OpsCore.UI\\Views\\DashboardPage.xaml",
-              "RelativeToolTip": "..\\OpsCore.UI\\Views\\DashboardPage.xaml",
-              "ViewState": "AgIAACEAAAAAAAAAAAAAAAoAAAARAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2026-06-09T07:19:33.809Z",
+              "WhenOpened": "2026-06-13T11:46:29.994Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 6,
-              "Title": "DashboardViewModel.cs",
-              "DocumentMoniker": "C:\\School\\projecten\\OpsCore\\OpsCore.UI\\ViewModels\\DashboardViewModel.cs",
-              "RelativeDocumentMoniker": "..\\OpsCore.UI\\ViewModels\\DashboardViewModel.cs",
-              "ToolTip": "C:\\School\\projecten\\OpsCore\\OpsCore.UI\\ViewModels\\DashboardViewModel.cs",
-              "RelativeToolTip": "..\\OpsCore.UI\\ViewModels\\DashboardViewModel.cs",
-              "ViewState": "AgIAACMAAAAAAAAAAAA1wDUAAAAAAAAAAAAAAA==",
+              "Title": "AssetsViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\Taroz\\Documents\\GitHub\\OpsCore\\OpsCore.UI\\ViewModels\\AssetsViewModel.cs",
+              "RelativeDocumentMoniker": "..\\OpsCore.UI\\ViewModels\\AssetsViewModel.cs",
+              "ToolTip": "C:\\Users\\Taroz\\Documents\\GitHub\\OpsCore\\OpsCore.UI\\ViewModels\\AssetsViewModel.cs",
+              "RelativeToolTip": "..\\OpsCore.UI\\ViewModels\\AssetsViewModel.cs",
+              "ViewState": "AgIAAE0AAAAAAAAAAAAQwFYAAAA3AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-09T07:18:57.919Z",
+              "WhenOpened": "2026-06-13T11:46:01.551Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "AssetsPage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Taroz\\Documents\\GitHub\\OpsCore\\OpsCore.UI\\Views\\AssetsPage.xaml.cs",
+              "RelativeDocumentMoniker": "..\\OpsCore.UI\\Views\\AssetsPage.xaml.cs",
+              "ToolTip": "C:\\Users\\Taroz\\Documents\\GitHub\\OpsCore\\OpsCore.UI\\Views\\AssetsPage.xaml.cs",
+              "RelativeToolTip": "..\\OpsCore.UI\\Views\\AssetsPage.xaml.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAswKoAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-13T11:46:22.621Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "EmployeesPage.xaml",
+              "DocumentMoniker": "C:\\Users\\Taroz\\Documents\\GitHub\\OpsCore\\OpsCore.UI\\Views\\EmployeesPage.xaml",
+              "RelativeDocumentMoniker": "..\\OpsCore.UI\\Views\\EmployeesPage.xaml",
+              "ToolTip": "C:\\Users\\Taroz\\Documents\\GitHub\\OpsCore\\OpsCore.UI\\Views\\EmployeesPage.xaml",
+              "RelativeToolTip": "..\\OpsCore.UI\\Views\\EmployeesPage.xaml",
+              "ViewState": "AgIAAB8AAAAAAAAAAAAAAEEAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-06-13T11:46:37.935Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MaintenancePage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Taroz\\Documents\\GitHub\\OpsCore\\OpsCore.UI\\Views\\MaintenancePage.xaml.cs",
+              "RelativeDocumentMoniker": "..\\OpsCore.UI\\Views\\MaintenancePage.xaml.cs",
+              "ToolTip": "C:\\Users\\Taroz\\Documents\\GitHub\\OpsCore\\OpsCore.UI\\Views\\MaintenancePage.xaml.cs",
+              "RelativeToolTip": "..\\OpsCore.UI\\Views\\MaintenancePage.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-13T11:46:49.631Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "DashboardPage.xaml",
+              "DocumentMoniker": "C:\\Users\\Taroz\\Documents\\GitHub\\OpsCore\\OpsCore.UI\\Views\\DashboardPage.xaml",
+              "RelativeDocumentMoniker": "..\\OpsCore.UI\\Views\\DashboardPage.xaml",
+              "ToolTip": "C:\\Users\\Taroz\\Documents\\GitHub\\OpsCore\\OpsCore.UI\\Views\\DashboardPage.xaml",
+              "RelativeToolTip": "..\\OpsCore.UI\\Views\\DashboardPage.xaml",
+              "ViewState": "AgIAAEgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-06-13T12:04:08.941Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "DashboardPage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Taroz\\Documents\\GitHub\\OpsCore\\OpsCore.UI\\Views\\DashboardPage.xaml.cs",
+              "RelativeDocumentMoniker": "..\\OpsCore.UI\\Views\\DashboardPage.xaml.cs",
+              "ToolTip": "C:\\Users\\Taroz\\Documents\\GitHub\\OpsCore\\OpsCore.UI\\Views\\DashboardPage.xaml.cs",
+              "RelativeToolTip": "..\\OpsCore.UI\\Views\\DashboardPage.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-13T12:04:11.088Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "App.xaml",
+              "DocumentMoniker": "C:\\Users\\Taroz\\Documents\\GitHub\\OpsCore\\OpsCore.UI\\App.xaml",
+              "RelativeDocumentMoniker": "..\\OpsCore.UI\\App.xaml",
+              "ToolTip": "C:\\Users\\Taroz\\Documents\\GitHub\\OpsCore\\OpsCore.UI\\App.xaml",
+              "RelativeToolTip": "..\\OpsCore.UI\\App.xaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-06-13T12:04:22.783Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "DeploymentManagerAutoInitializer.cs",
+              "DocumentMoniker": "C:\\Users\\Taroz\\.nuget\\packages\\microsoft.windowsappsdk.foundation\\2.0.22-experimental\\include\\DeploymentManagerAutoInitializer.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\.nuget\\packages\\microsoft.windowsappsdk.foundation\\2.0.22-experimental\\include\\DeploymentManagerAutoInitializer.cs",
+              "ToolTip": "C:\\Users\\Taroz\\.nuget\\packages\\microsoft.windowsappsdk.foundation\\2.0.22-experimental\\include\\DeploymentManagerAutoInitializer.cs",
+              "RelativeToolTip": "..\\..\\..\\..\\.nuget\\packages\\microsoft.windowsappsdk.foundation\\2.0.22-experimental\\include\\DeploymentManagerAutoInitializer.cs",
+              "ViewState": "AgIAACUAAAAAAAAAAMBcwCwAAABNAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-13T12:04:28.75Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 10,
-              "Title": "AppDbContextFactory.cs",
-              "DocumentMoniker": "C:\\School\\projecten\\OpsCore\\OpsCore\\OpsCore.Data\\AppDbContextFactory.cs",
-              "RelativeDocumentMoniker": "OpsCore.Data\\AppDbContextFactory.cs",
-              "ToolTip": "C:\\School\\projecten\\OpsCore\\OpsCore\\OpsCore.Data\\AppDbContextFactory.cs",
-              "RelativeToolTip": "OpsCore.Data\\AppDbContextFactory.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-09T07:36:59.284Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "MaintenanceViewModel.cs",
-              "DocumentMoniker": "C:\\School\\projecten\\OpsCore\\OpsCore.UI\\ViewModels\\MaintenanceViewModel.cs",
-              "RelativeDocumentMoniker": "..\\OpsCore.UI\\ViewModels\\MaintenanceViewModel.cs",
-              "ToolTip": "C:\\School\\projecten\\OpsCore\\OpsCore.UI\\ViewModels\\MaintenanceViewModel.cs",
-              "RelativeToolTip": "..\\OpsCore.UI\\ViewModels\\MaintenanceViewModel.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAdAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-09T07:16:54.182Z",
+              "Title": "MaintenancePage.xaml",
+              "DocumentMoniker": "C:\\Users\\Taroz\\Documents\\GitHub\\OpsCore\\OpsCore.UI\\Views\\MaintenancePage.xaml",
+              "RelativeDocumentMoniker": "..\\OpsCore.UI\\Views\\MaintenancePage.xaml",
+              "ToolTip": "C:\\Users\\Taroz\\Documents\\GitHub\\OpsCore\\OpsCore.UI\\Views\\MaintenancePage.xaml",
+              "RelativeToolTip": "..\\OpsCore.UI\\Views\\MaintenancePage.xaml",
+              "ViewState": "AgIAAF0AAAAAAAAAAAAAAGUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-06-13T11:46:49.087Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 14,
-              "Title": "MaintenancePage.xaml.cs",
-              "DocumentMoniker": "C:\\School\\projecten\\OpsCore\\OpsCore.UI\\Views\\MaintenancePage.xaml.cs",
-              "RelativeDocumentMoniker": "..\\OpsCore.UI\\Views\\MaintenancePage.xaml.cs",
-              "ToolTip": "C:\\School\\projecten\\OpsCore\\OpsCore.UI\\Views\\MaintenancePage.xaml.cs",
-              "RelativeToolTip": "..\\OpsCore.UI\\Views\\MaintenancePage.xaml.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAsAAAAAAAAAA==",
+              "Title": "DashboardViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\Taroz\\Documents\\GitHub\\OpsCore\\OpsCore.UI\\ViewModels\\DashboardViewModel.cs",
+              "RelativeDocumentMoniker": "..\\OpsCore.UI\\ViewModels\\DashboardViewModel.cs",
+              "ToolTip": "C:\\Users\\Taroz\\Documents\\GitHub\\OpsCore\\OpsCore.UI\\ViewModels\\DashboardViewModel.cs",
+              "RelativeToolTip": "..\\OpsCore.UI\\ViewModels\\DashboardViewModel.cs",
+              "ViewState": "AgIAAC0AAAAAAAAAAAAowAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-09T07:15:17.796Z",
+              "WhenOpened": "2026-06-13T12:03:53.009Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "AppDbContextFactory.cs",
+              "DocumentMoniker": "C:\\Users\\Taroz\\Documents\\GitHub\\OpsCore\\OpsCore\\OpsCore.Data\\AppDbContextFactory.cs",
+              "RelativeDocumentMoniker": "OpsCore.Data\\AppDbContextFactory.cs",
+              "ToolTip": "C:\\Users\\Taroz\\Documents\\GitHub\\OpsCore\\OpsCore\\OpsCore.Data\\AppDbContextFactory.cs",
+              "RelativeToolTip": "OpsCore.Data\\AppDbContextFactory.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-13T12:03:40.581Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "MaintenanceRecordRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Taroz\\Documents\\GitHub\\OpsCore\\OpsCore\\OpsCore.Data\\Repositories\\MaintenanceRecordRepository.cs",
+              "RelativeDocumentMoniker": "OpsCore.Data\\Repositories\\MaintenanceRecordRepository.cs",
+              "ToolTip": "C:\\Users\\Taroz\\Documents\\GitHub\\OpsCore\\OpsCore\\OpsCore.Data\\Repositories\\MaintenanceRecordRepository.cs",
+              "RelativeToolTip": "OpsCore.Data\\Repositories\\MaintenanceRecordRepository.cs",
+              "ViewState": "AgIAAC0AAAAAAAAAAAAowAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-13T12:03:38.665Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "AssetsPage.xaml",
+              "DocumentMoniker": "C:\\Users\\Taroz\\Documents\\GitHub\\OpsCore\\OpsCore.UI\\Views\\AssetsPage.xaml",
+              "RelativeDocumentMoniker": "..\\OpsCore.UI\\Views\\AssetsPage.xaml",
+              "ToolTip": "C:\\Users\\Taroz\\Documents\\GitHub\\OpsCore\\OpsCore.UI\\Views\\AssetsPage.xaml",
+              "RelativeToolTip": "..\\OpsCore.UI\\Views\\AssetsPage.xaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAD0AAABLAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-06-13T11:46:13.737Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "EmployeeRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Taroz\\Documents\\GitHub\\OpsCore\\OpsCore\\OpsCore.Data\\Repositories\\EmployeeRepository.cs",
+              "RelativeDocumentMoniker": "OpsCore.Data\\Repositories\\EmployeeRepository.cs",
+              "ToolTip": "C:\\Users\\Taroz\\Documents\\GitHub\\OpsCore\\OpsCore\\OpsCore.Data\\Repositories\\EmployeeRepository.cs",
+              "RelativeToolTip": "OpsCore.Data\\Repositories\\EmployeeRepository.cs",
+              "ViewState": "AgIAADAAAAAAAAAAAAAmwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-13T12:03:36.721Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "DepartmentRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Taroz\\Documents\\GitHub\\OpsCore\\OpsCore\\OpsCore.Data\\Repositories\\DepartmentRepository.cs",
+              "RelativeDocumentMoniker": "OpsCore.Data\\Repositories\\DepartmentRepository.cs",
+              "ToolTip": "C:\\Users\\Taroz\\Documents\\GitHub\\OpsCore\\OpsCore\\OpsCore.Data\\Repositories\\DepartmentRepository.cs",
+              "RelativeToolTip": "OpsCore.Data\\Repositories\\DepartmentRepository.cs",
+              "ViewState": "AgIAAB0AAAAAAAAAAAAwwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-13T12:03:33.918Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "AssetTypeRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Taroz\\Documents\\GitHub\\OpsCore\\OpsCore\\OpsCore.Data\\Repositories\\AssetTypeRepository.cs",
+              "RelativeDocumentMoniker": "OpsCore.Data\\Repositories\\AssetTypeRepository.cs",
+              "ToolTip": "C:\\Users\\Taroz\\Documents\\GitHub\\OpsCore\\OpsCore\\OpsCore.Data\\Repositories\\AssetTypeRepository.cs",
+              "RelativeToolTip": "OpsCore.Data\\Repositories\\AssetTypeRepository.cs",
+              "ViewState": "AgIAACkAAAAAAAAAAAAIwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-13T12:03:32.509Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 15,
-              "Title": "MaintenancePage.xaml",
-              "DocumentMoniker": "C:\\School\\projecten\\OpsCore\\OpsCore.UI\\Views\\MaintenancePage.xaml",
-              "RelativeDocumentMoniker": "..\\OpsCore.UI\\Views\\MaintenancePage.xaml",
-              "ToolTip": "C:\\School\\projecten\\OpsCore\\OpsCore.UI\\Views\\MaintenancePage.xaml",
-              "RelativeToolTip": "..\\OpsCore.UI\\Views\\MaintenancePage.xaml",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAACQAAAAnAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2026-06-09T07:14:53.342Z",
+              "Title": "MaintenanceStatusColorConverter.cs",
+              "DocumentMoniker": "C:\\Users\\Taroz\\Documents\\GitHub\\OpsCore\\OpsCore.UI\\Converters\\MaintenanceStatusColorConverter.cs",
+              "RelativeDocumentMoniker": "..\\OpsCore.UI\\Converters\\MaintenanceStatusColorConverter.cs",
+              "ToolTip": "C:\\Users\\Taroz\\Documents\\GitHub\\OpsCore\\OpsCore.UI\\Converters\\MaintenanceStatusColorConverter.cs",
+              "RelativeToolTip": "..\\OpsCore.UI\\Converters\\MaintenanceStatusColorConverter.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABYAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-13T11:54:29.354Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "AssetRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Taroz\\Documents\\GitHub\\OpsCore\\OpsCore\\OpsCore.Data\\Repositories\\AssetRepository.cs",
+              "RelativeDocumentMoniker": "OpsCore.Data\\Repositories\\AssetRepository.cs",
+              "ToolTip": "C:\\Users\\Taroz\\Documents\\GitHub\\OpsCore\\OpsCore\\OpsCore.Data\\Repositories\\AssetRepository.cs",
+              "RelativeToolTip": "OpsCore.Data\\Repositories\\AssetRepository.cs",
+              "ViewState": "AgIAACMAAAAAAAAAAAAIwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-13T12:03:30.365Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "ActivityLogRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Taroz\\Documents\\GitHub\\OpsCore\\OpsCore\\OpsCore.Data\\Repositories\\ActivityLogRepository.cs",
+              "RelativeDocumentMoniker": "OpsCore.Data\\Repositories\\ActivityLogRepository.cs",
+              "ToolTip": "C:\\Users\\Taroz\\Documents\\GitHub\\OpsCore\\OpsCore\\OpsCore.Data\\Repositories\\ActivityLogRepository.cs",
+              "RelativeToolTip": "OpsCore.Data\\Repositories\\ActivityLogRepository.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAUwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-13T12:03:28.178Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "AppDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\Taroz\\Documents\\GitHub\\OpsCore\\OpsCore\\OpsCore.Data\\Context\\AppDbContext.cs",
+              "RelativeDocumentMoniker": "OpsCore.Data\\Context\\AppDbContext.cs",
+              "ToolTip": "C:\\Users\\Taroz\\Documents\\GitHub\\OpsCore\\OpsCore\\OpsCore.Data\\Context\\AppDbContext.cs",
+              "RelativeToolTip": "OpsCore.Data\\Context\\AppDbContext.cs",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-13T12:03:21.946Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "MaintenanceService.cs",
+              "DocumentMoniker": "C:\\Users\\Taroz\\Documents\\GitHub\\OpsCore\\OpsCore\\OpsCore.Core\\Services\\MaintenanceService.cs",
+              "RelativeDocumentMoniker": "OpsCore.Core\\Services\\MaintenanceService.cs",
+              "ToolTip": "C:\\Users\\Taroz\\Documents\\GitHub\\OpsCore\\OpsCore\\OpsCore.Core\\Services\\MaintenanceService.cs",
+              "RelativeToolTip": "OpsCore.Core\\Services\\MaintenanceService.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAQwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-13T12:03:19.384Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "MaintenanceRecord.cs",
+              "DocumentMoniker": "C:\\Users\\Taroz\\Documents\\GitHub\\OpsCore\\OpsCore\\OpsCore.Core\\Models\\MaintenanceRecord.cs",
+              "RelativeDocumentMoniker": "OpsCore.Core\\Models\\MaintenanceRecord.cs",
+              "ToolTip": "C:\\Users\\Taroz\\Documents\\GitHub\\OpsCore\\OpsCore\\OpsCore.Core\\Models\\MaintenanceRecord.cs",
+              "RelativeToolTip": "OpsCore.Core\\Models\\MaintenanceRecord.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-13T12:03:18.577Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "Employee.cs",
+              "DocumentMoniker": "C:\\Users\\Taroz\\Documents\\GitHub\\OpsCore\\OpsCore\\OpsCore.Core\\Models\\Employee.cs",
+              "RelativeDocumentMoniker": "OpsCore.Core\\Models\\Employee.cs",
+              "ToolTip": "C:\\Users\\Taroz\\Documents\\GitHub\\OpsCore\\OpsCore\\OpsCore.Core\\Models\\Employee.cs",
+              "RelativeToolTip": "OpsCore.Core\\Models\\Employee.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-13T12:03:17.415Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "Department.cs",
+              "DocumentMoniker": "C:\\Users\\Taroz\\Documents\\GitHub\\OpsCore\\OpsCore\\OpsCore.Core\\Models\\Department.cs",
+              "RelativeDocumentMoniker": "OpsCore.Core\\Models\\Department.cs",
+              "ToolTip": "C:\\Users\\Taroz\\Documents\\GitHub\\OpsCore\\OpsCore\\OpsCore.Core\\Models\\Department.cs",
+              "RelativeToolTip": "OpsCore.Core\\Models\\Department.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-13T12:03:16.889Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "AssetType.cs",
+              "DocumentMoniker": "C:\\Users\\Taroz\\Documents\\GitHub\\OpsCore\\OpsCore\\OpsCore.Core\\Models\\AssetType.cs",
+              "RelativeDocumentMoniker": "OpsCore.Core\\Models\\AssetType.cs",
+              "ToolTip": "C:\\Users\\Taroz\\Documents\\GitHub\\OpsCore\\OpsCore\\OpsCore.Core\\Models\\AssetType.cs",
+              "RelativeToolTip": "OpsCore.Core\\Models\\AssetType.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-13T12:03:16.33Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "Asset.cs",
+              "DocumentMoniker": "C:\\Users\\Taroz\\Documents\\GitHub\\OpsCore\\OpsCore\\OpsCore.Core\\Models\\Asset.cs",
+              "RelativeDocumentMoniker": "OpsCore.Core\\Models\\Asset.cs",
+              "ToolTip": "C:\\Users\\Taroz\\Documents\\GitHub\\OpsCore\\OpsCore\\OpsCore.Core\\Models\\Asset.cs",
+              "RelativeToolTip": "OpsCore.Core\\Models\\Asset.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-13T12:03:15.863Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "ActivityLog.cs",
+              "DocumentMoniker": "C:\\Users\\Taroz\\Documents\\GitHub\\OpsCore\\OpsCore\\OpsCore.Core\\Models\\ActivityLog.cs",
+              "RelativeDocumentMoniker": "OpsCore.Core\\Models\\ActivityLog.cs",
+              "ToolTip": "C:\\Users\\Taroz\\Documents\\GitHub\\OpsCore\\OpsCore\\OpsCore.Core\\Models\\ActivityLog.cs",
+              "RelativeToolTip": "OpsCore.Core\\Models\\ActivityLog.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-13T12:03:14.508Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "IMaintenanceRecordRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Taroz\\Documents\\GitHub\\OpsCore\\OpsCore\\OpsCore.Core\\Interfaces\\IMaintenanceRecordRepository.cs",
+              "RelativeDocumentMoniker": "OpsCore.Core\\Interfaces\\IMaintenanceRecordRepository.cs",
+              "ToolTip": "C:\\Users\\Taroz\\Documents\\GitHub\\OpsCore\\OpsCore\\OpsCore.Core\\Interfaces\\IMaintenanceRecordRepository.cs",
+              "RelativeToolTip": "OpsCore.Core\\Interfaces\\IMaintenanceRecordRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-13T12:03:13.883Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "IEmployeeRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Taroz\\Documents\\GitHub\\OpsCore\\OpsCore\\OpsCore.Core\\Interfaces\\IEmployeeRepository.cs",
+              "RelativeDocumentMoniker": "OpsCore.Core\\Interfaces\\IEmployeeRepository.cs",
+              "ToolTip": "C:\\Users\\Taroz\\Documents\\GitHub\\OpsCore\\OpsCore\\OpsCore.Core\\Interfaces\\IEmployeeRepository.cs",
+              "RelativeToolTip": "OpsCore.Core\\Interfaces\\IEmployeeRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-13T12:03:13.02Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "IAssetTypeRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Taroz\\Documents\\GitHub\\OpsCore\\OpsCore\\OpsCore.Core\\Interfaces\\IAssetTypeRepository.cs",
+              "RelativeDocumentMoniker": "OpsCore.Core\\Interfaces\\IAssetTypeRepository.cs",
+              "ToolTip": "C:\\Users\\Taroz\\Documents\\GitHub\\OpsCore\\OpsCore\\OpsCore.Core\\Interfaces\\IAssetTypeRepository.cs",
+              "RelativeToolTip": "OpsCore.Core\\Interfaces\\IAssetTypeRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-13T12:03:12.546Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "IAssetRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Taroz\\Documents\\GitHub\\OpsCore\\OpsCore\\OpsCore.Core\\Interfaces\\IAssetRepository.cs",
+              "RelativeDocumentMoniker": "OpsCore.Core\\Interfaces\\IAssetRepository.cs",
+              "ToolTip": "C:\\Users\\Taroz\\Documents\\GitHub\\OpsCore\\OpsCore\\OpsCore.Core\\Interfaces\\IAssetRepository.cs",
+              "RelativeToolTip": "OpsCore.Core\\Interfaces\\IAssetRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-13T12:03:12.051Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "IActivityLogRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Taroz\\Documents\\GitHub\\OpsCore\\OpsCore\\OpsCore.Core\\Interfaces\\IActivityLogRepository.cs",
+              "RelativeDocumentMoniker": "OpsCore.Core\\Interfaces\\IActivityLogRepository.cs",
+              "ToolTip": "C:\\Users\\Taroz\\Documents\\GitHub\\OpsCore\\OpsCore\\OpsCore.Core\\Interfaces\\IActivityLogRepository.cs",
+              "RelativeToolTip": "OpsCore.Core\\Interfaces\\IActivityLogRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-13T12:03:10.737Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "MaintenanceType.cs",
+              "DocumentMoniker": "C:\\Users\\Taroz\\Documents\\GitHub\\OpsCore\\OpsCore\\OpsCore.Core\\Enums\\MaintenanceType.cs",
+              "RelativeDocumentMoniker": "OpsCore.Core\\Enums\\MaintenanceType.cs",
+              "ToolTip": "C:\\Users\\Taroz\\Documents\\GitHub\\OpsCore\\OpsCore\\OpsCore.Core\\Enums\\MaintenanceType.cs",
+              "RelativeToolTip": "OpsCore.Core\\Enums\\MaintenanceType.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-13T12:03:09.1Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "AssetStatus.cs",
+              "DocumentMoniker": "C:\\Users\\Taroz\\Documents\\GitHub\\OpsCore\\OpsCore\\OpsCore.Core\\Enums\\AssetStatus.cs",
+              "RelativeDocumentMoniker": "OpsCore.Core\\Enums\\AssetStatus.cs",
+              "ToolTip": "C:\\Users\\Taroz\\Documents\\GitHub\\OpsCore\\OpsCore\\OpsCore.Core\\Enums\\AssetStatus.cs",
+              "RelativeToolTip": "OpsCore.Core\\Enums\\AssetStatus.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-13T12:03:06.633Z",
               "EditorCaption": ""
             }
           ]

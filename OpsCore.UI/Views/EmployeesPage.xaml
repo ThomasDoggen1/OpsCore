@@ -16,10 +16,8 @@
             <RowDefinition Height="*"/>
         </Grid.RowDefinitions>
 
-        <!-- Header -->
         <TextBlock Grid.Row="0" Text="Employees" FontSize="28" FontWeight="Bold" Margin="0,0,0,16"/>
 
-        <!-- Toolbar -->
         <Grid Grid.Row="1" Margin="0,0,0,16">
             <Grid.ColumnDefinitions>
                 <ColumnDefinition Width="*"/>
@@ -29,21 +27,19 @@
             <Button Grid.Column="1" Content="+ Add Employee" Style="{StaticResource AccentButtonStyle}" Click="AddEmployee_Click"/>
         </Grid>
 
-        <!-- Column Headers -->
         <Grid Grid.Row="2" Padding="12,8" Margin="0,0,0,4">
             <Grid.ColumnDefinitions>
                 <ColumnDefinition Width="2*"/>
                 <ColumnDefinition Width="2*"/>
                 <ColumnDefinition Width="*"/>
-                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="Auto"/>
             </Grid.ColumnDefinitions>
-            <TextBlock Grid.Column="0" Text="Name" FontWeight="Bold"/>
-            <TextBlock Grid.Column="1" Text="Department" FontWeight="Bold"/>
-            <TextBlock Grid.Column="2" Text="On Duty" FontWeight="Bold"/>
-            <TextBlock Grid.Column="3" Text="Present" FontWeight="Bold"/>
+            <TextBlock Grid.Column="0" Text="Name" FontWeight="Bold" Opacity="0.7"/>
+            <TextBlock Grid.Column="1" Text="Department" FontWeight="Bold" Opacity="0.7"/>
+            <TextBlock Grid.Column="2" Text="Present" FontWeight="Bold" Opacity="0.7"/>
+            <TextBlock Grid.Column="3" Text="" Width="80"/>
         </Grid>
 
-        <!-- ListView -->
         <ListView Grid.Row="3" ItemsSource="{x:Bind ViewModel.Employees, Mode=OneWay}">
             <ListView.ItemTemplate>
                 <DataTemplate x:DataType="models:Employee">
@@ -52,15 +48,15 @@
                             <ColumnDefinition Width="2*"/>
                             <ColumnDefinition Width="2*"/>
                             <ColumnDefinition Width="*"/>
-                            <ColumnDefinition Width="*"/>
+                            <ColumnDefinition Width="Auto"/>
                         </Grid.ColumnDefinitions>
                         <TextBlock Grid.Column="0" Text="{x:Bind FirstName}"/>
                         <TextBlock Grid.Column="1" Text="{x:Bind Department.Name}"/>
-                        <TextBlock Grid.Column="2" Text="{x:Bind IsOnDuty}"/>
-                        <ToggleButton Grid.Column="3" 
+                        <ToggleButton Grid.Column="2"
                                       IsChecked="{x:Bind IsPresent, Mode=OneWay}"
                                       Click="TogglePresent_Click"
                                       Content="Present"/>
+                        <Button Grid.Column="3" Content="Delete" Click="DeleteEmployee_Click" Tag="{x:Bind}"/>
                     </Grid>
                 </DataTemplate>
             </ListView.ItemTemplate>

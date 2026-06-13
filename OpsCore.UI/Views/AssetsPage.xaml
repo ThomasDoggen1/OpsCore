@@ -16,10 +16,8 @@
             <RowDefinition Height="*"/>
         </Grid.RowDefinitions>
 
-        <!-- Header -->
         <TextBlock Grid.Row="0" Text="Assets" FontSize="28" FontWeight="Bold" Margin="0,0,0,16"/>
 
-        <!-- Toolbar -->
         <Grid Grid.Row="1" Margin="0,0,0,16">
             <Grid.ColumnDefinitions>
                 <ColumnDefinition Width="*"/>
@@ -29,7 +27,6 @@
             <Button Grid.Column="1" Content="+ Add Asset" Style="{StaticResource AccentButtonStyle}" Click="AddAsset_Click"/>
         </Grid>
 
-        <!-- Column Headers -->
         <Grid Grid.Row="2" Padding="12,8" Margin="0,0,0,4">
             <Grid.ColumnDefinitions>
                 <ColumnDefinition Width="2*"/>
@@ -39,16 +36,16 @@
                 <ColumnDefinition Width="*"/>
                 <ColumnDefinition Width="*"/>
             </Grid.ColumnDefinitions>
-            <TextBlock Grid.Column="0" Text="Name" FontWeight="Bold"/>
-            <TextBlock Grid.Column="1" Text="Type" FontWeight="Bold"/>
-            <TextBlock Grid.Column="2" Text="Status" FontWeight="Bold"/>
-            <TextBlock Grid.Column="3" Text="Location" FontWeight="Bold"/>
-            <TextBlock Grid.Column="4" Text="Assigned To" FontWeight="Bold"/>
-            <TextBlock Grid.Column="5" Text="Next Maintenance" FontWeight="Bold"/>
+            <TextBlock Grid.Column="0" Text="Name" FontWeight="Bold" Opacity="0.7"/>
+            <TextBlock Grid.Column="1" Text="Type" FontWeight="Bold" Opacity="0.7"/>
+            <TextBlock Grid.Column="2" Text="Status" FontWeight="Bold" Opacity="0.7"/>
+            <TextBlock Grid.Column="3" Text="Location" FontWeight="Bold" Opacity="0.7"/>
+            <TextBlock Grid.Column="4" Text="Assigned To" FontWeight="Bold" Opacity="0.7"/>
+            <TextBlock Grid.Column="5" Text="Next Maintenance" FontWeight="Bold" Opacity="0.7"/>
         </Grid>
 
-        <!-- ListView -->
-        <ListView Grid.Row="3" ItemsSource="{x:Bind ViewModel.Assets, Mode=OneWay}">
+        <ListView Grid.Row="3" ItemsSource="{x:Bind ViewModel.Assets, Mode=OneWay}"
+                  IsItemClickEnabled="True" ItemClick="Asset_ItemClick">
             <ListView.ItemTemplate>
                 <DataTemplate x:DataType="models:Asset">
                     <Grid Padding="0,8">

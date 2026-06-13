@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\School\\projecten\\OpsCore\\OpsCore\\OpsCore.Core\\OpsCore.Core.csproj": {}
+    "C:\\Users\\Taroz\\Documents\\GitHub\\OpsCore\\OpsCore\\OpsCore.Core\\OpsCore.Core.csproj": {}
   },
   "projects": {
-    "C:\\School\\projecten\\OpsCore\\OpsCore\\OpsCore.Core\\OpsCore.Core.csproj": {
+    "C:\\Users\\Taroz\\Documents\\GitHub\\OpsCore\\OpsCore\\OpsCore.Core\\OpsCore.Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\School\\projecten\\OpsCore\\OpsCore\\OpsCore.Core\\OpsCore.Core.csproj",
+        "projectUniqueName": "C:\\Users\\Taroz\\Documents\\GitHub\\OpsCore\\OpsCore\\OpsCore.Core\\OpsCore.Core.csproj",
         "projectName": "OpsCore.Core",
-        "projectPath": "C:\\School\\projecten\\OpsCore\\OpsCore\\OpsCore.Core\\OpsCore.Core.csproj",
+        "projectPath": "C:\\Users\\Taroz\\Documents\\GitHub\\OpsCore\\OpsCore\\OpsCore.Core\\OpsCore.Core.csproj",
         "packagesPath": "C:\\Users\\Taroz\\.nuget\\packages\\",
-        "outputPath": "C:\\School\\projecten\\OpsCore\\OpsCore\\OpsCore.Core\\obj\\",
+        "outputPath": "C:\\Users\\Taroz\\Documents\\GitHub\\OpsCore\\OpsCore\\OpsCore.Core\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -68,7 +68,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.300/PortableRuntimeIdentifierGraph.json",
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.301/PortableRuntimeIdentifierGraph.json",
           "packagesToPrune": {
             "Microsoft.CSharp": "(,4.7.32767]",
             "Microsoft.VisualBasic": "(,10.4.32767]",

@@ -6,20 +6,44 @@
     xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
     xmlns:models="using:OpsCore.Core.Models"
+    xmlns:converters="using:OpsCore.UI.Converters"
     mc:Ignorable="d">
+
+    <Page.Resources>
+        <converters:MaintenanceStatusColorConverter x:Key="StatusColorConverter"/>
+    </Page.Resources>
 
     <Grid Padding="24">
         <Grid.RowDefinitions>
             <RowDefinition Height="Auto"/>
-            <RowDefinition Height="Auto"/>
             <RowDefinition Height="*"/>
         </Grid.RowDefinitions>
 
-        <!-- Header -->
         <TextBlock Grid.Row="0" Text="Maintenance" FontSize="28" FontWeight="Bold" Margin="0,0,0,16"/>
 
-        <!-- Filter Tabs -->
-        <TabView Grid.Row="1" IsAddTabButtonVisible="False" Margin="0,0,0,16">
+        <TabView Grid.Row="1" IsAddTabButtonVisible="False">
+
+            <TabViewItem Header="All">
+                <ListView ItemsSource="{x:Bind ViewModel.AllAssets, Mode=OneWay}">
+                    <ListView.ItemTemplate>
+                        <DataTemplate x:DataType="models:Asset">
+                            <Grid Padding="0,8" Background="{x:Bind Converter={StaticResource StatusColorConverter}}">
+                                <Grid.ColumnDefinitions>
+                                    <ColumnDefinition Width="2*"/>
+                                    <ColumnDefinition Width="*"/>
+                                    <ColumnDefinition Width="*"/>
+                                    <ColumnDefinition Width="Auto"/>
+                                </Grid.ColumnDefinitions>
+                                <TextBlock Grid.Column="0" Text="{x:Bind Name}" Foreground="Black"/>
+                                <TextBlock Grid.Column="1" Text="{x:Bind LastMaintenanceDate}" Foreground="Black"/>
+                                <TextBlock Grid.Column="2" Text="{x:Bind Status}" Foreground="Black"/>
+                                <Button Grid.Column="3" Content="Mark as Maintained" Click="MarkMaintained_Click" Tag="{x:Bind}" Foreground="Black"/>
+                            </Grid>
+                        </DataTemplate>
+                    </ListView.ItemTemplate>
+                </ListView>
+            </TabViewItem>
+
             <TabViewItem Header="Overdue">
                 <ListView ItemsSource="{x:Bind ViewModel.OverdueAssets, Mode=OneWay}">
                     <ListView.ItemTemplate>
@@ -29,15 +53,18 @@
                                     <ColumnDefinition Width="2*"/>
                                     <ColumnDefinition Width="*"/>
                                     <ColumnDefinition Width="*"/>
+                                    <ColumnDefinition Width="Auto"/>
                                 </Grid.ColumnDefinitions>
-                                <TextBlock Grid.Column="0" Text="{x:Bind Name}"/>
-                                <TextBlock Grid.Column="1" Text="{x:Bind LastMaintenanceDate}"/>
+                                <TextBlock Grid.Column="0" Text="{x:Bind Name}" Foreground="Black"/>
+                                <TextBlock Grid.Column="1" Text="{x:Bind LastMaintenanceDate}" Foreground="Black"/>
                                 <TextBlock Grid.Column="2" Text="Overdue" Foreground="Red"/>
+                                <Button Grid.Column="3" Content="Mark as Maintained" Click="MarkMaintained_Click" Tag="{x:Bind}" Foreground="Black"/>
                             </Grid>
                         </DataTemplate>
                     </ListView.ItemTemplate>
                 </ListView>
             </TabViewItem>
+
             <TabViewItem Header="Due Soon">
                 <ListView ItemsSource="{x:Bind ViewModel.DueSoonAssets, Mode=OneWay}">
                     <ListView.ItemTemplate>
@@ -47,34 +74,39 @@
                                     <ColumnDefinition Width="2*"/>
                                     <ColumnDefinition Width="*"/>
                                     <ColumnDefinition Width="*"/>
+                                    <ColumnDefinition Width="Auto"/>
                                 </Grid.ColumnDefinitions>
-                                <TextBlock Grid.Column="0" Text="{x:Bind Name}"/>
-                                <TextBlock Grid.Column="1" Text="{x:Bind LastMaintenanceDate}"/>
+                                <TextBlock Grid.Column="0" Text="{x:Bind Name}" Foreground="Black"/>
+                                <TextBlock Grid.Column="1" Text="{x:Bind LastMaintenanceDate}" Foreground="Black"/>
                                 <TextBlock Grid.Column="2" Text="Due Soon" Foreground="Orange"/>
+                                <Button Grid.Column="3" Content="Mark as Maintained" Click="MarkMaintained_Click" Tag="{x:Bind}" Foreground="Black"/>
                             </Grid>
                         </DataTemplate>
                     </ListView.ItemTemplate>
                 </ListView>
             </TabViewItem>
+
             <TabViewItem Header="Ok">
                 <ListView ItemsSource="{x:Bind ViewModel.OkAssets, Mode=OneWay}">
                     <ListView.ItemTemplate>
                         <DataTemplate x:DataType="models:Asset">
-                            <Grid Padding="0,8">
+                            <Grid Padding="0,8" Background="#CCFFCC">
                                 <Grid.ColumnDefinitions>
                                     <ColumnDefinition Width="2*"/>
                                     <ColumnDefinition Width="*"/>
                                     <ColumnDefinition Width="*"/>
+                                    <ColumnDefinition Width="Auto"/>
                                 </Grid.ColumnDefinitions>
-                                <TextBlock Grid.Column="0" Text="{x:Bind Name}"/>
-                                <TextBlock Grid.Column="1" Text="{x:Bind LastMaintenanceDate}"/>
+                                <TextBlock Grid.Column="0" Text="{x:Bind Name}" Foreground="Black"/>
+                                <TextBlock Grid.Column="1" Text="{x:Bind LastMaintenanceDate}" Foreground="Black"/>
                                 <TextBlock Grid.Column="2" Text="Ok" Foreground="Green"/>
+                                <Button Grid.Column="3" Content="Mark as Maintained" Click="MarkMaintained_Click" Tag="{x:Bind}" Foreground="Black"/>
                             </Grid>
                         </DataTemplate>
                     </ListView.ItemTemplate>
                 </ListView>
             </TabViewItem>
-        </TabView>
 
+        </TabView>
     </Grid>
 </Page>

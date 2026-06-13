@@ -12,6 +12,9 @@ namespace OpsCore.UI.ViewModels
     {
         private readonly IEmployeeRepository _employeeRepository;
         private readonly IDepartmentRepository _departmentRepository;
+        private readonly IActivityLogRepository _activityLogRepository;
+
+        private const int SystemEmployeeId = 1;
 
         [ObservableProperty]
         private ObservableCollection<Employee> employees = new();
@@ -19,10 +22,14 @@ namespace OpsCore.UI.ViewModels
         [ObservableProperty]
         private bool isLoading;
 
-        public EmployeesViewModel(IEmployeeRepository employeeRepository, IDepartmentRepository departmentRepository)
+        public EmployeesViewModel(
+            IEmployeeRepository employeeRepository,
+            IDepartmentRepository departmentRepository,
+            IActivityLogRepository activityLogRepository)
         {
             _employeeRepository = employeeRepository;
             _departmentRepository = departmentRepository;
+            _activityLogRepository = activityLogRepository;
         }
 
         [RelayCommand]
@@ -42,6 +49,15 @@ namespace OpsCore.UI.ViewModels
         public async Task AddEmployeeAsync(Employee employee)
         {
             await _employeeRepository.AddAsync(employee);
+
+            await _activityLogRepository.AddAsync(new ActivityLog
+            {
+                AssetId = 1, // placeholder, geen asset gekoppeld
+                EmployeeId = SystemEmployeeId,
+                Action = $"{employee.FirstName} {employee.LastName} added as employee",
+                CreatedAt = System.DateTime.Now
+            });
+
             await LoadEmployeesAsync();
         }
 
@@ -52,9 +68,16 @@ namespace OpsCore.UI.ViewModels
             await LoadEmployeesAsync();
         }
 
-        [RelayCommand]
         public async Task DeleteEmployeeAsync(Employee employee)
         {
+            await _activityLogRepository.AddAsync(new ActivityLog
+            {
+                AssetId = 1, // placeholder
+                EmployeeId = SystemEmployeeId,
+                Action = $"{employee.FirstName} {employee.LastName} removed as employee",
+                CreatedAt = System.DateTime.Now
+            });
+
             await _employeeRepository.DeleteAsync(employee.Id);
             Employees.Remove(employee);
         }

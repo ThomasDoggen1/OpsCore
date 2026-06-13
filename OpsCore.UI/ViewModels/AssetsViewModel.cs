@@ -13,6 +13,9 @@ namespace OpsCore.UI.ViewModels
         private readonly IAssetRepository _assetRepository;
         private readonly IAssetTypeRepository _assetTypeRepository;
         private readonly IEmployeeRepository _employeeRepository;
+        private readonly IActivityLogRepository _activityLogRepository;
+
+        private const int SystemEmployeeId = 1;
 
         [ObservableProperty]
         private ObservableCollection<Asset> assets = new();
@@ -20,11 +23,16 @@ namespace OpsCore.UI.ViewModels
         [ObservableProperty]
         private bool isLoading;
 
-        public AssetsViewModel(IAssetRepository assetRepository, IAssetTypeRepository assetTypeRepository, IEmployeeRepository employeeRepository)
+        public AssetsViewModel(
+            IAssetRepository assetRepository,
+            IAssetTypeRepository assetTypeRepository,
+            IEmployeeRepository employeeRepository,
+            IActivityLogRepository activityLogRepository)
         {
             _assetRepository = assetRepository;
             _assetTypeRepository = assetTypeRepository;
             _employeeRepository = employeeRepository;
+            _activityLogRepository = activityLogRepository;
         }
 
         [RelayCommand]
@@ -49,12 +57,43 @@ namespace OpsCore.UI.ViewModels
         public async Task AddAssetAsync(Asset asset)
         {
             await _assetRepository.AddAsync(asset);
+
+            await _activityLogRepository.AddAsync(new ActivityLog
+            {
+                AssetId = asset.Id,
+                EmployeeId = SystemEmployeeId,
+                Action = "Added to inventory",
+                CreatedAt = System.DateTime.Now
+            });
+
             await LoadAssetsAsync();
         }
 
-        [RelayCommand]
+        public async Task UpdateAssetAsync(Asset asset)
+        {
+            await _assetRepository.UpdateAsync(asset);
+
+            await _activityLogRepository.AddAsync(new ActivityLog
+            {
+                AssetId = asset.Id,
+                EmployeeId = SystemEmployeeId,
+                Action = "Status or assignment updated",
+                CreatedAt = System.DateTime.Now
+            });
+
+            await LoadAssetsAsync();
+        }
+
         public async Task DeleteAssetAsync(Asset asset)
         {
+            await _activityLogRepository.AddAsync(new ActivityLog
+            {
+                AssetId = asset.Id,
+                EmployeeId = SystemEmployeeId,
+                Action = $"{asset.Name} removed from inventory",
+                CreatedAt = System.DateTime.Now
+            });
+
             await _assetRepository.DeleteAsync(asset.Id);
             Assets.Remove(asset);
         }

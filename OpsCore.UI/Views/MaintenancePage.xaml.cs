@@ -1,4 +1,6 @@
 using Microsoft.UI.Xaml.Controls;
+using OpsCore.Core.Interfaces;
+using OpsCore.Core.Models;
 using OpsCore.UI.ViewModels;
 
 namespace OpsCore.UI.Views
@@ -11,9 +13,17 @@ namespace OpsCore.UI.Views
         {
             this.InitializeComponent();
             ViewModel = new MaintenanceViewModel(
-                App.Services.GetService(typeof(OpsCore.Core.Interfaces.IAssetRepository))
-                as OpsCore.Core.Interfaces.IAssetRepository);
+                App.Services.GetService(typeof(IAssetRepository)) as IAssetRepository,
+                App.Services.GetService(typeof(IActivityLogRepository)) as IActivityLogRepository);
             _ = ViewModel.LoadAssetsAsync();
+        }
+
+        private async void MarkMaintained_Click(object sender, Microsoft.UI.Xaml.RoutedEventArgs e)
+        {
+            if (sender is Button btn && btn.Tag is Asset asset)
+            {
+                await ViewModel.MarkAsMaintainedAsync(asset);
+            }
         }
     }
 }

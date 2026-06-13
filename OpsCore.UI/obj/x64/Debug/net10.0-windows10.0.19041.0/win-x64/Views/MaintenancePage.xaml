@@ -6,76 +6,108 @@
     xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
     xmlns:models="using:OpsCore.Core.Models"
+    xmlns:converters="using:OpsCore.UI.Converters"
     mc:Ignorable="d">
+
+    <Page.Resources>
+        <converters:MaintenanceStatusColorConverter x:Key="StatusColorConverter"/>
+    </Page.Resources>
 
     <Grid Padding="24">
         <Grid.RowDefinitions>
             <RowDefinition Height="Auto"/>
-            <RowDefinition Height="Auto"/>
             <RowDefinition Height="*"/>
         </Grid.RowDefinitions>
 
-        <!-- Header -->
         <TextBlock Grid.Row="0" Text="Maintenance" FontSize="28" FontWeight="Bold" Margin="0,0,0,16"/>
 
-        <!-- Filter Tabs -->
-        <TabView Grid.Row="1" IsAddTabButtonVisible="False" Margin="0,0,0,16">
+        <TabView Grid.Row="1" IsAddTabButtonVisible="False">
+
+            <TabViewItem Header="All">
+                <ListView x:ConnectionId='20'                                                        >
+                    <ListView.ItemTemplate>
+                        <DataTemplate                          >
+                            <Grid x:ConnectionId='22' Padding="0,8"                                                                      >
+                                <Grid.ColumnDefinitions>
+                                    <ColumnDefinition Width="2*"/>
+                                    <ColumnDefinition Width="*"/>
+                                    <ColumnDefinition Width="*"/>
+                                    <ColumnDefinition Width="Auto"/>
+                                </Grid.ColumnDefinitions>
+                                <TextBlock x:ConnectionId='23' Grid.Column="0"                      Foreground="Black"/>
+                                <TextBlock x:ConnectionId='24' Grid.Column="1"                                     Foreground="Black"/>
+                                <TextBlock x:ConnectionId='25' Grid.Column="2"                        Foreground="Black"/>
+                                <Button x:ConnectionId='26' Grid.Column="3" Content="Mark as Maintained"                                             Foreground="Black"/>
+                            </Grid>
+                        </DataTemplate>
+                    </ListView.ItemTemplate>
+                </ListView>
+            </TabViewItem>
+
             <TabViewItem Header="Overdue">
-                <ListView x:ConnectionId='12'                                                            >
+                <ListView x:ConnectionId='14'                                                            >
                     <ListView.ItemTemplate>
                         <DataTemplate                          >
-                            <Grid x:ConnectionId='14' Padding="0,8" Background="#FFCCCC">
+                            <Grid x:ConnectionId='16' Padding="0,8" Background="#FFCCCC">
                                 <Grid.ColumnDefinitions>
                                     <ColumnDefinition Width="2*"/>
                                     <ColumnDefinition Width="*"/>
                                     <ColumnDefinition Width="*"/>
+                                    <ColumnDefinition Width="Auto"/>
                                 </Grid.ColumnDefinitions>
-                                <TextBlock x:ConnectionId='15' Grid.Column="0"                     />
-                                <TextBlock x:ConnectionId='16' Grid.Column="1"                                    />
+                                <TextBlock x:ConnectionId='17' Grid.Column="0"                      Foreground="Black"/>
+                                <TextBlock x:ConnectionId='18' Grid.Column="1"                                     Foreground="Black"/>
                                 <TextBlock Grid.Column="2" Text="Overdue" Foreground="Red"/>
+                                <Button x:ConnectionId='19' Grid.Column="3" Content="Mark as Maintained"                                             Foreground="Black"/>
                             </Grid>
                         </DataTemplate>
                     </ListView.ItemTemplate>
                 </ListView>
             </TabViewItem>
+
             <TabViewItem Header="Due Soon">
-                <ListView x:ConnectionId='7'                                                            >
+                <ListView x:ConnectionId='8'                                                            >
                     <ListView.ItemTemplate>
                         <DataTemplate                          >
-                            <Grid x:ConnectionId='9' Padding="0,8" Background="#FFE5CC">
+                            <Grid x:ConnectionId='10' Padding="0,8" Background="#FFE5CC">
                                 <Grid.ColumnDefinitions>
                                     <ColumnDefinition Width="2*"/>
                                     <ColumnDefinition Width="*"/>
                                     <ColumnDefinition Width="*"/>
+                                    <ColumnDefinition Width="Auto"/>
                                 </Grid.ColumnDefinitions>
-                                <TextBlock x:ConnectionId='10' Grid.Column="0"                     />
-                                <TextBlock x:ConnectionId='11' Grid.Column="1"                                    />
+                                <TextBlock x:ConnectionId='11' Grid.Column="0"                      Foreground="Black"/>
+                                <TextBlock x:ConnectionId='12' Grid.Column="1"                                     Foreground="Black"/>
                                 <TextBlock Grid.Column="2" Text="Due Soon" Foreground="Orange"/>
+                                <Button x:ConnectionId='13' Grid.Column="3" Content="Mark as Maintained"                                             Foreground="Black"/>
                             </Grid>
                         </DataTemplate>
                     </ListView.ItemTemplate>
                 </ListView>
             </TabViewItem>
+
             <TabViewItem Header="Ok">
                 <ListView x:ConnectionId='2'                                                       >
                     <ListView.ItemTemplate>
                         <DataTemplate                          >
-                            <Grid x:ConnectionId='4' Padding="0,8">
+                            <Grid x:ConnectionId='4' Padding="0,8" Background="#CCFFCC">
                                 <Grid.ColumnDefinitions>
                                     <ColumnDefinition Width="2*"/>
                                     <ColumnDefinition Width="*"/>
                                     <ColumnDefinition Width="*"/>
+                                    <ColumnDefinition Width="Auto"/>
                                 </Grid.ColumnDefinitions>
-                                <TextBlock x:ConnectionId='5' Grid.Column="0"                     />
-                                <TextBlock x:ConnectionId='6' Grid.Column="1"                                    />
+                                <TextBlock x:ConnectionId='5' Grid.Column="0"                      Foreground="Black"/>
+                                <TextBlock x:ConnectionId='6' Grid.Column="1"                                     Foreground="Black"/>
                                 <TextBlock Grid.Column="2" Text="Ok" Foreground="Green"/>
+                                <Button x:ConnectionId='7' Grid.Column="3" Content="Mark as Maintained"                                             Foreground="Black"/>
                             </Grid>
                         </DataTemplate>
                     </ListView.ItemTemplate>
                 </ListView>
             </TabViewItem>
-        </TabView>
 
+        </TabView>
     </Grid>
 </Page>
 
