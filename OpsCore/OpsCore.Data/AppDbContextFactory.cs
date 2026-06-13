@@ -9,7 +9,7 @@ namespace OpsCore.Data
         public AppDbContext CreateDbContext(string[] args)
         {
             var optionsBuilder = new DbContextOptionsBuilder<AppDbContext>();
-            optionsBuilder.UseSqlite("Data Source=opscore.db");
+            optionsBuilder.UseSqlite($"Data Source={AppContext.BaseDirectory}opscore.db");
             return new AppDbContext(optionsBuilder.Options);
         }
     }

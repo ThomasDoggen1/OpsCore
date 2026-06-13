@@ -43,6 +43,32 @@ namespace OpsCore.Data.Migrations
                     b.HasIndex("EmployeeId");
 
                     b.ToTable("ActivityLogs");
+
+                    b.HasData(
+                        new
+                        {
+                            Id = 1,
+                            Action = "Added to inventory",
+                            AssetId = 1,
+                            CreatedAt = new DateTime(2026, 5, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            EmployeeId = 1
+                        },
+                        new
+                        {
+                            Id = 2,
+                            Action = "Assigned to employee",
+                            AssetId = 2,
+                            CreatedAt = new DateTime(2026, 5, 3, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            EmployeeId = 2
+                        },
+                        new
+                        {
+                            Id = 3,
+                            Action = "Status updated to Maintenance",
+                            AssetId = 3,
+                            CreatedAt = new DateTime(2026, 5, 5, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            EmployeeId = 1
+                        });
                 });
 
             modelBuilder.Entity("OpsCore.Core.Models.Asset", b =>
@@ -81,6 +107,60 @@ namespace OpsCore.Data.Migrations
                     b.HasIndex("EmployeeId");
 
                     b.ToTable("Assets");
+
+                    b.HasData(
+                        new
+                        {
+                            Id = 1,
+                            AssetTypeId = 1,
+                            EmployeeId = 1,
+                            LastMaintenanceDate = new DateTime(2024, 1, 15, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            Location = "Office A-101",
+                            MaintenanceIntervalDays = 90,
+                            Name = "Dell Latitude 5520",
+                            Status = 0
+                        },
+                        new
+                        {
+                            Id = 2,
+                            AssetTypeId = 1,
+                            EmployeeId = 2,
+                            LastMaintenanceDate = new DateTime(2024, 3, 10, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            Location = "Office B-202",
+                            MaintenanceIntervalDays = 180,
+                            Name = "MacBook Pro 16",
+                            Status = 0
+                        },
+                        new
+                        {
+                            Id = 3,
+                            AssetTypeId = 2,
+                            LastMaintenanceDate = new DateTime(2023, 12, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            Location = "Server Room",
+                            MaintenanceIntervalDays = 60,
+                            Name = "Dell PowerEdge R740",
+                            Status = 1
+                        },
+                        new
+                        {
+                            Id = 4,
+                            AssetTypeId = 4,
+                            LastMaintenanceDate = new DateTime(2024, 2, 20, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            Location = "Server Room",
+                            MaintenanceIntervalDays = 120,
+                            Name = "Cisco Switch 48 Port",
+                            Status = 0
+                        },
+                        new
+                        {
+                            Id = 5,
+                            AssetTypeId = 5,
+                            LastMaintenanceDate = new DateTime(2024, 4, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            Location = "Office A-101",
+                            MaintenanceIntervalDays = 90,
+                            Name = "HP LaserJet Pro",
+                            Status = 0
+                        });
                 });
 
             modelBuilder.Entity("OpsCore.Core.Models.AssetType", b =>
@@ -96,6 +176,33 @@ namespace OpsCore.Data.Migrations
                     b.HasKey("Id");
 
                     b.ToTable("AssetTypes");
+
+                    b.HasData(
+                        new
+                        {
+                            Id = 1,
+                            Name = "Laptop"
+                        },
+                        new
+                        {
+                            Id = 2,
+                            Name = "Server"
+                        },
+                        new
+                        {
+                            Id = 3,
+                            Name = "Router"
+                        },
+                        new
+                        {
+                            Id = 4,
+                            Name = "Switch"
+                        },
+                        new
+                        {
+                            Id = 5,
+                            Name = "Printer"
+                        });
                 });
 
             modelBuilder.Entity("OpsCore.Core.Models.Department", b =>
@@ -111,6 +218,28 @@ namespace OpsCore.Data.Migrations
                     b.HasKey("Id");
 
                     b.ToTable("Departments");
+
+                    b.HasData(
+                        new
+                        {
+                            Id = 1,
+                            Name = "IT"
+                        },
+                        new
+                        {
+                            Id = 2,
+                            Name = "HR"
+                        },
+                        new
+                        {
+                            Id = 3,
+                            Name = "Finance"
+                        },
+                        new
+                        {
+                            Id = 4,
+                            Name = "Operations"
+                        });
                 });
 
             modelBuilder.Entity("OpsCore.Core.Models.Employee", b =>
@@ -153,6 +282,44 @@ namespace OpsCore.Data.Migrations
                     b.HasIndex("DepartmentId");
 
                     b.ToTable("Employees");
+
+                    b.HasData(
+                        new
+                        {
+                            Id = 1,
+                            DepartmentId = 1,
+                            Email = "john@opscore.com",
+                            FirstName = "John",
+                            IsOnDuty = true,
+                            IsPresent = true,
+                            LastName = "Smith",
+                            Password = "",
+                            PhoneNumber = "0123456789"
+                        },
+                        new
+                        {
+                            Id = 2,
+                            DepartmentId = 2,
+                            Email = "sarah@opscore.com",
+                            FirstName = "Sarah",
+                            IsOnDuty = true,
+                            IsPresent = false,
+                            LastName = "Chen",
+                            Password = "",
+                            PhoneNumber = "0123456788"
+                        },
+                        new
+                        {
+                            Id = 3,
+                            DepartmentId = 3,
+                            Email = "mike@opscore.com",
+                            FirstName = "Mike",
+                            IsOnDuty = false,
+                            IsPresent = false,
+                            LastName = "Johnson",
+                            Password = "",
+                            PhoneNumber = "0123456787"
+                        });
                 });
 
             modelBuilder.Entity("OpsCore.Core.Models.MaintenanceRecord", b =>

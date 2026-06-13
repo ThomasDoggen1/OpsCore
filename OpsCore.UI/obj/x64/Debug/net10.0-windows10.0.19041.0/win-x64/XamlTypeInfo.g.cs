@@ -226,7 +226,7 @@ namespace OpsCore.UI.OpsCore_UI_XamlTypeInfo
         
         private void InitTypeTables()
         {
-            _typeNameTable = new string[44];
+            _typeNameTable = new string[54];
             _typeNameTable[0] = "Microsoft.UI.Xaml.Controls.XamlControlsResources";
             _typeNameTable[1] = "Microsoft.UI.Xaml.ResourceDictionary";
             _typeNameTable[2] = "Object";
@@ -265,14 +265,24 @@ namespace OpsCore.UI.OpsCore_UI_XamlTypeInfo
             _typeNameTable[35] = "OpsCore.UI.ViewModels.AssetsViewModel";
             _typeNameTable[36] = "CommunityToolkit.Mvvm.ComponentModel.ObservableObject";
             _typeNameTable[37] = "OpsCore.UI.Views.DashboardPage";
-            _typeNameTable[38] = "OpsCore.UI.Views.EmployeesPage";
-            _typeNameTable[39] = "OpsCore.UI.ViewModels.EmployeesViewModel";
-            _typeNameTable[40] = "OpsCore.UI.Views.MaintenancePage";
-            _typeNameTable[41] = "Microsoft.UI.Xaml.Controls.TreeViewNode";
-            _typeNameTable[42] = "System.Collections.Generic.IList`1<Microsoft.UI.Xaml.Controls.TreeViewNode>";
-            _typeNameTable[43] = "Int32";
+            _typeNameTable[38] = "OpsCore.UI.ViewModels.DashboardViewModel";
+            _typeNameTable[39] = "OpsCore.UI.Views.EmployeesPage";
+            _typeNameTable[40] = "OpsCore.UI.ViewModels.EmployeesViewModel";
+            _typeNameTable[41] = "Microsoft.UI.Xaml.Controls.TabView";
+            _typeNameTable[42] = "System.Windows.Input.ICommand";
+            _typeNameTable[43] = "Microsoft.UI.Xaml.Controls.TabViewCloseButtonOverlayMode";
+            _typeNameTable[44] = "Int32";
+            _typeNameTable[45] = "Microsoft.UI.Xaml.Controls.TabViewWidthMode";
+            _typeNameTable[46] = "Microsoft.UI.Xaml.Controls.TabViewItem";
+            _typeNameTable[47] = "Microsoft.UI.Xaml.Controls.ListViewItem";
+            _typeNameTable[48] = "Microsoft.UI.Xaml.Controls.IconSource";
+            _typeNameTable[49] = "Microsoft.UI.Xaml.Controls.TabViewItemTemplateSettings";
+            _typeNameTable[50] = "OpsCore.UI.Views.MaintenancePage";
+            _typeNameTable[51] = "OpsCore.UI.ViewModels.MaintenanceViewModel";
+            _typeNameTable[52] = "Microsoft.UI.Xaml.Controls.TreeViewNode";
+            _typeNameTable[53] = "System.Collections.Generic.IList`1<Microsoft.UI.Xaml.Controls.TreeViewNode>";
 
-            _typeTable = new global::System.Type[44];
+            _typeTable = new global::System.Type[54];
             _typeTable[0] = typeof(global::Microsoft.UI.Xaml.Controls.XamlControlsResources);
             _typeTable[1] = typeof(global::Microsoft.UI.Xaml.ResourceDictionary);
             _typeTable[2] = typeof(global::System.Object);
@@ -311,12 +321,22 @@ namespace OpsCore.UI.OpsCore_UI_XamlTypeInfo
             _typeTable[35] = typeof(global::OpsCore.UI.ViewModels.AssetsViewModel);
             _typeTable[36] = typeof(global::CommunityToolkit.Mvvm.ComponentModel.ObservableObject);
             _typeTable[37] = typeof(global::OpsCore.UI.Views.DashboardPage);
-            _typeTable[38] = typeof(global::OpsCore.UI.Views.EmployeesPage);
-            _typeTable[39] = typeof(global::OpsCore.UI.ViewModels.EmployeesViewModel);
-            _typeTable[40] = typeof(global::OpsCore.UI.Views.MaintenancePage);
-            _typeTable[41] = typeof(global::Microsoft.UI.Xaml.Controls.TreeViewNode);
-            _typeTable[42] = typeof(global::System.Collections.Generic.IList<global::Microsoft.UI.Xaml.Controls.TreeViewNode>);
-            _typeTable[43] = typeof(global::System.Int32);
+            _typeTable[38] = typeof(global::OpsCore.UI.ViewModels.DashboardViewModel);
+            _typeTable[39] = typeof(global::OpsCore.UI.Views.EmployeesPage);
+            _typeTable[40] = typeof(global::OpsCore.UI.ViewModels.EmployeesViewModel);
+            _typeTable[41] = typeof(global::Microsoft.UI.Xaml.Controls.TabView);
+            _typeTable[42] = typeof(global::System.Windows.Input.ICommand);
+            _typeTable[43] = typeof(global::Microsoft.UI.Xaml.Controls.TabViewCloseButtonOverlayMode);
+            _typeTable[44] = typeof(global::System.Int32);
+            _typeTable[45] = typeof(global::Microsoft.UI.Xaml.Controls.TabViewWidthMode);
+            _typeTable[46] = typeof(global::Microsoft.UI.Xaml.Controls.TabViewItem);
+            _typeTable[47] = typeof(global::Microsoft.UI.Xaml.Controls.ListViewItem);
+            _typeTable[48] = typeof(global::Microsoft.UI.Xaml.Controls.IconSource);
+            _typeTable[49] = typeof(global::Microsoft.UI.Xaml.Controls.TabViewItemTemplateSettings);
+            _typeTable[50] = typeof(global::OpsCore.UI.Views.MaintenancePage);
+            _typeTable[51] = typeof(global::OpsCore.UI.ViewModels.MaintenanceViewModel);
+            _typeTable[52] = typeof(global::Microsoft.UI.Xaml.Controls.TreeViewNode);
+            _typeTable[53] = typeof(global::System.Collections.Generic.IList<global::Microsoft.UI.Xaml.Controls.TreeViewNode>);
         }
 
         private int LookupTypeIndexByName(string typeName)
@@ -359,9 +379,12 @@ namespace OpsCore.UI.OpsCore_UI_XamlTypeInfo
         private object Activate_30_MainWindow() { return new global::OpsCore.UI.MainWindow(); }
         private object Activate_32_AssetsPage() { return new global::OpsCore.UI.Views.AssetsPage(); }
         private object Activate_37_DashboardPage() { return new global::OpsCore.UI.Views.DashboardPage(); }
-        private object Activate_38_EmployeesPage() { return new global::OpsCore.UI.Views.EmployeesPage(); }
-        private object Activate_40_MaintenancePage() { return new global::OpsCore.UI.Views.MaintenancePage(); }
-        private object Activate_41_TreeViewNode() { return new global::Microsoft.UI.Xaml.Controls.TreeViewNode(); }
+        private object Activate_39_EmployeesPage() { return new global::OpsCore.UI.Views.EmployeesPage(); }
+        private object Activate_41_TabView() { return new global::Microsoft.UI.Xaml.Controls.TabView(); }
+        private object Activate_46_TabViewItem() { return new global::Microsoft.UI.Xaml.Controls.TabViewItem(); }
+        private object Activate_49_TabViewItemTemplateSettings() { return new global::Microsoft.UI.Xaml.Controls.TabViewItemTemplateSettings(); }
+        private object Activate_50_MaintenancePage() { return new global::OpsCore.UI.Views.MaintenancePage(); }
+        private object Activate_52_TreeViewNode() { return new global::Microsoft.UI.Xaml.Controls.TreeViewNode(); }
         private void StaticInitializer_0_XamlControlsResources() => global::System.Runtime.CompilerServices.RuntimeHelpers.RunClassConstructor(typeof(global::Microsoft.UI.Xaml.Controls.XamlControlsResources).TypeHandle);
         private void StaticInitializer_4_NavigationView() => global::System.Runtime.CompilerServices.RuntimeHelpers.RunClassConstructor(typeof(global::Microsoft.UI.Xaml.Controls.NavigationView).TypeHandle);
         private void StaticInitializer_7_IList() => global::System.Runtime.CompilerServices.RuntimeHelpers.RunClassConstructor(typeof(global::System.Collections.Generic.IList<global::System.Object>).TypeHandle);
@@ -382,11 +405,19 @@ namespace OpsCore.UI.OpsCore_UI_XamlTypeInfo
         private void StaticInitializer_35_AssetsViewModel() => global::System.Runtime.CompilerServices.RuntimeHelpers.RunClassConstructor(typeof(global::OpsCore.UI.ViewModels.AssetsViewModel).TypeHandle);
         private void StaticInitializer_36_ObservableObject() => global::System.Runtime.CompilerServices.RuntimeHelpers.RunClassConstructor(typeof(global::CommunityToolkit.Mvvm.ComponentModel.ObservableObject).TypeHandle);
         private void StaticInitializer_37_DashboardPage() => global::System.Runtime.CompilerServices.RuntimeHelpers.RunClassConstructor(typeof(global::OpsCore.UI.Views.DashboardPage).TypeHandle);
-        private void StaticInitializer_38_EmployeesPage() => global::System.Runtime.CompilerServices.RuntimeHelpers.RunClassConstructor(typeof(global::OpsCore.UI.Views.EmployeesPage).TypeHandle);
-        private void StaticInitializer_39_EmployeesViewModel() => global::System.Runtime.CompilerServices.RuntimeHelpers.RunClassConstructor(typeof(global::OpsCore.UI.ViewModels.EmployeesViewModel).TypeHandle);
-        private void StaticInitializer_40_MaintenancePage() => global::System.Runtime.CompilerServices.RuntimeHelpers.RunClassConstructor(typeof(global::OpsCore.UI.Views.MaintenancePage).TypeHandle);
-        private void StaticInitializer_41_TreeViewNode() => global::System.Runtime.CompilerServices.RuntimeHelpers.RunClassConstructor(typeof(global::Microsoft.UI.Xaml.Controls.TreeViewNode).TypeHandle);
-        private void StaticInitializer_42_IList() => global::System.Runtime.CompilerServices.RuntimeHelpers.RunClassConstructor(typeof(global::System.Collections.Generic.IList<global::Microsoft.UI.Xaml.Controls.TreeViewNode>).TypeHandle);
+        private void StaticInitializer_38_DashboardViewModel() => global::System.Runtime.CompilerServices.RuntimeHelpers.RunClassConstructor(typeof(global::OpsCore.UI.ViewModels.DashboardViewModel).TypeHandle);
+        private void StaticInitializer_39_EmployeesPage() => global::System.Runtime.CompilerServices.RuntimeHelpers.RunClassConstructor(typeof(global::OpsCore.UI.Views.EmployeesPage).TypeHandle);
+        private void StaticInitializer_40_EmployeesViewModel() => global::System.Runtime.CompilerServices.RuntimeHelpers.RunClassConstructor(typeof(global::OpsCore.UI.ViewModels.EmployeesViewModel).TypeHandle);
+        private void StaticInitializer_41_TabView() => global::System.Runtime.CompilerServices.RuntimeHelpers.RunClassConstructor(typeof(global::Microsoft.UI.Xaml.Controls.TabView).TypeHandle);
+        private void StaticInitializer_42_ICommand() => global::System.Runtime.CompilerServices.RuntimeHelpers.RunClassConstructor(typeof(global::System.Windows.Input.ICommand).TypeHandle);
+        private void StaticInitializer_43_TabViewCloseButtonOverlayMode() => global::System.Runtime.CompilerServices.RuntimeHelpers.RunClassConstructor(typeof(global::Microsoft.UI.Xaml.Controls.TabViewCloseButtonOverlayMode).TypeHandle);
+        private void StaticInitializer_45_TabViewWidthMode() => global::System.Runtime.CompilerServices.RuntimeHelpers.RunClassConstructor(typeof(global::Microsoft.UI.Xaml.Controls.TabViewWidthMode).TypeHandle);
+        private void StaticInitializer_46_TabViewItem() => global::System.Runtime.CompilerServices.RuntimeHelpers.RunClassConstructor(typeof(global::Microsoft.UI.Xaml.Controls.TabViewItem).TypeHandle);
+        private void StaticInitializer_49_TabViewItemTemplateSettings() => global::System.Runtime.CompilerServices.RuntimeHelpers.RunClassConstructor(typeof(global::Microsoft.UI.Xaml.Controls.TabViewItemTemplateSettings).TypeHandle);
+        private void StaticInitializer_50_MaintenancePage() => global::System.Runtime.CompilerServices.RuntimeHelpers.RunClassConstructor(typeof(global::OpsCore.UI.Views.MaintenancePage).TypeHandle);
+        private void StaticInitializer_51_MaintenanceViewModel() => global::System.Runtime.CompilerServices.RuntimeHelpers.RunClassConstructor(typeof(global::OpsCore.UI.ViewModels.MaintenanceViewModel).TypeHandle);
+        private void StaticInitializer_52_TreeViewNode() => global::System.Runtime.CompilerServices.RuntimeHelpers.RunClassConstructor(typeof(global::Microsoft.UI.Xaml.Controls.TreeViewNode).TypeHandle);
+        private void StaticInitializer_53_IList() => global::System.Runtime.CompilerServices.RuntimeHelpers.RunClassConstructor(typeof(global::System.Collections.Generic.IList<global::Microsoft.UI.Xaml.Controls.TreeViewNode>).TypeHandle);
         private void MapAdd_0_XamlControlsResources(object instance, object key, object item)
         {
             var collection = (global::System.Collections.Generic.IDictionary<global::System.Object, global::System.Object>)instance;
@@ -400,7 +431,7 @@ namespace OpsCore.UI.OpsCore_UI_XamlTypeInfo
             var newItem = (global::System.Object)item;
             collection.Add(newItem);
         }
-        private void VectorAdd_42_IList(object instance, object item)
+        private void VectorAdd_53_IList(object instance, object item)
         {
             var collection = (global::System.Collections.Generic.ICollection<global::Microsoft.UI.Xaml.Controls.TreeViewNode>)instance;
             var newItem = (global::Microsoft.UI.Xaml.Controls.TreeViewNode)item;
@@ -688,39 +719,140 @@ namespace OpsCore.UI.OpsCore_UI_XamlTypeInfo
                 userType = new global::OpsCore.UI.OpsCore_UI_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Microsoft.UI.Xaml.Controls.Page"));
                 userType.Activator = Activate_37_DashboardPage;
                 userType.StaticInitializer = StaticInitializer_37_DashboardPage;
-                userType.SetIsLocalType();
-                xamlType = userType;
-                break;
-
-            case 38:   //  OpsCore.UI.Views.EmployeesPage
-                userType = new global::OpsCore.UI.OpsCore_UI_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Microsoft.UI.Xaml.Controls.Page"));
-                userType.Activator = Activate_38_EmployeesPage;
-                userType.StaticInitializer = StaticInitializer_38_EmployeesPage;
                 userType.AddMemberName("ViewModel");
                 userType.SetIsLocalType();
                 xamlType = userType;
                 break;
 
-            case 39:   //  OpsCore.UI.ViewModels.EmployeesViewModel
+            case 38:   //  OpsCore.UI.ViewModels.DashboardViewModel
                 userType = new global::OpsCore.UI.OpsCore_UI_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("CommunityToolkit.Mvvm.ComponentModel.ObservableObject"));
-                userType.StaticInitializer = StaticInitializer_39_EmployeesViewModel;
+                userType.StaticInitializer = StaticInitializer_38_DashboardViewModel;
                 userType.SetIsReturnTypeStub();
                 userType.SetIsLocalType();
                 xamlType = userType;
                 break;
 
-            case 40:   //  OpsCore.UI.Views.MaintenancePage
+            case 39:   //  OpsCore.UI.Views.EmployeesPage
                 userType = new global::OpsCore.UI.OpsCore_UI_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Microsoft.UI.Xaml.Controls.Page"));
-                userType.Activator = Activate_40_MaintenancePage;
-                userType.StaticInitializer = StaticInitializer_40_MaintenancePage;
+                userType.Activator = Activate_39_EmployeesPage;
+                userType.StaticInitializer = StaticInitializer_39_EmployeesPage;
+                userType.AddMemberName("ViewModel");
                 userType.SetIsLocalType();
                 xamlType = userType;
                 break;
 
-            case 41:   //  Microsoft.UI.Xaml.Controls.TreeViewNode
+            case 40:   //  OpsCore.UI.ViewModels.EmployeesViewModel
+                userType = new global::OpsCore.UI.OpsCore_UI_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("CommunityToolkit.Mvvm.ComponentModel.ObservableObject"));
+                userType.StaticInitializer = StaticInitializer_40_EmployeesViewModel;
+                userType.SetIsReturnTypeStub();
+                userType.SetIsLocalType();
+                xamlType = userType;
+                break;
+
+            case 41:   //  Microsoft.UI.Xaml.Controls.TabView
+                userType = new global::OpsCore.UI.OpsCore_UI_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Microsoft.UI.Xaml.Controls.Control"));
+                userType.Activator = Activate_41_TabView;
+                userType.StaticInitializer = StaticInitializer_41_TabView;
+                userType.SetContentPropertyName("Microsoft.UI.Xaml.Controls.TabView.TabItems");
+                userType.AddMemberName("TabItems");
+                userType.AddMemberName("IsAddTabButtonVisible");
+                userType.AddMemberName("AddTabButtonCommand");
+                userType.AddMemberName("AddTabButtonCommandParameter");
+                userType.AddMemberName("AllowDropTabs");
+                userType.AddMemberName("CanDragTabs");
+                userType.AddMemberName("CanReorderTabs");
+                userType.AddMemberName("CanTearOutTabs");
+                userType.AddMemberName("CloseButtonOverlayMode");
+                userType.AddMemberName("SelectedIndex");
+                userType.AddMemberName("SelectedItem");
+                userType.AddMemberName("TabItemTemplate");
+                userType.AddMemberName("TabItemTemplateSelector");
+                userType.AddMemberName("TabItemsSource");
+                userType.AddMemberName("TabStripFooter");
+                userType.AddMemberName("TabStripFooterTemplate");
+                userType.AddMemberName("TabStripHeader");
+                userType.AddMemberName("TabStripHeaderTemplate");
+                userType.AddMemberName("TabWidthMode");
+                xamlType = userType;
+                break;
+
+            case 42:   //  System.Windows.Input.ICommand
+                userType = new global::OpsCore.UI.OpsCore_UI_XamlTypeInfo.XamlUserType(this, typeName, type, null);
+                userType.StaticInitializer = StaticInitializer_42_ICommand;
+                userType.SetIsReturnTypeStub();
+                xamlType = userType;
+                break;
+
+            case 43:   //  Microsoft.UI.Xaml.Controls.TabViewCloseButtonOverlayMode
+                userType = new global::OpsCore.UI.OpsCore_UI_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("System.Enum"));
+                userType.StaticInitializer = StaticInitializer_43_TabViewCloseButtonOverlayMode;
+                userType.AddEnumValue("Auto", global::Microsoft.UI.Xaml.Controls.TabViewCloseButtonOverlayMode.Auto);
+                userType.AddEnumValue("OnPointerOver", global::Microsoft.UI.Xaml.Controls.TabViewCloseButtonOverlayMode.OnPointerOver);
+                userType.AddEnumValue("Always", global::Microsoft.UI.Xaml.Controls.TabViewCloseButtonOverlayMode.Always);
+                xamlType = userType;
+                break;
+
+            case 44:   //  Int32
+                xamlType = new global::OpsCore.UI.OpsCore_UI_XamlTypeInfo.XamlSystemBaseType(typeName, type);
+                break;
+
+            case 45:   //  Microsoft.UI.Xaml.Controls.TabViewWidthMode
+                userType = new global::OpsCore.UI.OpsCore_UI_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("System.Enum"));
+                userType.StaticInitializer = StaticInitializer_45_TabViewWidthMode;
+                userType.AddEnumValue("Equal", global::Microsoft.UI.Xaml.Controls.TabViewWidthMode.Equal);
+                userType.AddEnumValue("SizeToContent", global::Microsoft.UI.Xaml.Controls.TabViewWidthMode.SizeToContent);
+                userType.AddEnumValue("Compact", global::Microsoft.UI.Xaml.Controls.TabViewWidthMode.Compact);
+                xamlType = userType;
+                break;
+
+            case 46:   //  Microsoft.UI.Xaml.Controls.TabViewItem
+                userType = new global::OpsCore.UI.OpsCore_UI_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Microsoft.UI.Xaml.Controls.ListViewItem"));
+                userType.Activator = Activate_46_TabViewItem;
+                userType.StaticInitializer = StaticInitializer_46_TabViewItem;
+                userType.AddMemberName("Header");
+                userType.AddMemberName("HeaderTemplate");
+                userType.AddMemberName("IconSource");
+                userType.AddMemberName("IsClosable");
+                userType.AddMemberName("TabViewTemplateSettings");
+                xamlType = userType;
+                break;
+
+            case 47:   //  Microsoft.UI.Xaml.Controls.ListViewItem
+                xamlType = new global::OpsCore.UI.OpsCore_UI_XamlTypeInfo.XamlSystemBaseType(typeName, type);
+                break;
+
+            case 48:   //  Microsoft.UI.Xaml.Controls.IconSource
+                xamlType = new global::OpsCore.UI.OpsCore_UI_XamlTypeInfo.XamlSystemBaseType(typeName, type);
+                break;
+
+            case 49:   //  Microsoft.UI.Xaml.Controls.TabViewItemTemplateSettings
                 userType = new global::OpsCore.UI.OpsCore_UI_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Microsoft.UI.Xaml.DependencyObject"));
-                userType.Activator = Activate_41_TreeViewNode;
-                userType.StaticInitializer = StaticInitializer_41_TreeViewNode;
+                userType.StaticInitializer = StaticInitializer_49_TabViewItemTemplateSettings;
+                userType.SetIsReturnTypeStub();
+                xamlType = userType;
+                break;
+
+            case 50:   //  OpsCore.UI.Views.MaintenancePage
+                userType = new global::OpsCore.UI.OpsCore_UI_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Microsoft.UI.Xaml.Controls.Page"));
+                userType.Activator = Activate_50_MaintenancePage;
+                userType.StaticInitializer = StaticInitializer_50_MaintenancePage;
+                userType.AddMemberName("ViewModel");
+                userType.SetIsLocalType();
+                xamlType = userType;
+                break;
+
+            case 51:   //  OpsCore.UI.ViewModels.MaintenanceViewModel
+                userType = new global::OpsCore.UI.OpsCore_UI_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("CommunityToolkit.Mvvm.ComponentModel.ObservableObject"));
+                userType.StaticInitializer = StaticInitializer_51_MaintenanceViewModel;
+                userType.SetIsReturnTypeStub();
+                userType.SetIsLocalType();
+                xamlType = userType;
+                break;
+
+            case 52:   //  Microsoft.UI.Xaml.Controls.TreeViewNode
+                userType = new global::OpsCore.UI.OpsCore_UI_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Microsoft.UI.Xaml.DependencyObject"));
+                userType.Activator = Activate_52_TreeViewNode;
+                userType.StaticInitializer = StaticInitializer_52_TreeViewNode;
                 userType.AddMemberName("Children");
                 userType.AddMemberName("Content");
                 userType.AddMemberName("Depth");
@@ -732,16 +864,12 @@ namespace OpsCore.UI.OpsCore_UI_XamlTypeInfo
                 xamlType = userType;
                 break;
 
-            case 42:   //  System.Collections.Generic.IList`1<Microsoft.UI.Xaml.Controls.TreeViewNode>
+            case 53:   //  System.Collections.Generic.IList`1<Microsoft.UI.Xaml.Controls.TreeViewNode>
                 userType = new global::OpsCore.UI.OpsCore_UI_XamlTypeInfo.XamlUserType(this, typeName, type, null);
-                userType.StaticInitializer = StaticInitializer_42_IList;
-                userType.CollectionAdd = VectorAdd_42_IList;
+                userType.StaticInitializer = StaticInitializer_53_IList;
+                userType.CollectionAdd = VectorAdd_53_IList;
                 userType.SetIsReturnTypeStub();
                 xamlType = userType;
-                break;
-
-            case 43:   //  Int32
-                xamlType = new global::OpsCore.UI.OpsCore_UI_XamlTypeInfo.XamlSystemBaseType(typeName, type);
                 break;
             }
             return xamlType;
@@ -1252,57 +1380,297 @@ namespace OpsCore.UI.OpsCore_UI_XamlTypeInfo
             var that = (global::OpsCore.UI.Views.AssetsPage)instance;
             return that.ViewModel;
         }
-        private object get_49_EmployeesPage_ViewModel(object instance)
+        private object get_49_DashboardPage_ViewModel(object instance)
+        {
+            var that = (global::OpsCore.UI.Views.DashboardPage)instance;
+            return that.ViewModel;
+        }
+        private object get_50_EmployeesPage_ViewModel(object instance)
         {
             var that = (global::OpsCore.UI.Views.EmployeesPage)instance;
             return that.ViewModel;
         }
-        private object get_50_TreeViewNode_Children(object instance)
+        private object get_51_TabView_TabItems(object instance)
+        {
+            var that = (global::Microsoft.UI.Xaml.Controls.TabView)instance;
+            return that.TabItems;
+        }
+        private object get_52_TabView_IsAddTabButtonVisible(object instance)
+        {
+            var that = (global::Microsoft.UI.Xaml.Controls.TabView)instance;
+            return that.IsAddTabButtonVisible;
+        }
+        private void set_52_TabView_IsAddTabButtonVisible(object instance, object Value)
+        {
+            var that = (global::Microsoft.UI.Xaml.Controls.TabView)instance;
+            that.IsAddTabButtonVisible = (global::System.Boolean)Value;
+        }
+        private object get_53_TabView_AddTabButtonCommand(object instance)
+        {
+            var that = (global::Microsoft.UI.Xaml.Controls.TabView)instance;
+            return that.AddTabButtonCommand;
+        }
+        private void set_53_TabView_AddTabButtonCommand(object instance, object Value)
+        {
+            var that = (global::Microsoft.UI.Xaml.Controls.TabView)instance;
+            that.AddTabButtonCommand = (global::System.Windows.Input.ICommand)Value;
+        }
+        private object get_54_TabView_AddTabButtonCommandParameter(object instance)
+        {
+            var that = (global::Microsoft.UI.Xaml.Controls.TabView)instance;
+            return that.AddTabButtonCommandParameter;
+        }
+        private void set_54_TabView_AddTabButtonCommandParameter(object instance, object Value)
+        {
+            var that = (global::Microsoft.UI.Xaml.Controls.TabView)instance;
+            that.AddTabButtonCommandParameter = (global::System.Object)Value;
+        }
+        private object get_55_TabView_AllowDropTabs(object instance)
+        {
+            var that = (global::Microsoft.UI.Xaml.Controls.TabView)instance;
+            return that.AllowDropTabs;
+        }
+        private void set_55_TabView_AllowDropTabs(object instance, object Value)
+        {
+            var that = (global::Microsoft.UI.Xaml.Controls.TabView)instance;
+            that.AllowDropTabs = (global::System.Boolean)Value;
+        }
+        private object get_56_TabView_CanDragTabs(object instance)
+        {
+            var that = (global::Microsoft.UI.Xaml.Controls.TabView)instance;
+            return that.CanDragTabs;
+        }
+        private void set_56_TabView_CanDragTabs(object instance, object Value)
+        {
+            var that = (global::Microsoft.UI.Xaml.Controls.TabView)instance;
+            that.CanDragTabs = (global::System.Boolean)Value;
+        }
+        private object get_57_TabView_CanReorderTabs(object instance)
+        {
+            var that = (global::Microsoft.UI.Xaml.Controls.TabView)instance;
+            return that.CanReorderTabs;
+        }
+        private void set_57_TabView_CanReorderTabs(object instance, object Value)
+        {
+            var that = (global::Microsoft.UI.Xaml.Controls.TabView)instance;
+            that.CanReorderTabs = (global::System.Boolean)Value;
+        }
+        private object get_58_TabView_CanTearOutTabs(object instance)
+        {
+            var that = (global::Microsoft.UI.Xaml.Controls.TabView)instance;
+            return that.CanTearOutTabs;
+        }
+        private void set_58_TabView_CanTearOutTabs(object instance, object Value)
+        {
+            var that = (global::Microsoft.UI.Xaml.Controls.TabView)instance;
+            that.CanTearOutTabs = (global::System.Boolean)Value;
+        }
+        private object get_59_TabView_CloseButtonOverlayMode(object instance)
+        {
+            var that = (global::Microsoft.UI.Xaml.Controls.TabView)instance;
+            return that.CloseButtonOverlayMode;
+        }
+        private void set_59_TabView_CloseButtonOverlayMode(object instance, object Value)
+        {
+            var that = (global::Microsoft.UI.Xaml.Controls.TabView)instance;
+            that.CloseButtonOverlayMode = (global::Microsoft.UI.Xaml.Controls.TabViewCloseButtonOverlayMode)Value;
+        }
+        private object get_60_TabView_SelectedIndex(object instance)
+        {
+            var that = (global::Microsoft.UI.Xaml.Controls.TabView)instance;
+            return that.SelectedIndex;
+        }
+        private void set_60_TabView_SelectedIndex(object instance, object Value)
+        {
+            var that = (global::Microsoft.UI.Xaml.Controls.TabView)instance;
+            that.SelectedIndex = (global::System.Int32)Value;
+        }
+        private object get_61_TabView_SelectedItem(object instance)
+        {
+            var that = (global::Microsoft.UI.Xaml.Controls.TabView)instance;
+            return that.SelectedItem;
+        }
+        private void set_61_TabView_SelectedItem(object instance, object Value)
+        {
+            var that = (global::Microsoft.UI.Xaml.Controls.TabView)instance;
+            that.SelectedItem = (global::System.Object)Value;
+        }
+        private object get_62_TabView_TabItemTemplate(object instance)
+        {
+            var that = (global::Microsoft.UI.Xaml.Controls.TabView)instance;
+            return that.TabItemTemplate;
+        }
+        private void set_62_TabView_TabItemTemplate(object instance, object Value)
+        {
+            var that = (global::Microsoft.UI.Xaml.Controls.TabView)instance;
+            that.TabItemTemplate = (global::Microsoft.UI.Xaml.DataTemplate)Value;
+        }
+        private object get_63_TabView_TabItemTemplateSelector(object instance)
+        {
+            var that = (global::Microsoft.UI.Xaml.Controls.TabView)instance;
+            return that.TabItemTemplateSelector;
+        }
+        private void set_63_TabView_TabItemTemplateSelector(object instance, object Value)
+        {
+            var that = (global::Microsoft.UI.Xaml.Controls.TabView)instance;
+            that.TabItemTemplateSelector = (global::Microsoft.UI.Xaml.Controls.DataTemplateSelector)Value;
+        }
+        private object get_64_TabView_TabItemsSource(object instance)
+        {
+            var that = (global::Microsoft.UI.Xaml.Controls.TabView)instance;
+            return that.TabItemsSource;
+        }
+        private void set_64_TabView_TabItemsSource(object instance, object Value)
+        {
+            var that = (global::Microsoft.UI.Xaml.Controls.TabView)instance;
+            that.TabItemsSource = (global::System.Object)Value;
+        }
+        private object get_65_TabView_TabStripFooter(object instance)
+        {
+            var that = (global::Microsoft.UI.Xaml.Controls.TabView)instance;
+            return that.TabStripFooter;
+        }
+        private void set_65_TabView_TabStripFooter(object instance, object Value)
+        {
+            var that = (global::Microsoft.UI.Xaml.Controls.TabView)instance;
+            that.TabStripFooter = (global::System.Object)Value;
+        }
+        private object get_66_TabView_TabStripFooterTemplate(object instance)
+        {
+            var that = (global::Microsoft.UI.Xaml.Controls.TabView)instance;
+            return that.TabStripFooterTemplate;
+        }
+        private void set_66_TabView_TabStripFooterTemplate(object instance, object Value)
+        {
+            var that = (global::Microsoft.UI.Xaml.Controls.TabView)instance;
+            that.TabStripFooterTemplate = (global::Microsoft.UI.Xaml.DataTemplate)Value;
+        }
+        private object get_67_TabView_TabStripHeader(object instance)
+        {
+            var that = (global::Microsoft.UI.Xaml.Controls.TabView)instance;
+            return that.TabStripHeader;
+        }
+        private void set_67_TabView_TabStripHeader(object instance, object Value)
+        {
+            var that = (global::Microsoft.UI.Xaml.Controls.TabView)instance;
+            that.TabStripHeader = (global::System.Object)Value;
+        }
+        private object get_68_TabView_TabStripHeaderTemplate(object instance)
+        {
+            var that = (global::Microsoft.UI.Xaml.Controls.TabView)instance;
+            return that.TabStripHeaderTemplate;
+        }
+        private void set_68_TabView_TabStripHeaderTemplate(object instance, object Value)
+        {
+            var that = (global::Microsoft.UI.Xaml.Controls.TabView)instance;
+            that.TabStripHeaderTemplate = (global::Microsoft.UI.Xaml.DataTemplate)Value;
+        }
+        private object get_69_TabView_TabWidthMode(object instance)
+        {
+            var that = (global::Microsoft.UI.Xaml.Controls.TabView)instance;
+            return that.TabWidthMode;
+        }
+        private void set_69_TabView_TabWidthMode(object instance, object Value)
+        {
+            var that = (global::Microsoft.UI.Xaml.Controls.TabView)instance;
+            that.TabWidthMode = (global::Microsoft.UI.Xaml.Controls.TabViewWidthMode)Value;
+        }
+        private object get_70_TabViewItem_Header(object instance)
+        {
+            var that = (global::Microsoft.UI.Xaml.Controls.TabViewItem)instance;
+            return that.Header;
+        }
+        private void set_70_TabViewItem_Header(object instance, object Value)
+        {
+            var that = (global::Microsoft.UI.Xaml.Controls.TabViewItem)instance;
+            that.Header = (global::System.Object)Value;
+        }
+        private object get_71_TabViewItem_HeaderTemplate(object instance)
+        {
+            var that = (global::Microsoft.UI.Xaml.Controls.TabViewItem)instance;
+            return that.HeaderTemplate;
+        }
+        private void set_71_TabViewItem_HeaderTemplate(object instance, object Value)
+        {
+            var that = (global::Microsoft.UI.Xaml.Controls.TabViewItem)instance;
+            that.HeaderTemplate = (global::Microsoft.UI.Xaml.DataTemplate)Value;
+        }
+        private object get_72_TabViewItem_IconSource(object instance)
+        {
+            var that = (global::Microsoft.UI.Xaml.Controls.TabViewItem)instance;
+            return that.IconSource;
+        }
+        private void set_72_TabViewItem_IconSource(object instance, object Value)
+        {
+            var that = (global::Microsoft.UI.Xaml.Controls.TabViewItem)instance;
+            that.IconSource = (global::Microsoft.UI.Xaml.Controls.IconSource)Value;
+        }
+        private object get_73_TabViewItem_IsClosable(object instance)
+        {
+            var that = (global::Microsoft.UI.Xaml.Controls.TabViewItem)instance;
+            return that.IsClosable;
+        }
+        private void set_73_TabViewItem_IsClosable(object instance, object Value)
+        {
+            var that = (global::Microsoft.UI.Xaml.Controls.TabViewItem)instance;
+            that.IsClosable = (global::System.Boolean)Value;
+        }
+        private object get_74_TabViewItem_TabViewTemplateSettings(object instance)
+        {
+            var that = (global::Microsoft.UI.Xaml.Controls.TabViewItem)instance;
+            return that.TabViewTemplateSettings;
+        }
+        private object get_75_MaintenancePage_ViewModel(object instance)
+        {
+            var that = (global::OpsCore.UI.Views.MaintenancePage)instance;
+            return that.ViewModel;
+        }
+        private object get_76_TreeViewNode_Children(object instance)
         {
             var that = (global::Microsoft.UI.Xaml.Controls.TreeViewNode)instance;
             return that.Children;
         }
-        private object get_51_TreeViewNode_Content(object instance)
+        private object get_77_TreeViewNode_Content(object instance)
         {
             var that = (global::Microsoft.UI.Xaml.Controls.TreeViewNode)instance;
             return that.Content;
         }
-        private void set_51_TreeViewNode_Content(object instance, object Value)
+        private void set_77_TreeViewNode_Content(object instance, object Value)
         {
             var that = (global::Microsoft.UI.Xaml.Controls.TreeViewNode)instance;
             that.Content = (global::System.Object)Value;
         }
-        private object get_52_TreeViewNode_Depth(object instance)
+        private object get_78_TreeViewNode_Depth(object instance)
         {
             var that = (global::Microsoft.UI.Xaml.Controls.TreeViewNode)instance;
             return that.Depth;
         }
-        private object get_53_TreeViewNode_HasChildren(object instance)
+        private object get_79_TreeViewNode_HasChildren(object instance)
         {
             var that = (global::Microsoft.UI.Xaml.Controls.TreeViewNode)instance;
             return that.HasChildren;
         }
-        private object get_54_TreeViewNode_HasUnrealizedChildren(object instance)
+        private object get_80_TreeViewNode_HasUnrealizedChildren(object instance)
         {
             var that = (global::Microsoft.UI.Xaml.Controls.TreeViewNode)instance;
             return that.HasUnrealizedChildren;
         }
-        private void set_54_TreeViewNode_HasUnrealizedChildren(object instance, object Value)
+        private void set_80_TreeViewNode_HasUnrealizedChildren(object instance, object Value)
         {
             var that = (global::Microsoft.UI.Xaml.Controls.TreeViewNode)instance;
             that.HasUnrealizedChildren = (global::System.Boolean)Value;
         }
-        private object get_55_TreeViewNode_IsExpanded(object instance)
+        private object get_81_TreeViewNode_IsExpanded(object instance)
         {
             var that = (global::Microsoft.UI.Xaml.Controls.TreeViewNode)instance;
             return that.IsExpanded;
         }
-        private void set_55_TreeViewNode_IsExpanded(object instance, object Value)
+        private void set_81_TreeViewNode_IsExpanded(object instance, object Value)
         {
             var that = (global::Microsoft.UI.Xaml.Controls.TreeViewNode)instance;
             that.IsExpanded = (global::System.Boolean)Value;
         }
-        private object get_56_TreeViewNode_Parent(object instance)
+        private object get_82_TreeViewNode_Parent(object instance)
         {
             var that = (global::Microsoft.UI.Xaml.Controls.TreeViewNode)instance;
             return that.Parent;
@@ -1657,56 +2025,236 @@ namespace OpsCore.UI.OpsCore_UI_XamlTypeInfo
                 xamlMember.Getter = get_48_AssetsPage_ViewModel;
                 xamlMember.SetIsReadOnly();
                 break;
+            case "OpsCore.UI.Views.DashboardPage.ViewModel":
+                userType = (global::OpsCore.UI.OpsCore_UI_XamlTypeInfo.XamlUserType)GetXamlTypeByName("OpsCore.UI.Views.DashboardPage");
+                xamlMember = new global::OpsCore.UI.OpsCore_UI_XamlTypeInfo.XamlMember(this, "ViewModel", "OpsCore.UI.ViewModels.DashboardViewModel");
+                xamlMember.Getter = get_49_DashboardPage_ViewModel;
+                xamlMember.SetIsReadOnly();
+                break;
             case "OpsCore.UI.Views.EmployeesPage.ViewModel":
                 userType = (global::OpsCore.UI.OpsCore_UI_XamlTypeInfo.XamlUserType)GetXamlTypeByName("OpsCore.UI.Views.EmployeesPage");
                 xamlMember = new global::OpsCore.UI.OpsCore_UI_XamlTypeInfo.XamlMember(this, "ViewModel", "OpsCore.UI.ViewModels.EmployeesViewModel");
-                xamlMember.Getter = get_49_EmployeesPage_ViewModel;
+                xamlMember.Getter = get_50_EmployeesPage_ViewModel;
+                xamlMember.SetIsReadOnly();
+                break;
+            case "Microsoft.UI.Xaml.Controls.TabView.TabItems":
+                userType = (global::OpsCore.UI.OpsCore_UI_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.TabView");
+                xamlMember = new global::OpsCore.UI.OpsCore_UI_XamlTypeInfo.XamlMember(this, "TabItems", "System.Collections.Generic.IList`1<Object>");
+                xamlMember.SetIsDependencyProperty();
+                xamlMember.Getter = get_51_TabView_TabItems;
+                xamlMember.SetIsReadOnly();
+                break;
+            case "Microsoft.UI.Xaml.Controls.TabView.IsAddTabButtonVisible":
+                userType = (global::OpsCore.UI.OpsCore_UI_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.TabView");
+                xamlMember = new global::OpsCore.UI.OpsCore_UI_XamlTypeInfo.XamlMember(this, "IsAddTabButtonVisible", "Boolean");
+                xamlMember.SetIsDependencyProperty();
+                xamlMember.Getter = get_52_TabView_IsAddTabButtonVisible;
+                xamlMember.Setter = set_52_TabView_IsAddTabButtonVisible;
+                break;
+            case "Microsoft.UI.Xaml.Controls.TabView.AddTabButtonCommand":
+                userType = (global::OpsCore.UI.OpsCore_UI_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.TabView");
+                xamlMember = new global::OpsCore.UI.OpsCore_UI_XamlTypeInfo.XamlMember(this, "AddTabButtonCommand", "System.Windows.Input.ICommand");
+                xamlMember.SetIsDependencyProperty();
+                xamlMember.Getter = get_53_TabView_AddTabButtonCommand;
+                xamlMember.Setter = set_53_TabView_AddTabButtonCommand;
+                break;
+            case "Microsoft.UI.Xaml.Controls.TabView.AddTabButtonCommandParameter":
+                userType = (global::OpsCore.UI.OpsCore_UI_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.TabView");
+                xamlMember = new global::OpsCore.UI.OpsCore_UI_XamlTypeInfo.XamlMember(this, "AddTabButtonCommandParameter", "Object");
+                xamlMember.SetIsDependencyProperty();
+                xamlMember.Getter = get_54_TabView_AddTabButtonCommandParameter;
+                xamlMember.Setter = set_54_TabView_AddTabButtonCommandParameter;
+                break;
+            case "Microsoft.UI.Xaml.Controls.TabView.AllowDropTabs":
+                userType = (global::OpsCore.UI.OpsCore_UI_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.TabView");
+                xamlMember = new global::OpsCore.UI.OpsCore_UI_XamlTypeInfo.XamlMember(this, "AllowDropTabs", "Boolean");
+                xamlMember.SetIsDependencyProperty();
+                xamlMember.Getter = get_55_TabView_AllowDropTabs;
+                xamlMember.Setter = set_55_TabView_AllowDropTabs;
+                break;
+            case "Microsoft.UI.Xaml.Controls.TabView.CanDragTabs":
+                userType = (global::OpsCore.UI.OpsCore_UI_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.TabView");
+                xamlMember = new global::OpsCore.UI.OpsCore_UI_XamlTypeInfo.XamlMember(this, "CanDragTabs", "Boolean");
+                xamlMember.SetIsDependencyProperty();
+                xamlMember.Getter = get_56_TabView_CanDragTabs;
+                xamlMember.Setter = set_56_TabView_CanDragTabs;
+                break;
+            case "Microsoft.UI.Xaml.Controls.TabView.CanReorderTabs":
+                userType = (global::OpsCore.UI.OpsCore_UI_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.TabView");
+                xamlMember = new global::OpsCore.UI.OpsCore_UI_XamlTypeInfo.XamlMember(this, "CanReorderTabs", "Boolean");
+                xamlMember.SetIsDependencyProperty();
+                xamlMember.Getter = get_57_TabView_CanReorderTabs;
+                xamlMember.Setter = set_57_TabView_CanReorderTabs;
+                break;
+            case "Microsoft.UI.Xaml.Controls.TabView.CanTearOutTabs":
+                userType = (global::OpsCore.UI.OpsCore_UI_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.TabView");
+                xamlMember = new global::OpsCore.UI.OpsCore_UI_XamlTypeInfo.XamlMember(this, "CanTearOutTabs", "Boolean");
+                xamlMember.SetIsDependencyProperty();
+                xamlMember.Getter = get_58_TabView_CanTearOutTabs;
+                xamlMember.Setter = set_58_TabView_CanTearOutTabs;
+                break;
+            case "Microsoft.UI.Xaml.Controls.TabView.CloseButtonOverlayMode":
+                userType = (global::OpsCore.UI.OpsCore_UI_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.TabView");
+                xamlMember = new global::OpsCore.UI.OpsCore_UI_XamlTypeInfo.XamlMember(this, "CloseButtonOverlayMode", "Microsoft.UI.Xaml.Controls.TabViewCloseButtonOverlayMode");
+                xamlMember.SetIsDependencyProperty();
+                xamlMember.Getter = get_59_TabView_CloseButtonOverlayMode;
+                xamlMember.Setter = set_59_TabView_CloseButtonOverlayMode;
+                break;
+            case "Microsoft.UI.Xaml.Controls.TabView.SelectedIndex":
+                userType = (global::OpsCore.UI.OpsCore_UI_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.TabView");
+                xamlMember = new global::OpsCore.UI.OpsCore_UI_XamlTypeInfo.XamlMember(this, "SelectedIndex", "Int32");
+                xamlMember.SetIsDependencyProperty();
+                xamlMember.Getter = get_60_TabView_SelectedIndex;
+                xamlMember.Setter = set_60_TabView_SelectedIndex;
+                break;
+            case "Microsoft.UI.Xaml.Controls.TabView.SelectedItem":
+                userType = (global::OpsCore.UI.OpsCore_UI_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.TabView");
+                xamlMember = new global::OpsCore.UI.OpsCore_UI_XamlTypeInfo.XamlMember(this, "SelectedItem", "Object");
+                xamlMember.SetIsDependencyProperty();
+                xamlMember.Getter = get_61_TabView_SelectedItem;
+                xamlMember.Setter = set_61_TabView_SelectedItem;
+                break;
+            case "Microsoft.UI.Xaml.Controls.TabView.TabItemTemplate":
+                userType = (global::OpsCore.UI.OpsCore_UI_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.TabView");
+                xamlMember = new global::OpsCore.UI.OpsCore_UI_XamlTypeInfo.XamlMember(this, "TabItemTemplate", "Microsoft.UI.Xaml.DataTemplate");
+                xamlMember.SetIsDependencyProperty();
+                xamlMember.Getter = get_62_TabView_TabItemTemplate;
+                xamlMember.Setter = set_62_TabView_TabItemTemplate;
+                break;
+            case "Microsoft.UI.Xaml.Controls.TabView.TabItemTemplateSelector":
+                userType = (global::OpsCore.UI.OpsCore_UI_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.TabView");
+                xamlMember = new global::OpsCore.UI.OpsCore_UI_XamlTypeInfo.XamlMember(this, "TabItemTemplateSelector", "Microsoft.UI.Xaml.Controls.DataTemplateSelector");
+                xamlMember.SetIsDependencyProperty();
+                xamlMember.Getter = get_63_TabView_TabItemTemplateSelector;
+                xamlMember.Setter = set_63_TabView_TabItemTemplateSelector;
+                break;
+            case "Microsoft.UI.Xaml.Controls.TabView.TabItemsSource":
+                userType = (global::OpsCore.UI.OpsCore_UI_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.TabView");
+                xamlMember = new global::OpsCore.UI.OpsCore_UI_XamlTypeInfo.XamlMember(this, "TabItemsSource", "Object");
+                xamlMember.SetIsDependencyProperty();
+                xamlMember.Getter = get_64_TabView_TabItemsSource;
+                xamlMember.Setter = set_64_TabView_TabItemsSource;
+                break;
+            case "Microsoft.UI.Xaml.Controls.TabView.TabStripFooter":
+                userType = (global::OpsCore.UI.OpsCore_UI_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.TabView");
+                xamlMember = new global::OpsCore.UI.OpsCore_UI_XamlTypeInfo.XamlMember(this, "TabStripFooter", "Object");
+                xamlMember.SetIsDependencyProperty();
+                xamlMember.Getter = get_65_TabView_TabStripFooter;
+                xamlMember.Setter = set_65_TabView_TabStripFooter;
+                break;
+            case "Microsoft.UI.Xaml.Controls.TabView.TabStripFooterTemplate":
+                userType = (global::OpsCore.UI.OpsCore_UI_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.TabView");
+                xamlMember = new global::OpsCore.UI.OpsCore_UI_XamlTypeInfo.XamlMember(this, "TabStripFooterTemplate", "Microsoft.UI.Xaml.DataTemplate");
+                xamlMember.SetIsDependencyProperty();
+                xamlMember.Getter = get_66_TabView_TabStripFooterTemplate;
+                xamlMember.Setter = set_66_TabView_TabStripFooterTemplate;
+                break;
+            case "Microsoft.UI.Xaml.Controls.TabView.TabStripHeader":
+                userType = (global::OpsCore.UI.OpsCore_UI_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.TabView");
+                xamlMember = new global::OpsCore.UI.OpsCore_UI_XamlTypeInfo.XamlMember(this, "TabStripHeader", "Object");
+                xamlMember.SetIsDependencyProperty();
+                xamlMember.Getter = get_67_TabView_TabStripHeader;
+                xamlMember.Setter = set_67_TabView_TabStripHeader;
+                break;
+            case "Microsoft.UI.Xaml.Controls.TabView.TabStripHeaderTemplate":
+                userType = (global::OpsCore.UI.OpsCore_UI_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.TabView");
+                xamlMember = new global::OpsCore.UI.OpsCore_UI_XamlTypeInfo.XamlMember(this, "TabStripHeaderTemplate", "Microsoft.UI.Xaml.DataTemplate");
+                xamlMember.SetIsDependencyProperty();
+                xamlMember.Getter = get_68_TabView_TabStripHeaderTemplate;
+                xamlMember.Setter = set_68_TabView_TabStripHeaderTemplate;
+                break;
+            case "Microsoft.UI.Xaml.Controls.TabView.TabWidthMode":
+                userType = (global::OpsCore.UI.OpsCore_UI_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.TabView");
+                xamlMember = new global::OpsCore.UI.OpsCore_UI_XamlTypeInfo.XamlMember(this, "TabWidthMode", "Microsoft.UI.Xaml.Controls.TabViewWidthMode");
+                xamlMember.SetIsDependencyProperty();
+                xamlMember.Getter = get_69_TabView_TabWidthMode;
+                xamlMember.Setter = set_69_TabView_TabWidthMode;
+                break;
+            case "Microsoft.UI.Xaml.Controls.TabViewItem.Header":
+                userType = (global::OpsCore.UI.OpsCore_UI_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.TabViewItem");
+                xamlMember = new global::OpsCore.UI.OpsCore_UI_XamlTypeInfo.XamlMember(this, "Header", "Object");
+                xamlMember.SetIsDependencyProperty();
+                xamlMember.Getter = get_70_TabViewItem_Header;
+                xamlMember.Setter = set_70_TabViewItem_Header;
+                break;
+            case "Microsoft.UI.Xaml.Controls.TabViewItem.HeaderTemplate":
+                userType = (global::OpsCore.UI.OpsCore_UI_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.TabViewItem");
+                xamlMember = new global::OpsCore.UI.OpsCore_UI_XamlTypeInfo.XamlMember(this, "HeaderTemplate", "Microsoft.UI.Xaml.DataTemplate");
+                xamlMember.SetIsDependencyProperty();
+                xamlMember.Getter = get_71_TabViewItem_HeaderTemplate;
+                xamlMember.Setter = set_71_TabViewItem_HeaderTemplate;
+                break;
+            case "Microsoft.UI.Xaml.Controls.TabViewItem.IconSource":
+                userType = (global::OpsCore.UI.OpsCore_UI_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.TabViewItem");
+                xamlMember = new global::OpsCore.UI.OpsCore_UI_XamlTypeInfo.XamlMember(this, "IconSource", "Microsoft.UI.Xaml.Controls.IconSource");
+                xamlMember.SetIsDependencyProperty();
+                xamlMember.Getter = get_72_TabViewItem_IconSource;
+                xamlMember.Setter = set_72_TabViewItem_IconSource;
+                break;
+            case "Microsoft.UI.Xaml.Controls.TabViewItem.IsClosable":
+                userType = (global::OpsCore.UI.OpsCore_UI_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.TabViewItem");
+                xamlMember = new global::OpsCore.UI.OpsCore_UI_XamlTypeInfo.XamlMember(this, "IsClosable", "Boolean");
+                xamlMember.SetIsDependencyProperty();
+                xamlMember.Getter = get_73_TabViewItem_IsClosable;
+                xamlMember.Setter = set_73_TabViewItem_IsClosable;
+                break;
+            case "Microsoft.UI.Xaml.Controls.TabViewItem.TabViewTemplateSettings":
+                userType = (global::OpsCore.UI.OpsCore_UI_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.TabViewItem");
+                xamlMember = new global::OpsCore.UI.OpsCore_UI_XamlTypeInfo.XamlMember(this, "TabViewTemplateSettings", "Microsoft.UI.Xaml.Controls.TabViewItemTemplateSettings");
+                xamlMember.SetIsDependencyProperty();
+                xamlMember.Getter = get_74_TabViewItem_TabViewTemplateSettings;
+                xamlMember.SetIsReadOnly();
+                break;
+            case "OpsCore.UI.Views.MaintenancePage.ViewModel":
+                userType = (global::OpsCore.UI.OpsCore_UI_XamlTypeInfo.XamlUserType)GetXamlTypeByName("OpsCore.UI.Views.MaintenancePage");
+                xamlMember = new global::OpsCore.UI.OpsCore_UI_XamlTypeInfo.XamlMember(this, "ViewModel", "OpsCore.UI.ViewModels.MaintenanceViewModel");
+                xamlMember.Getter = get_75_MaintenancePage_ViewModel;
                 xamlMember.SetIsReadOnly();
                 break;
             case "Microsoft.UI.Xaml.Controls.TreeViewNode.Children":
                 userType = (global::OpsCore.UI.OpsCore_UI_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.TreeViewNode");
                 xamlMember = new global::OpsCore.UI.OpsCore_UI_XamlTypeInfo.XamlMember(this, "Children", "System.Collections.Generic.IList`1<Microsoft.UI.Xaml.Controls.TreeViewNode>");
-                xamlMember.Getter = get_50_TreeViewNode_Children;
+                xamlMember.Getter = get_76_TreeViewNode_Children;
                 xamlMember.SetIsReadOnly();
                 break;
             case "Microsoft.UI.Xaml.Controls.TreeViewNode.Content":
                 userType = (global::OpsCore.UI.OpsCore_UI_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.TreeViewNode");
                 xamlMember = new global::OpsCore.UI.OpsCore_UI_XamlTypeInfo.XamlMember(this, "Content", "Object");
                 xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_51_TreeViewNode_Content;
-                xamlMember.Setter = set_51_TreeViewNode_Content;
+                xamlMember.Getter = get_77_TreeViewNode_Content;
+                xamlMember.Setter = set_77_TreeViewNode_Content;
                 break;
             case "Microsoft.UI.Xaml.Controls.TreeViewNode.Depth":
                 userType = (global::OpsCore.UI.OpsCore_UI_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.TreeViewNode");
                 xamlMember = new global::OpsCore.UI.OpsCore_UI_XamlTypeInfo.XamlMember(this, "Depth", "Int32");
                 xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_52_TreeViewNode_Depth;
+                xamlMember.Getter = get_78_TreeViewNode_Depth;
                 xamlMember.SetIsReadOnly();
                 break;
             case "Microsoft.UI.Xaml.Controls.TreeViewNode.HasChildren":
                 userType = (global::OpsCore.UI.OpsCore_UI_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.TreeViewNode");
                 xamlMember = new global::OpsCore.UI.OpsCore_UI_XamlTypeInfo.XamlMember(this, "HasChildren", "Boolean");
                 xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_53_TreeViewNode_HasChildren;
+                xamlMember.Getter = get_79_TreeViewNode_HasChildren;
                 xamlMember.SetIsReadOnly();
                 break;
             case "Microsoft.UI.Xaml.Controls.TreeViewNode.HasUnrealizedChildren":
                 userType = (global::OpsCore.UI.OpsCore_UI_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.TreeViewNode");
                 xamlMember = new global::OpsCore.UI.OpsCore_UI_XamlTypeInfo.XamlMember(this, "HasUnrealizedChildren", "Boolean");
-                xamlMember.Getter = get_54_TreeViewNode_HasUnrealizedChildren;
-                xamlMember.Setter = set_54_TreeViewNode_HasUnrealizedChildren;
+                xamlMember.Getter = get_80_TreeViewNode_HasUnrealizedChildren;
+                xamlMember.Setter = set_80_TreeViewNode_HasUnrealizedChildren;
                 break;
             case "Microsoft.UI.Xaml.Controls.TreeViewNode.IsExpanded":
                 userType = (global::OpsCore.UI.OpsCore_UI_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.TreeViewNode");
                 xamlMember = new global::OpsCore.UI.OpsCore_UI_XamlTypeInfo.XamlMember(this, "IsExpanded", "Boolean");
                 xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_55_TreeViewNode_IsExpanded;
-                xamlMember.Setter = set_55_TreeViewNode_IsExpanded;
+                xamlMember.Getter = get_81_TreeViewNode_IsExpanded;
+                xamlMember.Setter = set_81_TreeViewNode_IsExpanded;
                 break;
             case "Microsoft.UI.Xaml.Controls.TreeViewNode.Parent":
                 userType = (global::OpsCore.UI.OpsCore_UI_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.TreeViewNode");
                 xamlMember = new global::OpsCore.UI.OpsCore_UI_XamlTypeInfo.XamlMember(this, "Parent", "Microsoft.UI.Xaml.Controls.TreeViewNode");
-                xamlMember.Getter = get_56_TreeViewNode_Parent;
+                xamlMember.Getter = get_82_TreeViewNode_Parent;
                 xamlMember.SetIsReadOnly();
                 break;
             }

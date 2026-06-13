@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
-    <Machine>TAROZI</Machine>
+    <Machine>MSI</Machine>
     <WindowsUser>Taroz</WindowsUser>
     <TargetPlatformIdentifier>Windows</TargetPlatformIdentifier>
     <TargetOsVersion>10.0</TargetOsVersion>
@@ -10,13 +10,13 @@
     <PackageArchitecture>x64</PackageArchitecture>
     <PackageIdentityName>4bdf725d-f191-4014-8803-4575495624c8</PackageIdentityName>
     <PackageIdentityPublisher>CN=Taroz</PackageIdentityPublisher>
-    <IntermediateOutputPath>C:\Users\Taroz\Documents\GitHub\OpsCore\OpsCore.UI\obj\x64\Debug\net10.0-windows10.0.19041.0\win-x64\</IntermediateOutputPath>
+    <IntermediateOutputPath>C:\School\projecten\OpsCore\OpsCore.UI\obj\x64\Debug\net10.0-windows10.0.19041.0\win-x64\</IntermediateOutputPath>
     <RemoteDeploymentType>CopyToDevice</RemoteDeploymentType>
     <PackageRegistrationPath></PackageRegistrationPath>
     <RemoveNonLayoutFiles>false</RemoveNonLayoutFiles>
     <DeployOptionalPackages>false</DeployOptionalPackages>
     <WindowsSdkPath></WindowsSdkPath>
-    <LayoutDir>C:\Users\Taroz\Documents\GitHub\OpsCore\OpsCore.UI\bin\x64\Debug\net10.0-windows10.0.19041.0\win-x64\AppX</LayoutDir>
+    <LayoutDir>C:\School\projecten\OpsCore\OpsCore.UI\bin\x64\Debug\net10.0-windows10.0.19041.0\win-x64\AppX</LayoutDir>
     <RegisteredManifestChecksum>8E6C9B43052B2E88F1FDCD4B7140C7FD9BE6DEB7B8B55511848A7C8EC196B235</RegisteredManifestChecksum>
     <RegisteredPackageMoniker>4bdf725d-f191-4014-8803-4575495624c8_1.0.0.0_x64__xnrvx0weqtn16</RegisteredPackageMoniker>
     <RegisteredUserModeAppID>4bdf725d-f191-4014-8803-4575495624c8_xnrvx0weqtn16!App</RegisteredUserModeAppID>
@@ -25,24 +25,24 @@
     <RegisteredVersion>1.0.0.0</RegisteredVersion>
   </PropertyGroup>
   <ItemGroup>
-    <AppXManifest Include="C:\Users\Taroz\Documents\GitHub\OpsCore\OpsCore.UI\bin\x64\Debug\net10.0-windows10.0.19041.0\win-x64\AppxManifest.xml">
+    <AppXManifest Include="C:\School\projecten\OpsCore\OpsCore.UI\bin\x64\Debug\net10.0-windows10.0.19041.0\win-x64\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2026-06-04T11:05:03.482</Modified>
+      <Modified>2026-06-09T08:09:12.139</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
-    <AppxPackagedFile Include="C:\Users\Taroz\Documents\GitHub\OpsCore\OpsCore.UI\bin\x64\Debug\net10.0-windows10.0.19041.0\win-x64\OpsCore.UI.runtimeconfig.json">
+    <AppxPackagedFile Include="C:\School\projecten\OpsCore\OpsCore.UI\bin\x64\Debug\net10.0-windows10.0.19041.0\win-x64\OpsCore.UI.runtimeconfig.json">
       <PackagePath>OpsCore.UI.runtimeconfig.json</PackagePath>
-      <Modified>2026-06-04T10:21:21.064</Modified>
+      <Modified>2026-06-09T07:13:18.112</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Taroz\Documents\GitHub\OpsCore\OpsCore.UI\obj\x64\Debug\net10.0-windows10.0.19041.0\win-x64\apphost.exe">
+    <AppxPackagedFile Include="C:\School\projecten\OpsCore\OpsCore.UI\obj\x64\Debug\net10.0-windows10.0.19041.0\win-x64\apphost.exe">
       <PackagePath>OpsCore.UI.exe</PackagePath>
-      <Modified>2026-06-04T11:05:03.056</Modified>
+      <Modified>2026-06-09T08:09:11.242</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Taroz\Documents\GitHub\OpsCore\OpsCore.UI\obj\x64\Debug\net10.0-windows10.0.19041.0\win-x64\OpsCore.UI.dll">
+    <AppxPackagedFile Include="C:\School\projecten\OpsCore\OpsCore.UI\obj\x64\Debug\net10.0-windows10.0.19041.0\win-x64\OpsCore.UI.dll">
       <PackagePath>OpsCore.UI.dll</PackagePath>
-      <Modified>2026-06-04T11:05:03.050</Modified>
+      <Modified>2026-06-09T08:09:11.219</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Taroz\.nuget\packages\microsoft.netcore.app.runtime.win-x64\10.0.8\runtimes\win-x64\lib\net10.0\Microsoft.CSharp.dll">
       <PackagePath>Microsoft.CSharp.dll</PackagePath>
@@ -1044,53 +1044,53 @@
       <PackagePath>Microsoft.Web.WebView2.Core.Projection.dll</PackagePath>
       <Modified>2026-01-14T10:13:00.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Taroz\Documents\GitHub\OpsCore\OpsCore\OpsCore.Core\bin\Debug\net10.0\OpsCore.Core.dll">
+    <AppxPackagedFile Include="C:\School\projecten\OpsCore\OpsCore\OpsCore.Core\bin\Debug\net10.0\OpsCore.Core.dll">
       <PackagePath>OpsCore.Core.dll</PackagePath>
-      <Modified>2026-06-04T10:17:59.318</Modified>
+      <Modified>2026-06-09T07:25:50.857</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Taroz\Documents\GitHub\OpsCore\OpsCore\OpsCore.Data\bin\Debug\net10.0\OpsCore.Data.dll">
+    <AppxPackagedFile Include="C:\School\projecten\OpsCore\OpsCore\OpsCore.Data\bin\Debug\net10.0\OpsCore.Data.dll">
       <PackagePath>OpsCore.Data.dll</PackagePath>
-      <Modified>2026-06-04T10:18:00.579</Modified>
+      <Modified>2026-06-09T07:37:18.348</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Taroz\Documents\GitHub\OpsCore\OpsCore.UI\bin\x64\Debug\net10.0-windows10.0.19041.0\win-x64\OpsCore.UI.deps.json">
+    <AppxPackagedFile Include="C:\School\projecten\OpsCore\OpsCore.UI\bin\x64\Debug\net10.0-windows10.0.19041.0\win-x64\OpsCore.UI.deps.json">
       <PackagePath>OpsCore.UI.deps.json</PackagePath>
-      <Modified>2026-06-04T10:35:21.249</Modified>
+      <Modified>2026-06-09T07:13:18.107</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Taroz\Documents\GitHub\OpsCore\OpsCore.UI\Assets\LockScreenLogo.scale-200.png">
+    <AppxPackagedFile Include="C:\School\projecten\OpsCore\OpsCore.UI\Assets\LockScreenLogo.scale-200.png">
       <PackagePath>Assets\LockScreenLogo.scale-200.png</PackagePath>
-      <Modified>2026-05-24T13:15:27.551</Modified>
+      <Modified>2026-05-28T07:06:18.972</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Taroz\Documents\GitHub\OpsCore\OpsCore.UI\Assets\SplashScreen.scale-200.png">
+    <AppxPackagedFile Include="C:\School\projecten\OpsCore\OpsCore.UI\Assets\SplashScreen.scale-200.png">
       <PackagePath>Assets\SplashScreen.scale-200.png</PackagePath>
-      <Modified>2026-05-24T13:15:27.552</Modified>
+      <Modified>2026-05-28T07:06:18.973</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Taroz\Documents\GitHub\OpsCore\OpsCore.UI\Assets\Square150x150Logo.scale-200.png">
+    <AppxPackagedFile Include="C:\School\projecten\OpsCore\OpsCore.UI\Assets\Square150x150Logo.scale-200.png">
       <PackagePath>Assets\Square150x150Logo.scale-200.png</PackagePath>
-      <Modified>2026-05-24T13:15:27.554</Modified>
+      <Modified>2026-05-28T07:06:18.973</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Taroz\Documents\GitHub\OpsCore\OpsCore.UI\Assets\Square44x44Logo.scale-200.png">
+    <AppxPackagedFile Include="C:\School\projecten\OpsCore\OpsCore.UI\Assets\Square44x44Logo.scale-200.png">
       <PackagePath>Assets\Square44x44Logo.scale-200.png</PackagePath>
-      <Modified>2026-05-24T13:15:27.555</Modified>
+      <Modified>2026-05-28T07:06:18.973</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Taroz\Documents\GitHub\OpsCore\OpsCore.UI\Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
+    <AppxPackagedFile Include="C:\School\projecten\OpsCore\OpsCore.UI\Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
       <PackagePath>Assets\Square44x44Logo.targetsize-24_altform-unplated.png</PackagePath>
-      <Modified>2026-05-24T13:15:27.556</Modified>
+      <Modified>2026-05-28T07:06:18.974</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Taroz\Documents\GitHub\OpsCore\OpsCore.UI\Assets\StoreLogo.png">
+    <AppxPackagedFile Include="C:\School\projecten\OpsCore\OpsCore.UI\Assets\StoreLogo.png">
       <PackagePath>Assets\StoreLogo.png</PackagePath>
-      <Modified>2026-05-24T13:15:27.557</Modified>
+      <Modified>2026-05-28T07:06:18.974</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Taroz\Documents\GitHub\OpsCore\OpsCore.UI\Assets\Wide310x150Logo.scale-200.png">
+    <AppxPackagedFile Include="C:\School\projecten\OpsCore\OpsCore.UI\Assets\Wide310x150Logo.scale-200.png">
       <PackagePath>Assets\Wide310x150Logo.scale-200.png</PackagePath>
-      <Modified>2026-05-24T13:15:27.558</Modified>
+      <Modified>2026-05-28T07:06:18.974</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Taroz\.nuget\packages\microsoft.web.webview2\1.0.3719.77\build\..\lib\Microsoft.Web.WebView2.Core.winmd">
       <PackagePath>Microsoft.Web.WebView2.Core.winmd</PackagePath>
       <Modified>2026-01-14T10:12:26.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Taroz\Documents\GitHub\OpsCore\OpsCore.UI\bin\x64\Debug\net10.0-windows10.0.19041.0\win-x64\resources.pri">
+    <AppxPackagedFile Include="C:\School\projecten\OpsCore\OpsCore.UI\bin\x64\Debug\net10.0-windows10.0.19041.0\win-x64\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2026-06-04T11:05:03.195</Modified>
+      <Modified>2026-06-09T08:09:11.478</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>

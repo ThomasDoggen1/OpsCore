@@ -33,22 +33,21 @@ namespace OpsCore.UI.ViewModels
         }
 
         [RelayCommand]
-        public async Task LoadAssetsASync()
+        public async Task LoadAssetsAsync()
         {
-            isLoading = true;
+            IsLoading = true;
             var assets = await _assetRepository.GetAllAsync();
 
-            overdueAssets = new ObservableCollection<Asset>(
+            OverdueAssets = new ObservableCollection<Asset>(
                 assets.Where(a => _maintenanceService.IsOverdue(a)));
 
-            dueSoonAssets = new ObservableCollection<Asset>(
+            DueSoonAssets = new ObservableCollection<Asset>(
                 assets.Where(a => _maintenanceService.IsDueSoon(a)));
 
-            okAssets = new ObservableCollection<Asset>(
-                assets.Where(a => _maintenanceService.IsOverdue(a) && !_maintenanceService.IsDueSoon(a)));
+            OkAssets = new ObservableCollection<Asset>(
+                assets.Where(a => !_maintenanceService.IsOverdue(a) && !_maintenanceService.IsDueSoon(a)));
 
             IsLoading = false;
         }
-
     }
 }

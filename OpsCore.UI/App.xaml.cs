@@ -5,6 +5,7 @@ using OpsCore.Core.Interfaces;
 using OpsCore.Data.Context;
 using OpsCore.Data.Repositories;
 using System;
+using System.IO;
 
 namespace OpsCore.UI
 {
@@ -16,14 +17,24 @@ namespace OpsCore.UI
         {
             this.InitializeComponent();
             Services = ConfigureServices();
+
+            using var scope = Services.CreateScope();
+            var db = scope.ServiceProvider.GetRequiredService<AppDbContext>();
+            db.Database.Migrate();
         }
 
         private static IServiceProvider ConfigureServices()
         {
             var services = new ServiceCollection();
 
+            var dbPath = Path.Combine(
+                Environment.GetFolderPath(Environment.SpecialFolder.LocalApplicationData),
+                "OpsCore", "opscore.db");
+
+            Directory.CreateDirectory(Path.GetDirectoryName(dbPath)!);
+
             services.AddDbContext<AppDbContext>(options =>
-                options.UseSqlite("Data Source=opscore.db"));
+                options.UseSqlite($"Data Source={dbPath}"));
 
             services.AddScoped<IAssetRepository, AssetRepository>();
             services.AddScoped<IAssetTypeRepository, AssetTypeRepository>();

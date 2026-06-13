@@ -3,7 +3,6 @@
     x:Class="OpsCore.UI.Views.MaintenancePage"
     xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
     xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
-    xmlns:local="using:OpsCore.UI.Views"
     xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
     xmlns:models="using:OpsCore.Core.Models"
@@ -16,19 +15,66 @@
             <RowDefinition Height="*"/>
         </Grid.RowDefinitions>
 
+        <!-- Header -->
         <TextBlock Grid.Row="0" Text="Maintenance" FontSize="28" FontWeight="Bold" Margin="0,0,0,16"/>
 
-        <Grid Grid.Row="1" Margin="0,0,0,16">
-            <Grid.ColumnDefinitions>
-                <ColumnDefinition Width="*"/>
-                <ColumnDefinition Width="Auto"/>
-            </Grid.ColumnDefinitions>
+        <!-- Filter Tabs -->
+        <TabView Grid.Row="1" IsAddTabButtonVisible="False" Margin="0,0,0,16">
+            <TabViewItem Header="Overdue">
+                <ListView ItemsSource="{x:Bind ViewModel.OverdueAssets, Mode=OneWay}">
+                    <ListView.ItemTemplate>
+                        <DataTemplate x:DataType="models:Asset">
+                            <Grid Padding="0,8" Background="#FFCCCC">
+                                <Grid.ColumnDefinitions>
+                                    <ColumnDefinition Width="2*"/>
+                                    <ColumnDefinition Width="*"/>
+                                    <ColumnDefinition Width="*"/>
+                                </Grid.ColumnDefinitions>
+                                <TextBlock Grid.Column="0" Text="{x:Bind Name}"/>
+                                <TextBlock Grid.Column="1" Text="{x:Bind LastMaintenanceDate}"/>
+                                <TextBlock Grid.Column="2" Text="Overdue" Foreground="Red"/>
+                            </Grid>
+                        </DataTemplate>
+                    </ListView.ItemTemplate>
+                </ListView>
+            </TabViewItem>
+            <TabViewItem Header="Due Soon">
+                <ListView ItemsSource="{x:Bind ViewModel.DueSoonAssets, Mode=OneWay}">
+                    <ListView.ItemTemplate>
+                        <DataTemplate x:DataType="models:Asset">
+                            <Grid Padding="0,8" Background="#FFE5CC">
+                                <Grid.ColumnDefinitions>
+                                    <ColumnDefinition Width="2*"/>
+                                    <ColumnDefinition Width="*"/>
+                                    <ColumnDefinition Width="*"/>
+                                </Grid.ColumnDefinitions>
+                                <TextBlock Grid.Column="0" Text="{x:Bind Name}"/>
+                                <TextBlock Grid.Column="1" Text="{x:Bind LastMaintenanceDate}"/>
+                                <TextBlock Grid.Column="2" Text="Due Soon" Foreground="Orange"/>
+                            </Grid>
+                        </DataTemplate>
+                    </ListView.ItemTemplate>
+                </ListView>
+            </TabViewItem>
+            <TabViewItem Header="Ok">
+                <ListView ItemsSource="{x:Bind ViewModel.OkAssets, Mode=OneWay}">
+                    <ListView.ItemTemplate>
+                        <DataTemplate x:DataType="models:Asset">
+                            <Grid Padding="0,8">
+                                <Grid.ColumnDefinitions>
+                                    <ColumnDefinition Width="2*"/>
+                                    <ColumnDefinition Width="*"/>
+                                    <ColumnDefinition Width="*"/>
+                                </Grid.ColumnDefinitions>
+                                <TextBlock Grid.Column="0" Text="{x:Bind Name}"/>
+                                <TextBlock Grid.Column="1" Text="{x:Bind LastMaintenanceDate}"/>
+                                <TextBlock Grid.Column="2" Text="Ok" Foreground="Green"/>
+                            </Grid>
+                        </DataTemplate>
+                    </ListView.ItemTemplate>
+                </ListView>
+            </TabViewItem>
+        </TabView>
 
-            <TabView Grid.Row="1" IsAddTabButtonVisible="False" Margin="0,0,0,16">
-                <TabViewItem Header="Overdue">
-                    
-                </TabViewItem>
-            </TabView>
-        </Grid>
     </Grid>
 </Page>
