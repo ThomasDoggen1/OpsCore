@@ -1,8 +1,6 @@
 ﻿using OpsCore.Core.Enums;
 using System;
-using System.Collections.Generic;
-using System.Runtime.CompilerServices;
-using System.Text;
+using System.ComponentModel.DataAnnotations.Schema;
 
 namespace OpsCore.Core.Models
 {
@@ -18,5 +16,8 @@ namespace OpsCore.Core.Models
         public Employee? Employee { get; set; }
         public DateTime LastMaintenanceDate { get; set; }
         public int MaintenanceIntervalDays { get; set; }
+
+        [NotMapped]
+        public DateTime NextMaintenanceDate => LastMaintenanceDate.AddDays(MaintenanceIntervalDays);
     }
 }

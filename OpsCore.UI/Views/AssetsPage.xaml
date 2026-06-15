@@ -62,7 +62,7 @@
                         <TextBlock Grid.Column="2" Text="{x:Bind Status}"/>
                         <TextBlock Grid.Column="3" Text="{x:Bind Location}"/>
                         <TextBlock Grid.Column="4" Text="{x:Bind Employee.FirstName}"/>
-                        <TextBlock Grid.Column="5" Text="{x:Bind LastMaintenanceDate}"/>
+                        <TextBlock Grid.Column="5" Text="{x:Bind NextMaintenanceDate}"/>
                     </Grid>
                 </DataTemplate>
             </ListView.ItemTemplate>
