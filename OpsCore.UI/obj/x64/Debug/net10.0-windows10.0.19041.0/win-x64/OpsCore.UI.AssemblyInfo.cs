@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("OpsCore.UI")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+7b1b04918a0efe42d1e7a062a4babc3e212216f9")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+1e94e43a6c3d0b4312480a8a851d3eb07fc344ba")]
 [assembly: System.Reflection.AssemblyProductAttribute("OpsCore.UI")]
 [assembly: System.Reflection.AssemblyTitleAttribute("OpsCore.UI")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

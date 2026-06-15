@@ -28,7 +28,7 @@
     <AppXManifest Include="C:\Users\Taroz\Documents\GitHub\OpsCore\OpsCore.UI\bin\x64\Debug\net10.0-windows10.0.19041.0\win-x64\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2026-06-13T12:13:26.707</Modified>
+      <Modified>2026-06-14T18:40:19.975</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
@@ -38,11 +38,11 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Taroz\Documents\GitHub\OpsCore\OpsCore.UI\obj\x64\Debug\net10.0-windows10.0.19041.0\win-x64\apphost.exe">
       <PackagePath>OpsCore.UI.exe</PackagePath>
-      <Modified>2026-06-13T12:13:25.842</Modified>
+      <Modified>2026-06-14T18:40:17.874</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Taroz\Documents\GitHub\OpsCore\OpsCore.UI\obj\x64\Debug\net10.0-windows10.0.19041.0\win-x64\OpsCore.UI.dll">
       <PackagePath>OpsCore.UI.dll</PackagePath>
-      <Modified>2026-06-13T12:13:25.820</Modified>
+      <Modified>2026-06-14T18:40:17.849</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Taroz\.nuget\packages\microsoft.netcore.app.runtime.win-x64\10.0.9\runtimes\win-x64\lib\net10.0\Microsoft.CSharp.dll">
       <PackagePath>Microsoft.CSharp.dll</PackagePath>
@@ -1046,15 +1046,15 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Taroz\Documents\GitHub\OpsCore\OpsCore\OpsCore.Core\bin\Debug\net10.0\OpsCore.Core.dll">
       <PackagePath>OpsCore.Core.dll</PackagePath>
-      <Modified>2026-06-13T11:47:28.587</Modified>
+      <Modified>2026-06-14T12:41:08.122</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Taroz\Documents\GitHub\OpsCore\OpsCore\OpsCore.Data\bin\Debug\net10.0\OpsCore.Data.dll">
       <PackagePath>OpsCore.Data.dll</PackagePath>
-      <Modified>2026-06-13T11:47:29.092</Modified>
+      <Modified>2026-06-14T12:53:27.534</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Taroz\Documents\GitHub\OpsCore\OpsCore.UI\bin\x64\Debug\net10.0-windows10.0.19041.0\win-x64\OpsCore.UI.deps.json">
       <PackagePath>OpsCore.UI.deps.json</PackagePath>
-      <Modified>2026-06-13T12:06:52.581</Modified>
+      <Modified>2026-06-14T18:40:19.140</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Taroz\Documents\GitHub\OpsCore\OpsCore.UI\Assets\LockScreenLogo.scale-200.png">
       <PackagePath>Assets\LockScreenLogo.scale-200.png</PackagePath>
@@ -1090,7 +1090,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Taroz\Documents\GitHub\OpsCore\OpsCore.UI\bin\x64\Debug\net10.0-windows10.0.19041.0\win-x64\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2026-06-13T12:13:26.238</Modified>
+      <Modified>2026-06-14T18:40:19.437</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>

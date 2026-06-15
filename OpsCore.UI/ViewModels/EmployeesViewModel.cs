@@ -4,6 +4,7 @@ using OpsCore.Core.Interfaces;
 using OpsCore.Core.Models;
 using System.Collections.Generic;
 using System.Collections.ObjectModel;
+using System.Linq;
 using System.Threading.Tasks;
 
 namespace OpsCore.UI.ViewModels
@@ -16,11 +17,16 @@ namespace OpsCore.UI.ViewModels
 
         private const int SystemEmployeeId = 1;
 
+        private List<Employee> _allEmployees = new();
+
         [ObservableProperty]
         private ObservableCollection<Employee> employees = new();
 
         [ObservableProperty]
         private bool isLoading;
+
+        [ObservableProperty]
+        private string searchText = string.Empty;
 
         public EmployeesViewModel(
             IEmployeeRepository employeeRepository,
@@ -36,9 +42,29 @@ namespace OpsCore.UI.ViewModels
         public async Task LoadEmployeesAsync()
         {
             IsLoading = true;
-            var result = await _employeeRepository.GetAllAsync();
-            Employees = new ObservableCollection<Employee>(result);
+            _allEmployees = await _employeeRepository.GetAllAsync();
+            ApplyFilter();
             IsLoading = false;
+        }
+
+        partial void OnSearchTextChanged(string value)
+        {
+            ApplyFilter();
+        }
+
+        private void ApplyFilter()
+        {
+            var filtered = string.IsNullOrWhiteSpace(SearchText)
+                ? _allEmployees
+                : _allEmployees.Where(e =>
+                    e.FirstName.Contains(SearchText, System.StringComparison.OrdinalIgnoreCase) ||
+                    e.LastName.Contains(SearchText, System.StringComparison.OrdinalIgnoreCase) ||
+                    (e.Department?.Name.Contains(SearchText, System.StringComparison.OrdinalIgnoreCase) ?? false)
+                ).ToList();
+
+            Employees.Clear();
+            foreach (var item in filtered)
+                Employees.Add(item);
         }
 
         public async Task<List<Department>> GetDepartmentsAsync()
@@ -52,7 +78,7 @@ namespace OpsCore.UI.ViewModels
 
             await _activityLogRepository.AddAsync(new ActivityLog
             {
-                AssetId = 1, // placeholder, geen asset gekoppeld
+                AssetId = null,
                 EmployeeId = SystemEmployeeId,
                 Action = $"{employee.FirstName} {employee.LastName} added as employee",
                 CreatedAt = System.DateTime.Now
@@ -72,14 +98,14 @@ namespace OpsCore.UI.ViewModels
         {
             await _activityLogRepository.AddAsync(new ActivityLog
             {
-                AssetId = 1, // placeholder
+                AssetId = null,
                 EmployeeId = SystemEmployeeId,
                 Action = $"{employee.FirstName} {employee.LastName} removed as employee",
                 CreatedAt = System.DateTime.Now
             });
 
             await _employeeRepository.DeleteAsync(employee.Id);
-            Employees.Remove(employee);
+            await LoadEmployeesAsync();
         }
     }
 }

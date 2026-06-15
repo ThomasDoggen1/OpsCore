@@ -1,5 +1,6 @@
 ﻿using CommunityToolkit.Mvvm.ComponentModel;
 using CommunityToolkit.Mvvm.Input;
+using OpsCore.Core.Enums;
 using OpsCore.Core.Interfaces;
 using OpsCore.Core.Models;
 using OpsCore.Core.Services;
@@ -13,6 +14,7 @@ namespace OpsCore.UI.ViewModels
     {
         private readonly IAssetRepository _assetRepository;
         private readonly IActivityLogRepository _activityLogRepository;
+        private readonly IMaintenanceRecordRepository _maintenanceRecordRepository;
         private readonly MaintenanceService _maintenanceService;
 
         private const int SystemEmployeeId = 1;
@@ -32,10 +34,14 @@ namespace OpsCore.UI.ViewModels
         [ObservableProperty]
         private bool isLoading;
 
-        public MaintenanceViewModel(IAssetRepository assetRepository, IActivityLogRepository activityLogRepository)
+        public MaintenanceViewModel(
+            IAssetRepository assetRepository,
+            IActivityLogRepository activityLogRepository,
+            IMaintenanceRecordRepository maintenanceRecordRepository)
         {
             _assetRepository = assetRepository;
             _activityLogRepository = activityLogRepository;
+            _maintenanceRecordRepository = maintenanceRecordRepository;
             _maintenanceService = new MaintenanceService();
         }
 
@@ -59,16 +65,25 @@ namespace OpsCore.UI.ViewModels
             IsLoading = false;
         }
 
-        public async Task MarkAsMaintainedAsync(Asset asset)
+        public async Task CompleteMaintenanceAsync(Asset asset, MaintenanceType type, string notes)
         {
             asset.LastMaintenanceDate = System.DateTime.Today;
             await _assetRepository.UpdateAsync(asset);
+
+            await _maintenanceRecordRepository.AddAsync(new MaintenanceRecord
+            {
+                AssetId = asset.Id,
+                PerformedById = SystemEmployeeId,
+                Date = System.DateTime.Today,
+                Notes = notes,
+                Type = type
+            });
 
             await _activityLogRepository.AddAsync(new ActivityLog
             {
                 AssetId = asset.Id,
                 EmployeeId = SystemEmployeeId,
-                Action = $"{asset.Name} maintenance completed",
+                Action = $"{asset.Name} maintenance completed ({type})",
                 CreatedAt = System.DateTime.Now
             });
 

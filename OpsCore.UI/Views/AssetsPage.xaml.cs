@@ -23,6 +23,14 @@ namespace OpsCore.UI.Views
             _ = ViewModel.LoadAssetsAsync();
         }
 
+        private void SearchBox_TextChanged(object sender, Microsoft.UI.Xaml.Controls.TextChangedEventArgs e)
+        {
+            if (sender is TextBox tb)
+            {
+                ViewModel.SearchText = tb.Text;
+            }
+        }
+
         private async void AddAsset_Click(object sender, Microsoft.UI.Xaml.RoutedEventArgs e)
         {
             var dialog = new ContentDialog

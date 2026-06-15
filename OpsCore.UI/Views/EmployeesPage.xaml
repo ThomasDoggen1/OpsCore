@@ -23,7 +23,7 @@
                 <ColumnDefinition Width="*"/>
                 <ColumnDefinition Width="Auto"/>
             </Grid.ColumnDefinitions>
-            <TextBox Grid.Column="0" PlaceholderText="Search employees..." Width="300" HorizontalAlignment="Left"/>
+            <TextBox Grid.Column="0" PlaceholderText="Search employees..." Width="300" HorizontalAlignment="Left" Text="{x:Bind ViewModel.SearchText, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}"/>
             <Button Grid.Column="1" Content="+ Add Employee" Style="{StaticResource AccentButtonStyle}" Click="AddEmployee_Click"/>
         </Grid>
 

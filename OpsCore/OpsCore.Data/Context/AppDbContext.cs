@@ -17,6 +17,15 @@ namespace OpsCore.Data.Context
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
+            modelBuilder.Entity<ActivityLog>()
+                .HasOne(a => a.Asset)
+                .WithMany()
+                .OnDelete(DeleteBehavior.SetNull);
+
+            modelBuilder.Entity<ActivityLog>()
+                .Property(a => a.AssetId)
+                .IsRequired(false);
+
             // Seed Departments
             modelBuilder.Entity<Department>().HasData(
                 new Department { Id = 1, Name = "IT" },
@@ -46,7 +55,7 @@ namespace OpsCore.Data.Context
                 new Asset { Id = 1, Name = "Dell Latitude 5520", AssetTypeId = 1, Status = AssetStatus.Active, Location = "Office A-101", EmployeeId = 1, LastMaintenanceDate = new DateTime(2024, 1, 15), MaintenanceIntervalDays = 90 },
                 new Asset { Id = 2, Name = "MacBook Pro 16", AssetTypeId = 1, Status = AssetStatus.Active, Location = "Office B-202", EmployeeId = 2, LastMaintenanceDate = new DateTime(2024, 3, 10), MaintenanceIntervalDays = 180 },
                 new Asset { Id = 3, Name = "Dell PowerEdge R740", AssetTypeId = 2, Status = AssetStatus.Maintenance, Location = "Server Room", EmployeeId = null, LastMaintenanceDate = new DateTime(2023, 12, 1), MaintenanceIntervalDays = 60 },
-                new Asset { Id = 4, Name = "Cisco Switch 48 Port", AssetTypeId = 4, Status = AssetStatus.Active, Location = "Server Room", EmployeeId = null, LastMaintenanceDate = new DateTime(2024, 2, 20), MaintenanceIntervalDays = 120 },
+                new Asset { Id = 4, Name = "Cisco Switch 48 Port", AssetTypeId = 4, Status = AssetStatus.Active, Location = "Server Room", EmployeeId = null, LastMaintenanceDate = new DateTime(2026, 6, 5), MaintenanceIntervalDays = 14 },
                 new Asset { Id = 5, Name = "HP LaserJet Pro", AssetTypeId = 5, Status = AssetStatus.Active, Location = "Office A-101", EmployeeId = null, LastMaintenanceDate = new DateTime(2024, 4, 1), MaintenanceIntervalDays = 90 }
             );
 

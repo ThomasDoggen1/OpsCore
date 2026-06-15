@@ -23,8 +23,8 @@
                 <ColumnDefinition Width="*"/>
                 <ColumnDefinition Width="Auto"/>
             </Grid.ColumnDefinitions>
-            <TextBox Grid.Column="0" PlaceholderText="Search assets..." Width="300" HorizontalAlignment="Left"/>
-            <Button x:ConnectionId='11' Grid.Column="1" Content="+ Add Asset" Style="{StaticResource AccentButtonStyle}"                       />
+            <TextBox x:ConnectionId='11' Grid.Column="0" PlaceholderText="Search assets..." Width="300" HorizontalAlignment="Left"                                    />
+            <Button x:ConnectionId='12' Grid.Column="1" Content="+ Add Asset" Style="{StaticResource AccentButtonStyle}"                       />
         </Grid>
 
         <Grid Grid.Row="2" Padding="12,8" Margin="0,0,0,4">

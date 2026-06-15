@@ -4,6 +4,7 @@ using OpsCore.Core.Interfaces;
 using OpsCore.Core.Models;
 using System.Collections.Generic;
 using System.Collections.ObjectModel;
+using System.Linq;
 using System.Threading.Tasks;
 
 namespace OpsCore.UI.ViewModels
@@ -17,11 +18,16 @@ namespace OpsCore.UI.ViewModels
 
         private const int SystemEmployeeId = 1;
 
+        private List<Asset> _allAssets = new();
+
         [ObservableProperty]
         private ObservableCollection<Asset> assets = new();
 
         [ObservableProperty]
         private bool isLoading;
+
+        [ObservableProperty]
+        private string searchText = string.Empty;
 
         public AssetsViewModel(
             IAssetRepository assetRepository,
@@ -39,9 +45,30 @@ namespace OpsCore.UI.ViewModels
         public async Task LoadAssetsAsync()
         {
             IsLoading = true;
-            var result = await _assetRepository.GetAllAsync();
-            Assets = new ObservableCollection<Asset>(result);
+            _allAssets = await _assetRepository.GetAllAsync();
+            ApplyFilter();
             IsLoading = false;
+        }
+
+        partial void OnSearchTextChanged(string value)
+        {
+            ApplyFilter();
+        }
+
+        private void ApplyFilter()
+        {
+            var filtered = string.IsNullOrWhiteSpace(SearchText)
+                ? _allAssets
+                : _allAssets.Where(a =>
+                    a.Name.Contains(SearchText, System.StringComparison.OrdinalIgnoreCase) ||
+                    (a.AssetType?.Name.Contains(SearchText, System.StringComparison.OrdinalIgnoreCase) ?? false) ||
+                    (a.Location?.Contains(SearchText, System.StringComparison.OrdinalIgnoreCase) ?? false) ||
+                    (a.Employee?.FirstName.Contains(SearchText, System.StringComparison.OrdinalIgnoreCase) ?? false)
+                ).ToList();
+
+            Assets.Clear();
+            foreach (var item in filtered)
+                Assets.Add(item);
         }
 
         public async Task<List<AssetType>> GetAssetTypesAsync()
@@ -88,14 +115,14 @@ namespace OpsCore.UI.ViewModels
         {
             await _activityLogRepository.AddAsync(new ActivityLog
             {
-                AssetId = asset.Id,
+                AssetId = null,
                 EmployeeId = SystemEmployeeId,
                 Action = $"{asset.Name} removed from inventory",
                 CreatedAt = System.DateTime.Now
             });
 
             await _assetRepository.DeleteAsync(asset.Id);
-            Assets.Remove(asset);
+            await LoadAssetsAsync();
         }
     }
 }

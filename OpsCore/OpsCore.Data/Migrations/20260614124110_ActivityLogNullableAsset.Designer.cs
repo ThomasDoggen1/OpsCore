@@ -2,6 +2,7 @@
 using System;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using OpsCore.Data.Context;
 
@@ -10,9 +11,11 @@ using OpsCore.Data.Context;
 namespace OpsCore.Data.Migrations
 {
     [DbContext(typeof(AppDbContext))]
-    partial class AppDbContextModelSnapshot : ModelSnapshot
+    [Migration("20260614124110_ActivityLogNullableAsset")]
+    partial class ActivityLogNullableAsset
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        /// <inheritdoc />
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder.HasAnnotation("ProductVersion", "10.0.8");
@@ -145,9 +148,9 @@ namespace OpsCore.Data.Migrations
                         {
                             Id = 4,
                             AssetTypeId = 4,
-                            LastMaintenanceDate = new DateTime(2026, 6, 5, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            LastMaintenanceDate = new DateTime(2024, 2, 20, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             Location = "Server Room",
-                            MaintenanceIntervalDays = 14,
+                            MaintenanceIntervalDays = 120,
                             Name = "Cisco Switch 48 Port",
                             Status = 0
                         },

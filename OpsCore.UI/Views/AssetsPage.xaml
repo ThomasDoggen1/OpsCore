@@ -23,7 +23,7 @@
                 <ColumnDefinition Width="*"/>
                 <ColumnDefinition Width="Auto"/>
             </Grid.ColumnDefinitions>
-            <TextBox Grid.Column="0" PlaceholderText="Search assets..." Width="300" HorizontalAlignment="Left"/>
+            <TextBox Grid.Column="0" PlaceholderText="Search assets..." Width="300" HorizontalAlignment="Left" TextChanged="SearchBox_TextChanged"/>
             <Button Grid.Column="1" Content="+ Add Asset" Style="{StaticResource AccentButtonStyle}" Click="AddAsset_Click"/>
         </Grid>
 
